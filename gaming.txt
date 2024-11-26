@@ -5,16 +5,16 @@
 # 52.222.168.212
 # 52.222.168.3
 # 52.222.168.83
-#0.0.0.0 o.ss2.us
-#0.0.0.0 crt.sca1b.amazontrust.com
-#0.0.0.0 crt.rootca1.amazontrust.com
+0.0.0.0 o.ss2.us
+0.0.0.0 crt.sca1b.amazontrust.com
+0.0.0.0 crt.rootca1.amazontrust.com
 # 52.222.162.42
 # 52.222.162.67
 # 52.222.162.10
 # 52.222.162.99
-#0.0.0.0 api.bethesda.net
-#0.0.0.0 buildinfo.cdp.bethesda.net # Steht in Verbindung mit dem Contentserver
-#0.0.0.0 d267vkve7l854.cloudfront.net
+0.0.0.0 api.bethesda.net
+0.0.0.0 buildinfo.cdp.bethesda.net # Steht in Verbindung mit dem Contentserver
+0.0.0.0 d267vkve7l854.cloudfront.net
 # BethesdaNetLauncher.exe
 # Ip/s blockieren:
 # 173.194.73.138
@@ -27,14 +27,14 @@
 # 52.222.162.2
 # 52.222.162.10
 # 52.222.162.159
-#0.0.0.0 bethesda.net
-#0.0.0.0 api.bethesda.net # Accountdaten, Inhalte der Shopseite/n / Launcher, Serverstatus usw. sowie detailliertes Nutzertracking in div. Titeln
-#0.0.0.0 n2.shared.global.fastly.net
-#0.0.0.0 d3orhvfyxudxxq.cloudfront.net
-#0.0.0.0 buildinfo.cdp.bethesda.net # Launcherversion und Produktversionen und z.b. DLC_1 Größe, ID
-#0.0.0.0 images.ctfassets.net # Bilder
-#0.0.0.0 store.bethesda.net # Promo, Access Token
-#0.0.0.0 api.digitalriver.com # Zahlungsanbieter
+0.0.0.0 bethesda.net
+0.0.0.0 api.bethesda.net # Accountdaten, Inhalte der Shopseite/n / Launcher, Serverstatus usw. sowie detailliertes Nutzertracking in div. Titeln
+0.0.0.0 n2.shared.global.fastly.net
+0.0.0.0 d3orhvfyxudxxq.cloudfront.net
+0.0.0.0 buildinfo.cdp.bethesda.net # Launcherversion und Produktversionen und z.b. DLC_1 Größe, ID
+0.0.0.0 images.ctfassets.net # Bilder
+0.0.0.0 store.bethesda.net # Promo, Access Token
+0.0.0.0 api.digitalriver.com # Zahlungsanbieter
 
 # Blizzard Entertainment, Inc.
 # Battle.net Desktop App
@@ -86,19 +86,19 @@
 0.0.0.0 cookiesync.mparticle.com
 0.0.0.0 identity.mparticle.com
 # Shop, News, Werbung bei Bedarf de/aktivieren
-#0.0.0.0 cache-cms-ext-eu.battle.net # Werbung, Bannerrotation
-#0.0.0.0 nydus.battle.net # Geodatenerfassung - für den Shop benötigt
+0.0.0.0 cache-cms-ext-eu.battle.net # Werbung, Bannerrotation
+0.0.0.0 nydus.battle.net # Geodatenerfassung - für den Shop benötigt
 # Launcher News & Werbung
-#0.0.0.0 news.blizzard.com # News
+0.0.0.0 news.blizzard.com # News
 # Benötigte Verbindungen
-#0.0.0.0 eu.patch.battle.net
-#0.0.0.0 us.patch.battle.net
-#0.0.0.0 EU.depot.battle.net
-#0.0.0.0 eu.profile.blizzard.com
-#0.0.0.0 eu.launcher.battle.net
-#0.0.0.0 level3.blizzard.com
+0.0.0.0 eu.patch.battle.net
+0.0.0.0 us.patch.battle.net
+0.0.0.0 EU.depot.battle.net
+0.0.0.0 eu.profile.blizzard.com
+0.0.0.0 eu.launcher.battle.net
+0.0.0.0 level3.blizzard.com
 # Optional
-#0.0.0.0 api.overwatchleague.com
+0.0.0.0 api.overwatchleague.com
 # Versteckte Hardware Survey
 # Ip/s blockieren:
 # 24.105.29.24
@@ -108,10 +108,10 @@
 
 # Battle.net Klassik
 # 5.42.181.30 # IPbereich von bis 5.42.181.**
-#0.0.0.0 europe.battle.net
-#0.0.0.0 asia.battle.net
-#0.0.0.0 useast.battle.net
-#0.0.0.0 uswest.battle.net
+0.0.0.0 europe.battle.net
+0.0.0.0 asia.battle.net
+0.0.0.0 useast.battle.net
+0.0.0.0 uswest.battle.net
 
 # CD Projekt S.A.
 # GoG Galaxy | Good old Games
@@ -120,33 +120,33 @@
 # Datei befindet sich unter ProgramData\Gog.com\Galaxy\redists
 # Wird die Datei gelöscht funktioniert der Client nicht mehr, aber dafür telefoniert kein Spiel mehr nach Hause
 # GoG Galaxy Client
-#0.0.0.0 remote-config.gog.com # Führt zu content-system.gog.com
-#0.0.0.0 content-system.gog.com # Führt zum Installer
-#0.0.0.0 login.gog.com
-#0.0.0.0 static-login.gog.com
-#0.0.0.0 cfg.gog.com
-#0.0.0.0 users.gog.com
-#0.0.0.0 auth.gog.com
-#0.0.0.0 multiplayer.gog.com
+0.0.0.0 remote-config.gog.com # Führt zu content-system.gog.com
+0.0.0.0 content-system.gog.com # Führt zum Installer
+0.0.0.0 login.gog.com
+0.0.0.0 static-login.gog.com
+0.0.0.0 cfg.gog.com
+0.0.0.0 users.gog.com
+0.0.0.0 auth.gog.com
+0.0.0.0 multiplayer.gog.com
 0.0.0.0 presence.gog.com
-#0.0.0.0 galaxy-client-update.gog.com # Clientupgrade
-#0.0.0.0 menu.gog.com
-#0.0.0.0 embed.gog.com # z.b. Changelog
-#0.0.0.0 fonts.gstatic.com
-#0.0.0.0 www4-static2.gog.com
-#0.0.0.0 s.ytimg.com
-#0.0.0.0 i.ytimg.com
-#0.0.0.0 www.youtube.com
-#0.0.0.0 api.gog.com
-#0.0.0.0 images.gog.com
-#0.0.0.0 images-1.gog.com
-#0.0.0.0 images-2.gog.com
-#0.0.0.0 images-3.gog.com
-#0.0.0.0 images-4.gog.com
+0.0.0.0 galaxy-client-update.gog.com # Clientupgrade
+0.0.0.0 menu.gog.com
+0.0.0.0 embed.gog.com # z.b. Changelog
+0.0.0.0 fonts.gstatic.com
+0.0.0.0 www4-static2.gog.com
+0.0.0.0 s.ytimg.com
+0.0.0.0 i.ytimg.com
+0.0.0.0 www.youtube.com
+0.0.0.0 api.gog.com
+0.0.0.0 images.gog.com
+0.0.0.0 images-1.gog.com
+0.0.0.0 images-2.gog.com
+0.0.0.0 images-3.gog.com
+0.0.0.0 images-4.gog.com
 0.0.0.0 hexagon-analytics.com
 0.0.0.0 notifications-pusher.gog.com # Benachrichtigungen
 0.0.0.0 notifications.gog.com
-#0.0.0.0 chat.gog.com
+0.0.0.0 chat.gog.com
 0.0.0.0 broker.gog.com
 0.0.0.0 chat-broker.gog.com
 0.0.0.0 galaxy-client-reports.gog.com
@@ -155,29 +155,29 @@
 0.0.0.0 static.doubleclick.net
 
 # GoG Galaxy 2.0 | Dabei seit 18.09.2019
-#0.0.0.0 www.gogalaxy.com
-#0.0.0.0 webinstallers.gog.com
+0.0.0.0 www.gogalaxy.com
+0.0.0.0 webinstallers.gog.com
 # Installation & Update
-#0.0.0.0 remote-config.gog.com
-#0.0.0.0 content-system.gog.com
+0.0.0.0 remote-config.gog.com
+0.0.0.0 content-system.gog.com
 # Formatierung, Schriften und Bilder
 # 192.229.233.146
 # 152.89.163.155
-#0.0.0.0 gamesdb.gog.com
-#0.0.0.0 images.gog.com
-#0.0.0.0 images-1.gog.com
-#0.0.0.0 images-2.gog.com
-#0.0.0.0 images-2.gog.com
-#0.0.0.0 images-4.gog.com
-#0.0.0.0 www4-static.gog.com # Schriften, Javascripts, CSS
-#0.0.0.0 galaxy-library.gog.com
+0.0.0.0 gamesdb.gog.com
+0.0.0.0 images.gog.com
+0.0.0.0 images-1.gog.com
+0.0.0.0 images-2.gog.com
+0.0.0.0 images-2.gog.com
+0.0.0.0 images-4.gog.com
+0.0.0.0 www4-static.gog.com # Schriften, Javascripts, CSS
+0.0.0.0 galaxy-library.gog.com
 # Feed / Eigene Aktivitäten/ Bestenlisten/ Javascripts/ Warenkorb/ Nutzerdaten / SVG
 # 23.12.133.27
 # 152.89.163.155
-#0.0.0.0 embed.gog.com
+0.0.0.0 embed.gog.com
 # API
 # 23.12.133.27
-#0.0.0.0 api.gog.com # Zugangstoken
+0.0.0.0 api.gog.com # Zugangstoken
 # Notifications / Pushnachrichten / Websocket
 # 193.59.178.226
 # 77.79.249.116
@@ -190,13 +190,13 @@
 0.0.0.0 external-accounts.gog.com
 # Freunde, Ameldung & Chat
 # 23.12.133.27
-#0.0.0.0 cfg.gog.com
-#0.0.0.0 auth.gog.com
-#0.0.0.0 users.gog.com
-#0.0.0.0 chat.gog.com
+0.0.0.0 cfg.gog.com
+0.0.0.0 auth.gog.com
+0.0.0.0 users.gog.com
+0.0.0.0 chat.gog.com
 # Youtube
 # 216.58.205.238
-#0.0.0.0 img.youtube.com
+0.0.0.0 img.youtube.com
 # Logs, Analytics & Tracking
 # Ip/s blockieren:
 # 195.167.152.169
@@ -230,8 +230,8 @@
 0.0.0.0 river.data.ea.com
 0.0.0.0 gen4.reports.tools.gos.ea.com
 # Chat & Freunde bei Bedarf de/aktivieren
-#0.0.0.0 friends.dm.origin.com # Freundesliste
-#0.0.0.0 chat.dm.origin.com # Chatfunktion
+0.0.0.0 friends.dm.origin.com # Freundesliste
+0.0.0.0 chat.dm.origin.com # Chatfunktion
 0.0.0.0 groups.gameservices.ea.com
 0.0.0.0 09b5a91c7f2d383e9.gs.ea.com
 0.0.0.0 0cf6c0df87dc9f73e.gs.ea.com
@@ -261,27 +261,27 @@
 0.0.0.0 0bb5efe081f99e8d0.gs.ea.com
 # Cloud und Websocketkommunikation
 # 52.216.99.3
-#0.0.0.0 achievements.gameservices.ea.com # Erfolge...
-#0.0.0.0 cloudsync-prod.s3.amazonaws.com # Cloudsaves/Profileinstellungen usw.
-#0.0.0.0 dl.dropbox.com # Dienst auch in anderen Anwendungen integriert. Nur bei Bedarf blockieren - Zuständig für Crashreports
+0.0.0.0 achievements.gameservices.ea.com # Erfolge...
+0.0.0.0 cloudsync-prod.s3.amazonaws.com # Cloudsaves/Profileinstellungen usw.
+0.0.0.0 dl.dropbox.com # Dienst auch in anderen Anwendungen integriert. Nur bei Bedarf blockieren - Zuständig für Crashreports
 0.0.0.0 stage.secure.download.dm.origin.com # Cloudsync Dateitypen Blacklist
 0.0.0.0 dirtybits.api.origin.com # ?
-#0.0.0.0 use.typekit.net # Wird für das Aufrufen der Newslettereinstellungen benötigt
+0.0.0.0 use.typekit.net # Wird für das Aufrufen der Newslettereinstellungen benötigt
 # Für Funktionalität benötigt
-#0.0.0.0 signin.ea.com
-#0.0.0.0 accounts.ea.com
-#0.0.0.0 secure.download.dm.origin.com
-#0.0.0.0 gateway.ea.com # Displayname/Sichtbarkeit/letzte Logindaten/ID
+0.0.0.0 signin.ea.com
+0.0.0.0 accounts.ea.com
+0.0.0.0 secure.download.dm.origin.com
+0.0.0.0 gateway.ea.com # Displayname/Sichtbarkeit/letzte Logindaten/ID
 # Apis sind abgesehen von Kernfunktionen ebenfalls für die gezeigten Shopangebote/Details zuständig
-#0.0.0.0 api1.origin.com # Autopatch, Produktzuordnungen, Authorisierungen, Länder Bannliste, Währung, Kaufdatum, Erfassung der Spielstarts, Multiplayerids, Spielsitzungen, Spielzeitdauer etc
-#0.0.0.0 api2.origin.com # Spielzeit, IP-Erfassung/Geodaten
-#0.0.0.0 api3.origin.com # SpielID's, MultiplayerID, letzte Spielsitzung und Zeitstempel
+0.0.0.0 api1.origin.com # Autopatch, Produktzuordnungen, Authorisierungen, Länder Bannliste, Währung, Kaufdatum, Erfassung der Spielstarts, Multiplayerids, Spielsitzungen, Spielzeitdauer etc
+0.0.0.0 api2.origin.com # Spielzeit, IP-Erfassung/Geodaten
+0.0.0.0 api3.origin.com # SpielID's, MultiplayerID, letzte Spielsitzung und Zeitstempel
 0.0.0.0 api4.origin.com # Telemetrie
 # Spieledaten wie z.b. Cover, Seitenzuordnungen, Spieleinfos etc
-#0.0.0.0 data1.origin.com
-#0.0.0.0 data2.origin.com
-#0.0.0.0 data3.origin.com
-#0.0.0.0 data4.origin.com
+0.0.0.0 data1.origin.com
+0.0.0.0 data2.origin.com
+0.0.0.0 data3.origin.com
+0.0.0.0 data4.origin.com
 # OriginWebHelperService.exe
 # 23.38.86.148
 # 2.17.1.22
@@ -309,20 +309,20 @@
 # Achtung! Zur Anmeldung wird einmalig die tracking.epicgames.com benötigt - Den Analyticszwang gab es in Vorgängerversionen noch nicht
 # 46.51.241.187
 # 198.217.251.251
-#0.0.0.0 lightswitch-public-service-prod06.ol.epicgames.com
-#0.0.0.0 priceengine-public-service-ecomprod01.ol.epicgames.com
-#0.0.0.0 account-public-service-prod03.ol.epicgames.com
-#0.0.0.0 launcher-public-service-prod06.ol.epicgames.com
-#0.0.0.0 catalog-public-service-prod06.ol.epicgames.com
-#0.0.0.0 entitlement-public-service-prod08.ol.epicgames.com
-#0.0.0.0 epicgames.com # Login
-#0.0.0.0 www.unrealengine.com
-#0.0.0.0 eulatracking-public-service-prod06.ol.epicgames.com
+0.0.0.0 lightswitch-public-service-prod06.ol.epicgames.com
+0.0.0.0 priceengine-public-service-ecomprod01.ol.epicgames.com
+0.0.0.0 account-public-service-prod03.ol.epicgames.com
+0.0.0.0 launcher-public-service-prod06.ol.epicgames.com
+0.0.0.0 catalog-public-service-prod06.ol.epicgames.com
+0.0.0.0 entitlement-public-service-prod08.ol.epicgames.com
+0.0.0.0 epicgames.com # Login
+0.0.0.0 www.unrealengine.com
+0.0.0.0 eulatracking-public-service-prod06.ol.epicgames.com
 0.0.0.0 qos1.ol.epicgames.com
 0.0.0.0 qos2.ol.epicgames.com
 0.0.0.0 qos3.ol.epicgames.com
 0.0.0.0 qos4.ol.epicgames.com
-#0.0.0.0 songbird.cardinalcommerce.com
+0.0.0.0 songbird.cardinalcommerce.com
 # Bei neueren Titeln ist die API mit Telemetrie und Onlinezwang verknüpft
 # Diesselbe Adresse als WSS für Heartbeat Telemetrie - Mehr Info unter dem Firmeneintrag zu Epic Games, Inc.
 # 34.225.36.75
@@ -336,7 +336,7 @@
 # 3.123.128.174
 # 3.121.217.224
 # 3.227.34.162
-#0.0.0.0 api.epicgames.dev # Wird für Onlinefunktionen z.b. Mehrspieler benötigt
+0.0.0.0 api.epicgames.dev # Wird für Onlinefunktionen z.b. Mehrspieler benötigt
 0.0.0.0 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
 0.0.0.0 metrics.ol.epicgames.com
 # Downloads
@@ -344,37 +344,37 @@
 # 143.204.89.36
 # 13.224.195.35
 # 13.227.219.27
-#0.0.0.0 download.epicgames.com
-#0.0.0.0 download2.epicgames.com
-#0.0.0.0 download3.epicgames.com
-#0.0.0.0 download4.epicgames.com
-#0.0.0.0 dvo2b19ndqhsb.cloudfront.net
-#0.0.0.0 d1z9autcf703pk.cloudfront.net
+0.0.0.0 download.epicgames.com
+0.0.0.0 download2.epicgames.com
+0.0.0.0 download3.epicgames.com
+0.0.0.0 download4.epicgames.com
+0.0.0.0 dvo2b19ndqhsb.cloudfront.net
+0.0.0.0 d1z9autcf703pk.cloudfront.net
 # Warenkorb
 # 184.73.115.165
 # 54.68.228.72
 # 52.34.71.92
 # 100.20.121.79
-#0.0.0.0 payment-website-pci.ol.epicgames.com # IP-Adresse, Land, Sprtache, Zeitstempel, Währung, AccountID, genutzte Plattform z.b. Launcher uvm
-#0.0.0.0 a.stun.kaptcha.com
-#0.0.0.0 ssl.kaptcha.com
+0.0.0.0 payment-website-pci.ol.epicgames.com # IP-Adresse, Land, Sprtache, Zeitstempel, Währung, AccountID, genutzte Plattform z.b. Launcher uvm
+0.0.0.0 a.stun.kaptcha.com
+0.0.0.0 ssl.kaptcha.com
 # Cloud
 # 34.192.2.184
-#0.0.0.0 datastorage-public-service-liveegs.live.use1a.on.epicgames.com
+0.0.0.0 datastorage-public-service-liveegs.live.use1a.on.epicgames.com
 # Freunde
 # 35.169.189.124
 # 3.224.186.128
 # 34.199.242.157
 # 50.17.75.168
-#0.0.0.0 friends-public-service-prod06.ol.epicgames.com # Verknüpfung & Blockliste
-#0.0.0.0 xmpp-service-prod.ol.epicgames.com # Websocket
-#0.0.0.0 xmpp-service-prod-weighted.ol.epicgames.com
-#0.0.0.0 launcher-website-prod07.ol.epicgames.com # Freundeseite
+0.0.0.0 friends-public-service-prod06.ol.epicgames.com # Verknüpfung & Blockliste
+0.0.0.0 xmpp-service-prod.ol.epicgames.com # Websocket
+0.0.0.0 xmpp-service-prod-weighted.ol.epicgames.com
+0.0.0.0 launcher-website-prod07.ol.epicgames.com # Freundeseite
 # Seitenaufbau, Inhalte
 # 52.4.65.215
 # 104.101.101.114
 # 52.207.66.163
-#0.0.0.0 static-assets-prod.epicgames.com # Javascripts, CSS, Schriften, Bilder
+0.0.0.0 static-assets-prod.epicgames.com # Javascripts, CSS, Schriften, Bilder
 # Analytics, Affiliate und Geodatenerfassung
 # 52.20.219.23
 # 50.17.125.216
@@ -389,9 +389,9 @@
 # 34.228.176.58
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-prod.ak.epicgames.com
-#0.0.0.0 tracking.epicgames.com # Javascript, Pageview, Trackingpixel - aktiviert sich auf ziemlich jeder Seite mit aktuellen Daten und Aufnahme von Einzelschritten
-#0.0.0.0 www.epicgames.com # Geodatenerfassung und Funnel-Analytics - zudem liegt dort die eigene Accountseite
-#0.0.0.0 accounts.launcher-website-prod07.ol.epicgames.com # Funnelanalytics - Unterseite für Freundeverbindungen, Anfragen, Vorschläge
+0.0.0.0 tracking.epicgames.com # Javascript, Pageview, Trackingpixel - aktiviert sich auf ziemlich jeder Seite mit aktuellen Daten und Aufnahme von Einzelschritten
+0.0.0.0 www.epicgames.com # Geodatenerfassung und Funnel-Analytics - zudem liegt dort die eigene Accountseite
+0.0.0.0 accounts.launcher-website-prod07.ol.epicgames.com # Funnelanalytics - Unterseite für Freundeverbindungen, Anfragen, Vorschläge
 0.0.0.0 tracking-website-prod07-epic-96184209.us-east-1.elb.amazonaws.com
 0.0.0.0 tracking-website-prod07-epic-961842049.us-east-1.elb.amazonaws.com
 0.0.0.0 sentry.io # Monitoring und Errortracking
@@ -406,13 +406,13 @@
 # 99.86.3.37
 # 13.35.253.45
 # 143.204.202.85
-#0.0.0.0 www.youtube.com
-#0.0.0.0 s.ytimg.com
-#0.0.0.0 i.ytimg.com
-#0.0.0.0 i9.ytimg.com
-#0.0.0.0 www.youtube-nocookie.com
-#0.0.0.0 fonts.gstatic.com
-#0.0.0.0 yt3.ggpht.com
+0.0.0.0 www.youtube.com
+0.0.0.0 s.ytimg.com
+0.0.0.0 i.ytimg.com
+0.0.0.0 i9.ytimg.com
+0.0.0.0 www.youtube-nocookie.com
+0.0.0.0 fonts.gstatic.com
+0.0.0.0 yt3.ggpht.com
 0.0.0.0 events.elev.io # Supportwebseite
 0.0.0.0 clientstream-ga.launchdarkly.com
 0.0.0.0 events.launchdarkly.com
@@ -421,8 +421,8 @@
 # 34.253.77.237
 # 13.227.156.28
 # 13.227.134.216
-#0.0.0.0 prod-ireland.arkoselabs.com
-#0.0.0.0 epic-games-api.arkoselabs.com
+0.0.0.0 prod-ireland.arkoselabs.com
+0.0.0.0 epic-games-api.arkoselabs.com
 
 # Epic Games Datarouter
 # Ip/s blockieren:
@@ -468,28 +468,28 @@
 0.0.0.0 prod-telemetry.paradox-interactive.com
 0.0.0.0 opstm.paradoxplaza.com # In älteren Titeln aktiv, wurde durch Prod-Telemetry ersetzt
 # Anmeldung und Account optional
-#0.0.0.0 services.paradoxplaza.com
-#0.0.0.0 api.paradox-interactive.com
+0.0.0.0 services.paradoxplaza.com
+0.0.0.0 api.paradox-interactive.com
 0.0.0.0 d3.shared.global.fastly.net
 0.0.0.0 sourcemaps.paradox-interactive.com
 
 # Rockstar Games, Inc.
 # Rockstar Games Launcher
 # Games Launcher, Social Club UI & Launcher Patcher
-#0.0.0.0 rgl-prod.ros.rockstargames.com
-#0.0.0.0 auth-prod.ros.rockstargames.com
-#0.0.0.0 auth-rgl-prod.ros.rockstargames.com
-#0.0.0.0 prod.ros.rockstargames.com
-#0.0.0.0 prod.cloud.rockstargames.com
-#0.0.0.0 gamedownloads.rockstargames.com
-#0.0.0.0 a.rsg.sc
+0.0.0.0 rgl-prod.ros.rockstargames.com
+0.0.0.0 auth-prod.ros.rockstargames.com
+0.0.0.0 auth-rgl-prod.ros.rockstargames.com
+0.0.0.0 prod.ros.rockstargames.com
+0.0.0.0 prod.cloud.rockstargames.com
+0.0.0.0 gamedownloads.rockstargames.com
+0.0.0.0 a.rsg.sc
 0.0.0.0 prs-rgl-prod.ros.rockstargames.com
 0.0.0.0 ps-rgl-prod.ros.rockstargames.com
 0.0.0.0 tm-rgl-prod.ros.rockstargames.com
 0.0.0.0 rsgames.s.llnwi.net
 # Cloudsync
-#0.0.0.0 app-rgl-prod.ros.rockstargames.com
-#0.0.0.0 cs-rgl-prod.ros.rockstargames.com
+0.0.0.0 app-rgl-prod.ros.rockstargames.com
+0.0.0.0 cs-rgl-prod.ros.rockstargames.com
 
 # Ubisoft Entertainment SA
 # Uplay Launcher
@@ -497,23 +497,23 @@
 # Benötigte Verbindungen
 # 216.98.62.71
 # 216.98.62.72
-#0.0.0.0 lb-upc-dmx.ubisoft.com
-#0.0.0.0 public-ubiservices.ubi.com
-#0.0.0.0 msr-api-ubiservices.ubi.com
-#0.0.0.0 connect.ubi.com # Sessions, Serverzeit, UserIP/Name/ID, Twofaktor ja/nein, Validation Agegate usw
+0.0.0.0 lb-upc-dmx.ubisoft.com
+0.0.0.0 public-ubiservices.ubi.com
+0.0.0.0 msr-api-ubiservices.ubi.com
+0.0.0.0 connect.ubi.com # Sessions, Serverzeit, UserIP/Name/ID, Twofaktor ja/nein, Validation Agegate usw
 # 216.98.54.23
-#0.0.0.0 dmx.upc.ubisoft.com
+0.0.0.0 dmx.upc.ubisoft.com
 # 34.197.26.232
 # 18.204.111.232
 # 18.215.38.186
-#0.0.0.0 useast1-public.aws-ubiservices.ubi.com
+0.0.0.0 useast1-public.aws-ubiservices.ubi.com
 # Clientupdates
 # 2.18.34.118
 # Cloudfront
 0.0.0.0 d3c3cq33003psk.cloudfront.net # auch von der Seite von Nikon verwendet "opentag"
 # Spieledetails & Shop
-#0.0.0.0 store.ubi.com
-#0.0.0.0 data.ubi.com
+0.0.0.0 store.ubi.com
+0.0.0.0 data.ubi.com
 # Usertracking
 0.0.0.0 metrics.ubi.com
 0.0.0.0 smetrics.ubi.com
@@ -528,12 +528,12 @@
 0.0.0.0 dpm.demdex.net
 0.0.0.0 fls.doubleclick.net
 # News und Newsletter
-#0.0.0.0 public-rest.a.upc.ubisoft.com # Erfassung IPDaten und u.a. Auslieferung der News im Launcher
-#0.0.0.0 t.news.ubisoft.com
+0.0.0.0 public-rest.a.upc.ubisoft.com # Erfassung IPDaten und u.a. Auslieferung der News im Launcher
+0.0.0.0 t.news.ubisoft.com
 0.0.0.0 news-page-themes-api.a.upc.ubisoft.com
 # Cloud / Speicherung von Spielständen
-#0.0.0.0 ubisoft-uplay-savegames.s3.amazonaws.com
-#0.0.0.0 ubisoft-orbit-savegames.s3.amazonaws.com
+0.0.0.0 ubisoft-uplay-savegames.s3.amazonaws.com
+0.0.0.0 ubisoft-orbit-savegames.s3.amazonaws.com
 # Diverses
 # 18.233.137.39
 0.0.0.0 sigma.ubi.com
@@ -564,33 +564,33 @@
 # 162.254.197.181
 # 162.254.197.180
 # 155.133.248.50
-#0.0.0.0 cm-01-ams1.cm.steampowered.com
-#0.0.0.0 cm-04-ams1.cm.steampowered.com
-#0.0.0.0 CM01-FRA.cm.steampowered.com
-#0.0.0.0 cm01-lax.cm.steampowered.com
-#0.0.0.0 CM01-LUX.cm.steampowered.com
-#0.0.0.0 CM02-FRA.cm.steampowered.com
-#0.0.0.0 cm02-iad.cm.steampowered.com
-#0.0.0.0 CM02-LON.cm.steampowered.com
-#0.0.0.0 CM02-LUX.cm.steampowered.com
-#0.0.0.0 CM03-FRA.cm.steampowered.com
-#0.0.0.0 CM03-LON.cm.steampowered.com
-#0.0.0.0 CM04-STO.cm.steampowered.com
-#0.0.0.0 CM05-IAD.cm.steampowered.com
-#0.0.0.0 cm1-ams1.cm.steampowered.com
-#0.0.0.0 cm1-fra1.cm.steampowered.com
-#0.0.0.0 cm1-iad1.cm.steampowered.com
-#0.0.0.0 cm2-fra1.cm.steampowered.com
-#0.0.0.0 cm2-vie1.cm.steampowered.com
-#0.0.0.0 cm3-ams1.cm.steampowered.com
-#0.0.0.0 cm3-fra1.cm.steampowered.com
-#0.0.0.0 cm4-ams1.cm.steampowered.com
-#0.0.0.0 cm4-fra1.cm.steampowered.com
-#0.0.0.0 cm5-ams1.cm.steampowered.com
-#0.0.0.0 cm6-ams1.cm.steampowered.com
-#0.0.0.0 cm2-lax1.cm.steampowered.com
-#0.0.0.0 cm6-ord1.cm.steampowered.com
-#0.0.0.0 cm1-scl1.cm.steampowered.com
+0.0.0.0 cm-01-ams1.cm.steampowered.com
+0.0.0.0 cm-04-ams1.cm.steampowered.com
+0.0.0.0 CM01-FRA.cm.steampowered.com
+0.0.0.0 cm01-lax.cm.steampowered.com
+0.0.0.0 CM01-LUX.cm.steampowered.com
+0.0.0.0 CM02-FRA.cm.steampowered.com
+0.0.0.0 cm02-iad.cm.steampowered.com
+0.0.0.0 CM02-LON.cm.steampowered.com
+0.0.0.0 CM02-LUX.cm.steampowered.com
+0.0.0.0 CM03-FRA.cm.steampowered.com
+0.0.0.0 CM03-LON.cm.steampowered.com
+0.0.0.0 CM04-STO.cm.steampowered.com
+0.0.0.0 CM05-IAD.cm.steampowered.com
+0.0.0.0 cm1-ams1.cm.steampowered.com
+0.0.0.0 cm1-fra1.cm.steampowered.com
+0.0.0.0 cm1-iad1.cm.steampowered.com
+0.0.0.0 cm2-fra1.cm.steampowered.com
+0.0.0.0 cm2-vie1.cm.steampowered.com
+0.0.0.0 cm3-ams1.cm.steampowered.com
+0.0.0.0 cm3-fra1.cm.steampowered.com
+0.0.0.0 cm4-ams1.cm.steampowered.com
+0.0.0.0 cm4-fra1.cm.steampowered.com
+0.0.0.0 cm5-ams1.cm.steampowered.com
+0.0.0.0 cm6-ams1.cm.steampowered.com
+0.0.0.0 cm2-lax1.cm.steampowered.com
+0.0.0.0 cm6-ord1.cm.steampowered.com
+0.0.0.0 cm1-scl1.cm.steampowered.com
 
 # Steam: API
 # 23.78.88.233
@@ -602,7 +602,7 @@
 # 2.23.53.12
 # Block nicht empfohlen, aber möglich.
 # Metriken unter /IClientMetricsService/ReportClientError/v1
-#0.0.0.0 api.steampowered.com # Globale Erfolge, Anmeldetoken, DRM, Metriken, Kommentare im Forum und Profil, Aktivitäten
+0.0.0.0 api.steampowered.com # Globale Erfolge, Anmeldetoken, DRM, Metriken, Kommentare im Forum und Profil, Aktivitäten
 
 # Steam: Beispiele für Broadcasting
 # 95.101.72.216
@@ -612,62 +612,62 @@
 # 2.21.228.155
 # 155.133.248.16
 # Angaben nicht komplett
-#0.0.0.0 br1-fra1.broadcast.steamcontent.com
-#0.0.0.0 br1-lax1.broadcast.steamcontent.com
-#0.0.0.0 br1-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br1-ord1.broadcast.steamcontent.com
-#0.0.0.0 br1-tyo1.broadcast.steamcontent.com
-#0.0.0.0 br2-fra1.broadcast.steamcontent.com
-#0.0.0.0 br2-lax1.broadcast.steamcontent.com
-#0.0.0.0 br2-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br2-ord1.broadcast.steamcontent.com
-#0.0.0.0 br2-tyo1.broadcast.steamcontent.com
-#0.0.0.0 br3-fra1.broadcast.steamcontent.com
-#0.0.0.0 br3-lax1.broadcast.steamcontent.com
-#0.0.0.0 br3-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br3-ord1.broadcast.steamcontent.com
-#0.0.0.0 br3-tyo1.broadcast.steamcontent.com
-#0.0.0.0 br4-fra1.broadcast.steamcontent.com
-#0.0.0.0 br4-lax1.broadcast.steamcontent.com
-#0.0.0.0 br4-lhr1.broadcast.steamcontent.com
-#0.0.0.0 br4-ord1.broadcast.steamcontent.com
-#0.0.0.0 br4-tyo1.broadcast.steamcontent.com
-#0.0.0.0 repo-01-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-01-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-01-sea1.broadcast.steamcontent.com
-#0.0.0.0 repo-01-sto1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-sea1.broadcast.steamcontent.com
-#0.0.0.0 repo-02-sto1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-sea1.broadcast.steamcontent.com
-#0.0.0.0 repo-03-sto1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-fra1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-lhr1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-sea1.broadcast.steamcontent.com
-#0.0.0.0 repo-04-sto1.broadcast.steamcontent.com
-#0.0.0.0 valve1600.broadcast.steamcontent.com
-#0.0.0.0 valve1600.chat.steamcontent.com
-#0.0.0.0 valve1601.broadcast.steamcontent.com
-#0.0.0.0 valve1601.chat.steamcontent.com
-#0.0.0.0 valve500.broadcast.steamcontent.com
-#0.0.0.0 valve501.broadcast.steamcontent.com
-#0.0.0.0 video.steamstatic.com # Analytics
+0.0.0.0 br1-fra1.broadcast.steamcontent.com
+0.0.0.0 br1-lax1.broadcast.steamcontent.com
+0.0.0.0 br1-lhr1.broadcast.steamcontent.com
+0.0.0.0 br1-ord1.broadcast.steamcontent.com
+0.0.0.0 br1-tyo1.broadcast.steamcontent.com
+0.0.0.0 br2-fra1.broadcast.steamcontent.com
+0.0.0.0 br2-lax1.broadcast.steamcontent.com
+0.0.0.0 br2-lhr1.broadcast.steamcontent.com
+0.0.0.0 br2-ord1.broadcast.steamcontent.com
+0.0.0.0 br2-tyo1.broadcast.steamcontent.com
+0.0.0.0 br3-fra1.broadcast.steamcontent.com
+0.0.0.0 br3-lax1.broadcast.steamcontent.com
+0.0.0.0 br3-lhr1.broadcast.steamcontent.com
+0.0.0.0 br3-ord1.broadcast.steamcontent.com
+0.0.0.0 br3-tyo1.broadcast.steamcontent.com
+0.0.0.0 br4-fra1.broadcast.steamcontent.com
+0.0.0.0 br4-lax1.broadcast.steamcontent.com
+0.0.0.0 br4-lhr1.broadcast.steamcontent.com
+0.0.0.0 br4-ord1.broadcast.steamcontent.com
+0.0.0.0 br4-tyo1.broadcast.steamcontent.com
+0.0.0.0 repo-01-fra1.broadcast.steamcontent.com
+0.0.0.0 repo-01-lhr1.broadcast.steamcontent.com
+0.0.0.0 repo-01-sea1.broadcast.steamcontent.com
+0.0.0.0 repo-01-sto1.broadcast.steamcontent.com
+0.0.0.0 repo-02-fra1.broadcast.steamcontent.com
+0.0.0.0 repo-02-lhr1.broadcast.steamcontent.com
+0.0.0.0 repo-02-sea1.broadcast.steamcontent.com
+0.0.0.0 repo-02-sto1.broadcast.steamcontent.com
+0.0.0.0 repo-03-fra1.broadcast.steamcontent.com
+0.0.0.0 repo-03-lhr1.broadcast.steamcontent.com
+0.0.0.0 repo-03-sea1.broadcast.steamcontent.com
+0.0.0.0 repo-03-sto1.broadcast.steamcontent.com
+0.0.0.0 repo-04-fra1.broadcast.steamcontent.com
+0.0.0.0 repo-04-lhr1.broadcast.steamcontent.com
+0.0.0.0 repo-04-sea1.broadcast.steamcontent.com
+0.0.0.0 repo-04-sto1.broadcast.steamcontent.com
+0.0.0.0 valve1600.broadcast.steamcontent.com
+0.0.0.0 valve1600.chat.steamcontent.com
+0.0.0.0 valve1601.broadcast.steamcontent.com
+0.0.0.0 valve1601.chat.steamcontent.com
+0.0.0.0 valve500.broadcast.steamcontent.com
+0.0.0.0 valve501.broadcast.steamcontent.com
+0.0.0.0 video.steamstatic.com # Analytics
 # Auszug der Streamingthumbnails
-#0.0.0.0 ingest-01-lax1.broadcast.steamcontent.com
-#0.0.0.0 ingest-01-lhr1.broadcast.steamcontent.com
-#0.0.0.0 ingest-02-fra1.broadcast.steamcontent.com
-#0.0.0.0 ingest-02-lhr1.broadcast.steamcontent.com
-#0.0.0.0 ingest-02-sea1.broadcast.steamcontent.com
-#0.0.0.0 ingest-02-sto1.broadcast.steamcontent.com
-#0.0.0.0 ingest-03-fra1.broadcast.steamcontent.com
-#0.0.0.0 ingest-03-lax1.broadcast.steamcontent.com
-#0.0.0.0 ingest-03-ord1.broadcast.steamcontent.com
-#0.0.0.0 ingest-03-sto1.broadcast.steamcontent.com
-#0.0.0.0 ingest-04-lax1.broadcast.steamcontent.com
-#0.0.0.0 ingest-04-lhr1.broadcast.steamcontent.com
+0.0.0.0 ingest-01-lax1.broadcast.steamcontent.com
+0.0.0.0 ingest-01-lhr1.broadcast.steamcontent.com
+0.0.0.0 ingest-02-fra1.broadcast.steamcontent.com
+0.0.0.0 ingest-02-lhr1.broadcast.steamcontent.com
+0.0.0.0 ingest-02-sea1.broadcast.steamcontent.com
+0.0.0.0 ingest-02-sto1.broadcast.steamcontent.com
+0.0.0.0 ingest-03-fra1.broadcast.steamcontent.com
+0.0.0.0 ingest-03-lax1.broadcast.steamcontent.com
+0.0.0.0 ingest-03-ord1.broadcast.steamcontent.com
+0.0.0.0 ingest-03-sto1.broadcast.steamcontent.com
+0.0.0.0 ingest-04-lax1.broadcast.steamcontent.com
+0.0.0.0 ingest-04-lhr1.broadcast.steamcontent.com
 # Beispiel für Breodcasting über Contentserver
 # https://cache5-ams1.steamcontent.com/broadcast/76561199005420507/7883999028056715455/segment/video/4/*.*
 
@@ -677,7 +677,7 @@
 # 2.21.228.17
 
 # Steam: Chat
-#0.0.0.0 bc1-tuk1.chat.steamcontent.com
+0.0.0.0 bc1-tuk1.chat.steamcontent.com
 # 104.108.78.51
 # 2.17.182.211
 # 23.78.65.15
@@ -695,7 +695,7 @@
 # 104.74.120.234
 # 104.82.95.31
 # 23.62.113.19
-#0.0.0.0 steam-chat.com # Javascript WebUI, JSON, Miniprofile
+0.0.0.0 steam-chat.com # Javascript WebUI, JSON, Miniprofile
 
 # Steam: Client Update Service
 # 2.21.228.80
@@ -705,8 +705,8 @@
 # 155.133.250.76
 # 162.254.192.34
 # 190.98.152.8
-#0.0.0.0 media4.steampowered.com
-#0.0.0.0 client-download.steampowered.com
+0.0.0.0 media4.steampowered.com
+0.0.0.0 client-download.steampowered.com
 
 # Steam: Clientkonfiguration
 # 2.21.228.120
@@ -717,7 +717,7 @@
 
 # Steam: Cloud für Speicherstände & Client
 # De/aktivieren nach Bedarf
-#0.0.0.0 cloud-3.steamusercontent.com
+0.0.0.0 cloud-3.steamusercontent.com
 # 142.250.74.208
 # 20.238.118.132
 # 216.58.201.80
@@ -736,22 +736,22 @@
 # Steam: Cloudflare
 # 104.18.24.217
 # 104.18.25.217
-#0.0.0.0 community.cloudflare.steamstatic.com # Sounds, CSS Dateien, Javascript, Emoticons, Icons, Grafiken Sammelkarten
-#0.0.0.0 store.cloudflare.steamstatic.com # Javascript, CSS, Schriften, Webseitengrafiken
+0.0.0.0 community.cloudflare.steamstatic.com # Sounds, CSS Dateien, Javascript, Emoticons, Icons, Grafiken Sammelkarten
+0.0.0.0 store.cloudflare.steamstatic.com # Javascript, CSS, Schriften, Webseitengrafiken
 
 # Steam: Community
 # 104.115.82.107
 # 104.73.230.192
 # 190.98.152.19
 # 23.10.118.254
-#0.0.0.0 steamcommunity.com # eigene ID, GruppenID, Freunde, Abzeichen, News, Diskussionen, Miniprofil, Profil und Ökonomie
+0.0.0.0 steamcommunity.com # eigene ID, GruppenID, Freunde, Abzeichen, News, Diskussionen, Miniprofil, Profil und Ökonomie
 
 # Steam: Controller Konfiguration
 # 95.101.142.155
 # 104.104.182.95
-#0.0.0.0 media.steampowered.com
-#0.0.0.0 steam.apac.qtlglb.com # Depotmanifest /depot/241100/manifest/6711344606286301481/5
-#0.0.0.0 controller.steampowered.com
+0.0.0.0 media.steampowered.com
+0.0.0.0 steam.apac.qtlglb.com # Depotmanifest /depot/241100/manifest/6711344606286301481/5
+0.0.0.0 controller.steampowered.com
 
 # Steam: Crashlogs | Telemetrie
 # Ip/s blockieren:
@@ -770,21 +770,21 @@
 # 155.133.248.29
 # 155.133.248.22
 # 155.133.248.19
-#0.0.0.0 cache10-ams1.steamcontent.com
-#0.0.0.0 cache11-ams1.steamcontent.com
-#0.0.0.0 cache12-ams1.steamcontent.com
-#0.0.0.0 cache13-ams1.steamcontent.com
-#0.0.0.0 cache14-ams1.steamcontent.com
-#0.0.0.0 cache15-ams1.steamcontent.com
-#0.0.0.0 cache18-ams1.steamcontent.com
-#0.0.0.0 cache2-ams1.steamcontent.com
-#0.0.0.0 cache3-ams1.steamcontent.com
-#0.0.0.0 cache54-fra1.steamcontent.com
-#0.0.0.0 cache8-ams1.steamcontent.com
+0.0.0.0 cache10-ams1.steamcontent.com
+0.0.0.0 cache11-ams1.steamcontent.com
+0.0.0.0 cache12-ams1.steamcontent.com
+0.0.0.0 cache13-ams1.steamcontent.com
+0.0.0.0 cache14-ams1.steamcontent.com
+0.0.0.0 cache15-ams1.steamcontent.com
+0.0.0.0 cache18-ams1.steamcontent.com
+0.0.0.0 cache2-ams1.steamcontent.com
+0.0.0.0 cache3-ams1.steamcontent.com
+0.0.0.0 cache54-fra1.steamcontent.com
+0.0.0.0 cache8-ams1.steamcontent.com
 
 # Steam: Experimentelles Blockieren von Telemetrie, Spyware, Bloatware und Kommentaren - Nicht anwenderfreundlich
-#0.0.0.0 api.steampowered.com
-#0.0.0.0 video.steamstatic.com
+0.0.0.0 api.steampowered.com
+0.0.0.0 video.steamstatic.com
 
 # Steam: Game Overlay UI
 # Ip/s blockieren:
@@ -805,8 +805,8 @@
 # 23.215.130.81
 # 184.50.211.239
 # 208.64.200.16
-#0.0.0.0 store.steampowered.com
-#0.0.0.0 video.steamstatic.com
+0.0.0.0 store.steampowered.com
+0.0.0.0 video.steamstatic.com
 
 # Steam: IP Checks
 # Verpflichtende Callbacks, die allerdings blockiert werden können
@@ -840,29 +840,29 @@
 # 205.196.6.139
 # 205.196.6.141
 # 205.196.6.138
-#0.0.0.0 lancache.steamcontent.com
+0.0.0.0 lancache.steamcontent.com
 0.0.0.0 origin-ip-selector.steampipe.steamcontent.akadns.net
 
 # Steam: Beispiele Multiplayer Serverlisten & Content
 # Valve Server reichen von 1 bis ca. 3000+
-#0.0.0.0 valve561.steamcontent.com
-#0.0.0.0 valve559.steamcontent.com
-#0.0.0.0 valve556.steamcontent.com
-#0.0.0.0 valve555.steamcontent.com
-#0.0.0.0 valve541.steamcontent.com
-#0.0.0.0 valve533.steamcontent.com
-#0.0.0.0 valve525.steamcontent.com
-#0.0.0.0 valve514.steamcontent.com
-#0.0.0.0 valve507.steamcontent.com
-#0.0.0.0 valve506.steamcontent.com
-#0.0.0.0 valve505.steamcontent.com
-#0.0.0.0 valve504.steamcontent.com
-#0.0.0.0 valve501.steamcontent.com
-#0.0.0.0 valve500.steamcontent.com
-#0.0.0.0 valve300.steamcontent.com
-#0.0.0.0 valve2507.steamcontent.com
-#0.0.0.0 valve165.steamcontent.com
-#0.0.0.0 valve1601.steamcontent.com
+0.0.0.0 valve561.steamcontent.com
+0.0.0.0 valve559.steamcontent.com
+0.0.0.0 valve556.steamcontent.com
+0.0.0.0 valve555.steamcontent.com
+0.0.0.0 valve541.steamcontent.com
+0.0.0.0 valve533.steamcontent.com
+0.0.0.0 valve525.steamcontent.com
+0.0.0.0 valve514.steamcontent.com
+0.0.0.0 valve507.steamcontent.com
+0.0.0.0 valve506.steamcontent.com
+0.0.0.0 valve505.steamcontent.com
+0.0.0.0 valve504.steamcontent.com
+0.0.0.0 valve501.steamcontent.com
+0.0.0.0 valve500.steamcontent.com
+0.0.0.0 valve300.steamcontent.com
+0.0.0.0 valve2507.steamcontent.com
+0.0.0.0 valve165.steamcontent.com
+0.0.0.0 valve1601.steamcontent.com
 
 # Steam: Nutzergenerierte Inhalte
 # 2.20.254.145
@@ -873,7 +873,7 @@
 # 162.254.197.106
 # 155.133.250.108
 # 155.133.250.107
-#0.0.0.0 eu.client.steamcontent.akadns.net
+0.0.0.0 eu.client.steamcontent.akadns.net
 
 # Steam: SteamService.exe
 # Digicert
@@ -898,7 +898,7 @@
 
 # Steam: Steamworks
 # 23.78.88.233
-#0.0.0.0 partner.steamgames.com
+0.0.0.0 partner.steamgames.com
 
 # Steam: Store
 # 23.216.77.136
@@ -911,7 +911,7 @@
 # 93.191.15.153
 # 93.191.15.170
 # 93.191.15.171
-#0.0.0.0 store.steampowered.com # Altersverifizierung, Nutzungsbedinungen, Suche, Eventtracking, Broadcast, Accountmeldungen, Hover, Updatenews, API Anbindung, Beschreibungen & Ids für Produkte
+0.0.0.0 store.steampowered.com # Altersverifizierung, Nutzungsbedinungen, Suche, Eventtracking, Broadcast, Accountmeldungen, Hover, Updatenews, API Anbindung, Beschreibungen & Ids für Produkte
 
 # Steam: Unkategorisiert
 
@@ -921,9 +921,9 @@
 # Ip/s blockieren:
 # 172.217.16.150
 # 172.217.22.110
-#0.0.0.0 i.ytimg.com
+0.0.0.0 i.ytimg.com
 # Paypal Tracking - Aktiv im Warenkorb, auch ohne eingegebene Paypaldaten
-#0.0.0.0 www.paypal.com # Logger, TagManager, Trackingcookies
+0.0.0.0 www.paypal.com # Logger, TagManager, Trackingcookies
 0.0.0.0 t.paypal.com # Trackingpixel
 
 #
@@ -934,11 +934,11 @@
 # BattlEye
 # Domänen werden pro Produkt festgelegt, IP bleibt gleich
 # 145.239.8.133
-#0.0.0.0 grb1.battleye.com # Aus dem Spiel Tom Clancy’s Ghost Recon: Breakpoint
-#0.0.0.0 ark1.battleye.com # Aus dem Spiel Ark: Survival Evolved
-#0.0.0.0 arma31.battleye.com # Aus dem Spiel Arma 3
-#0.0.0.0 ins1.battleye.com # Aus dem Spiel Insurgency
-#0.0.0.0 ns3081506.ip-145-239-8.eu
+0.0.0.0 grb1.battleye.com # Aus dem Spiel Tom Clancy’s Ghost Recon: Breakpoint
+0.0.0.0 ark1.battleye.com # Aus dem Spiel Ark: Survival Evolved
+0.0.0.0 arma31.battleye.com # Aus dem Spiel Arma 3
+0.0.0.0 ins1.battleye.com # Aus dem Spiel Insurgency
+0.0.0.0 ns3081506.ip-145-239-8.eu
 
 # Kamu Game Security
 # HYDRA Easy Anti-Cheat
@@ -950,11 +950,11 @@
 # 104.28.3.249
 # 52.213.88.159
 # 52.17.156.231
-#0.0.0.0 download-alt.easyanticheat.net
-#0.0.0.0 gossip.easyanticheat.net
-#0.0.0.0 gossip-eu-classic-lb-1736877676.eu-west-1.elb.amazonaws.com
-#0.0.0.0 ec2-52-208-50-24.eu-west-1.compute.amazonaws.com
-#0.0.0.0 gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com
+0.0.0.0 download-alt.easyanticheat.net
+0.0.0.0 gossip.easyanticheat.net
+0.0.0.0 gossip-eu-classic-lb-1736877676.eu-west-1.elb.amazonaws.com
+0.0.0.0 ec2-52-208-50-24.eu-west-1.compute.amazonaws.com
+0.0.0.0 gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com
 # 83.136.255.42
 # 13.224.253.24
 # 13.224.253.51
@@ -989,7 +989,7 @@
 # 54.229.129.174
 0.0.0.0 hydra.easyanticheat.net
 0.0.0.0 hydra-eu-lb-618151913.eu-west-1.elb.amazonaws.com
-#0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
+0.0.0.0 gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
 # 13.227.243.70
 # 13.225.78.66
 # 99.84.104.44
@@ -1003,8 +1003,8 @@
 # Denuvo Anti-Cheat
 # 63.35.130.78
 # Eintrag wird noch ergänzt
-#0.0.0.0 ac-upd.codefusion.technology
-#0.0.0.0 ac-fileshare.codefusion.technology
+0.0.0.0 ac-upd.codefusion.technology
+0.0.0.0 ac-fileshare.codefusion.technology
 
 # Denuvo Anti-Tamper
 # Anwendungsschutz, Schutz gegen Manipulation und Kopierschutz
@@ -1014,11 +1014,11 @@
 # 52.18.94.153
 # 54.194.195.183
 # 52.49.61.71
-#0.0.0.0 srv01.codefusion.technology
-#0.0.0.0 cf-revalidation-1750743123.eu-west-1.elb.amazonaws.com
-#0.0.0.0 srv02.codefusion.technology
-#0.0.0.0 srv03.codefusion.technology
-#0.0.0.0 support.codefusion.technology
+0.0.0.0 srv01.codefusion.technology
+0.0.0.0 cf-revalidation-1750743123.eu-west-1.elb.amazonaws.com
+0.0.0.0 srv02.codefusion.technology
+0.0.0.0 srv03.codefusion.technology
+0.0.0.0 support.codefusion.technology
 # In neueren Titeln wurden für mich ersichtlich keine Zertifikate mehr abgefragt
 
 # SecuROM
@@ -1026,9 +1026,9 @@
 # SecuROM mag es gar nicht, wenn Process Explorer im Hintergrund läuft
 # 34.251.133.206
 # 54.194.81.177
-#0.0.0.0 pa01.sonyvfactory.com
-#0.0.0.0 pa02.sonyvfactory.com
-#0.0.0.0 pa03.sonyvfactory.com
+0.0.0.0 pa01.sonyvfactory.com
+0.0.0.0 pa02.sonyvfactory.com
+0.0.0.0 pa03.sonyvfactory.com
 
 #
 # Spiele und Clientspezifische Daten
@@ -1118,57 +1118,57 @@
 # 流放之路 Path of Exile
 # Hauseigener Downloadmanager MiniQQDL.exe und TenioDL.exe
 0.0.0.0 sf.symcd.com
-#0.0.0.0 dc.qq.com
-#0.0.0.0 gameproxy.gamedl.qq.com
-#0.0.0.0 config.gamedl.qq.com
-#0.0.0.0 down.qq.com
-#0.0.0.0 downloadtpt.gamedl.qq.com
-#0.0.0.0 ga.gamedl.qq.com
+0.0.0.0 dc.qq.com
+0.0.0.0 gameproxy.gamedl.qq.com
+0.0.0.0 config.gamedl.qq.com
+0.0.0.0 down.qq.com
+0.0.0.0 downloadtpt.gamedl.qq.com
+0.0.0.0 ga.gamedl.qq.com
 # Verbindungen während der Installation
 0.0.0.0 trace-report.tgp.qq.com
-#0.0.0.0 ied-tqosweb.qq.com # tgp_daemon.exe & launcher.exe
-#0.0.0.0 bk.downloadtpt.gamedl.qq.com # WeGameSetup
-#0.0.0.0 dldir1.qq.com
+0.0.0.0 ied-tqosweb.qq.com # tgp_daemon.exe & launcher.exe
+0.0.0.0 bk.downloadtpt.gamedl.qq.com # WeGameSetup
+0.0.0.0 dldir1.qq.com
 # 183.61.39.221
-#0.0.0.0 downloadtpt.gamedl.qq.com
-#0.0.0.0 stun-a1.qq.com # TenioDL
-#0.0.0.0 wegame-portal.tgp.qq.com
-#0.0.0.0 p2pupgrade.gamedl.qq.com
-#0.0.0.0 mini-updatesvr.tgp.qq.com
-#0.0.0.0 config.gamedl.qq.com
-#0.0.0.0 ga.gamedl.qq.com
+0.0.0.0 downloadtpt.gamedl.qq.com
+0.0.0.0 stun-a1.qq.com # TenioDL
+0.0.0.0 wegame-portal.tgp.qq.com
+0.0.0.0 p2pupgrade.gamedl.qq.com
+0.0.0.0 mini-updatesvr.tgp.qq.com
+0.0.0.0 config.gamedl.qq.com
+0.0.0.0 ga.gamedl.qq.com
 # TGP Browser und Daemon
 # Ip/s blockieren:
 # 101.227.153.157
 # 14.17.53.145
 # 117.185.25.107
-#0.0.0.0 wup.browser.qq.com
-#0.0.0.0 qbwup.imtt.qq.com # Data Report
+0.0.0.0 wup.browser.qq.com
+0.0.0.0 qbwup.imtt.qq.com # Data Report
 0.0.0.0 btrace.video.qq.com
-#0.0.0.0 tgccfg.qq.com
-#0.0.0.0 qbwup.html5.qq.com
-#0.0.0.0 down.qq.com # Animationen und Verarbeitung von Dat Dateien
-#0.0.0.0 config.tgp.qq.com
+0.0.0.0 tgccfg.qq.com
+0.0.0.0 qbwup.html5.qq.com
+0.0.0.0 down.qq.com # Animationen und Verarbeitung von Dat Dateien
+0.0.0.0 config.tgp.qq.com
 0.0.0.0 ied-tqos-tgp.qq.com # helper_main.exe
 0.0.0.0 speed.tgp.qq.com
-#0.0.0.0 base.update.tgp.qq.com
-#0.0.0.0 dir.tgp.qq.com
-#0.0.0.0 middle.tgp.qq.com # erfasst an Proxys vorbei die IP4 Adresse des Nutzers
+0.0.0.0 base.update.tgp.qq.com
+0.0.0.0 dir.tgp.qq.com
+0.0.0.0 middle.tgp.qq.com # erfasst an Proxys vorbei die IP4 Adresse des Nutzers
 # Tas Login
-#0.0.0.0 tgscp.mainconn.gamesafe.qq.com
+0.0.0.0 tgscp.mainconn.gamesafe.qq.com
 # PathOfExile_x64.exe und PathOfExile.exe verknüpft mit TenProtect
-#0.0.0.0 tqos.gamesafe.qq.com
-#0.0.0.0 tgscp.mainconn.gamesafe.qq.com # Gameloader
-#0.0.0.0 down.qq.com
+0.0.0.0 tqos.gamesafe.qq.com
+0.0.0.0 tgscp.mainconn.gamesafe.qq.com # Gameloader
+0.0.0.0 down.qq.com
 
 # Ring of Elysium
 # s. Steam: General Directory Server
-#0.0.0.0 down.qq.com
-#0.0.0.0 tgscp.mainconn.gamesafe.qq.com
-#0.0.0.0 tqm.gamebaby.qq.com
-#0.0.0.0 steamdir5.gun.qq.com
-#0.0.0.0 steamdir9.gun.qq.com
-#0.0.0.0 idcconfig.gcloud.qq.com
+0.0.0.0 down.qq.com
+0.0.0.0 tgscp.mainconn.gamesafe.qq.com
+0.0.0.0 tqm.gamebaby.qq.com
+0.0.0.0 steamdir5.gun.qq.com
+0.0.0.0 steamdir9.gun.qq.com
+0.0.0.0 idcconfig.gcloud.qq.com
 # 125.39.213.39
 # 14.215.140.28
 # 117.144.245.229
@@ -1196,8 +1196,8 @@
 
 # イリュージョン | Illusion games
 # プレイホーム | Play Home
-#0.0.0.0 www.illusion.jp
-#0.0.0.0 up.illusion.jp
+0.0.0.0 www.illusion.jp
+0.0.0.0 up.illusion.jp
 
 # ハニーセレクト2 リビドー | Honey Select 2 Libido
 # Ip/s blockieren:
@@ -1214,9 +1214,9 @@
 # 52.198.72.157
 # 52.69.168.106
 # 153.120.156.55
-#0.0.0.0 www.illusion.jp # Version, Check für Basis, AI und HS2
-#0.0.0.0 uphs2.illusion.jp # UUID, Passwort
-#0.0.0.0 upai.illusion.jp # AIDownload - User, Charaktere und Bilder
+0.0.0.0 www.illusion.jp # Version, Check für Basis, AI und HS2
+0.0.0.0 uphs2.illusion.jp # UUID, Passwort
+0.0.0.0 upai.illusion.jp # AIDownload - User, Charaktere und Bilder
 # Ordner XUnity.AutoTranslator - Mag für Sexspiele nicht wirklich die tollste Lösung sein
 
 # コイカツ！ | Koikatsu
@@ -1231,8 +1231,8 @@
 0.0.0.0 api.uca.cloud.unity3d.com
 # 153.120.156.55
 # 153.120.125.62
-#0.0.0.0 www.illusion.jp # Downloadberechtigung
-#0.0.0.0 up.illusion.jp # Up/Download von Charakteren
+0.0.0.0 www.illusion.jp # Downloadberechtigung
+0.0.0.0 up.illusion.jp # Up/Download von Charakteren
 
 # Носков Сергей
 # 35MM
@@ -1281,12 +1281,12 @@
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 
 # This War of Mine
-#0.0.0.0 api.babeltheproject.com # Ingamesprache
+0.0.0.0 api.babeltheproject.com # Ingamesprache
 # Aktive Mitwirkung lädt diverse Trackingdienste, Werbung und Drittanbieterseiten nach
-#0.0.0.0 www.warchild.org.uk
+0.0.0.0 www.warchild.org.uk
 0.0.0.0 stripensrq.global.ssl.fastly.net
-#0.0.0.0 m.stripe.network
-#0.0.0.0 js.stripe.com # Anbieter für Zahlungsabläufe
+0.0.0.0 m.stripe.network
+0.0.0.0 js.stripe.com # Anbieter für Zahlungsabläufe
 0.0.0.0 insights.hotjar.com
 0.0.0.0 vars.hotjar.com
 0.0.0.0 script.hotjar.com
@@ -1377,7 +1377,7 @@
 # Ip/s blockieren:
 # 143.204.181.65
 # 99.84.59.31
-#0.0.0.0 account.services.gearboxsoftware.com
+0.0.0.0 account.services.gearboxsoftware.com
 0.0.0.0 news.services.gearboxsoftware.com
 0.0.0.0 ds5xe9s324bea.cloudfront.net
 0.0.0.0 d10zutxas1s022.cloudfront.net
@@ -1391,7 +1391,7 @@
 0.0.0.0 discovery.services.gearboxsoftware.com
 0.0.0.0 maw.services.gearboxsoftware.com # Crashlogs
 # 54.236.132.151
-#0.0.0.0 account.services.gearboxsoftware.com
+0.0.0.0 account.services.gearboxsoftware.com
 
 # Borderlands 3
 # s. Rubrik Kopierschutz / AntiCheat
@@ -1401,7 +1401,7 @@
 
 # Mafia II: Definitive Edition 2020
 # 192.81.242.131
-#0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com # Onlinebindung bei Bedarf abschalten
+0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com # Onlinebindung bei Bedarf abschalten
 0.0.0.0 promotions.api.2kcoretech.online
 
 # Mafia III
@@ -1412,11 +1412,11 @@
 # s. Steam: General Directory Server
 # 192.81.242.130
 # 192.81.242.131
-#0.0.0.0 0eaa48923bc27d93552bf100519bbf7b.my.2k.com
-#0.0.0.0 88617557f1789a427b307e225b111db9.my.2k.com
-#0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com
-#0.0.0.0 798ce2d1755b23f16c6b1100d73fa464.my.2k.com
-#0.0.0.0 c80e487cd7fed21dfb05e01fe8be8b6e.my.2k.com
+0.0.0.0 0eaa48923bc27d93552bf100519bbf7b.my.2k.com
+0.0.0.0 88617557f1789a427b307e225b111db9.my.2k.com
+0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com
+0.0.0.0 798ce2d1755b23f16c6b1100d73fa464.my.2k.com
+0.0.0.0 c80e487cd7fed21dfb05e01fe8be8b6e.my.2k.com
 
 # NBA 2K17
 # NBA2K17.exe Server Zwangsverbindung
@@ -1430,7 +1430,7 @@
 # Firaxis Bug Reporter
 # 52.216.233.181
 # 52.216.166.5
-#0.0.0.0 s3.amazonaws.com
+0.0.0.0 s3.amazonaws.com
 # Launchpad
 # Ip/s blockieren:
 # 180.213.167.255
@@ -1439,9 +1439,9 @@
 0.0.0.0 2klauncher.2kcoretech.online # Grafiken
 0.0.0.0 d19mxcar6gop8d.cloudfront.net
 0.0.0.0 telemetry.api.2kcoretech.online
-#0.0.0.0 use.typekit.net # Schriften
+0.0.0.0 use.typekit.net # Schriften
 0.0.0.0 p.typekit.net # Trackingpixel
-#0.0.0.0 img.youtube.com # Youtube Grafiken
+0.0.0.0 img.youtube.com # Youtube Grafiken
 0.0.0.0 downloads.2kgames.com
 0.0.0.0 discovery.api.2kcoretech.online
 0.0.0.0 entitlements.api.2kcoretech.online
@@ -1454,32 +1454,32 @@
 # 192.81.242.131
 # Token für Mehrspieler-Anmeldung und sogenannter Heartbeat - Übergeben werden diverse Identifier | Strings sind Base64 codiert
 # Für Anmeldung muss evtl. noch die api.2kgames.com freigeschaltet werden. Nicht mehr getestet
-#0.0.0.0 login.firaxislive.com
-#0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com # Auch in Mafia III benutzt
-#0.0.0.0 798ce2d1755b23f16c6b1100d73fa464.my.2k.com # Auch in Mafia III benutzt
-#0.0.0.0 34acf0414d836d3f8d491c6186153694.my.2k.com
+0.0.0.0 login.firaxislive.com
+0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com # Auch in Mafia III benutzt
+0.0.0.0 798ce2d1755b23f16c6b1100d73fa464.my.2k.com # Auch in Mafia III benutzt
+0.0.0.0 34acf0414d836d3f8d491c6186153694.my.2k.com
 
 # Sid Meier’s Starships
-#0.0.0.0 login.firaxislive.com
-#0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com
-#0.0.0.0 798ce2d1755b23f16c6b1100d73fa464.my.2k.com
-#0.0.0.0 88617557f1789a427b307e225b111db9.my.2k.com
+0.0.0.0 login.firaxislive.com
+0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com
+0.0.0.0 798ce2d1755b23f16c6b1100d73fa464.my.2k.com
+0.0.0.0 88617557f1789a427b307e225b111db9.my.2k.com
 
 # Spec Ops: The Line
 0.0.0.0 p.line.dev.2kgames.com
 
 # WWE 2016
-#0.0.0.0 prod-win32-sp.wwe16.2ksports.com
+0.0.0.0 prod-win32-sp.wwe16.2ksports.com
 
 # WWE 2K17
-#0.0.0.0 prod-win32-sp.wwe17.2ksports.com # Zwangsverbindung, permanent aktiv. Schon vor Einverständnis
-#0.0.0.0 www.2k.com
+0.0.0.0 prod-win32-sp.wwe17.2ksports.com # Zwangsverbindung, permanent aktiv. Schon vor Einverständnis
+0.0.0.0 www.2k.com
 
 # WWE 2K18
-#0.0.0.0 prod-win32-sp.wwe18.2ksports.com # und wieder mal
+0.0.0.0 prod-win32-sp.wwe18.2ksports.com # und wieder mal
 
 # WWE 2K19
-#0.0.0.0 prod-win32-sp.wwe19.2ksports.com # Auch hier Zwangsverbindung bevor eine Einverständnis gegeben werden kann
+0.0.0.0 prod-win32-sp.wwe19.2ksports.com # Auch hier Zwangsverbindung bevor eine Einverständnis gegeben werden kann
 0.0.0.0 collect13623ww19v.deltadna.net
 
 # XCOM®: Chimera Squad
@@ -1504,20 +1504,20 @@
 0.0.0.0 xlauncher-logs.s3.amazonaws.com
 0.0.0.0 www.drdump.com
 # Adressen werden für Onlineservice und Mehrspieler in anderen 2K Produkten benötigt | Bei Bedarf abschalten
-#0.0.0.0 34acf0414d836d3f8d491c6186153694.my.2k.com
-#0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com
+0.0.0.0 34acf0414d836d3f8d491c6186153694.my.2k.com
+0.0.0.0 508223012e5a5ff19f30a391b2bdadc0.my.2k.com
 
 # 34BigThings srl
 # Redout: Enhanced Edition
 
 # 38 Studios & Electronic Arts
 # Kingdoms of Amalur: Reckoning
-#0.0.0.0 gosredirector.ea.com
-#0.0.0.0 501166-gosprapp1147.ea.com
-#0.0.0.0 gosiadprod-qos01.ea.com
-#0.0.0.0 gosgvaprod-qos01.ea.com
-#0.0.0.0 gossjcprod-qos01.ea.com
-#0.0.0.0 gos.ea.com
+0.0.0.0 gosredirector.ea.com
+0.0.0.0 501166-gosprapp1147.ea.com
+0.0.0.0 gosiadprod-qos01.ea.com
+0.0.0.0 gosgvaprod-qos01.ea.com
+0.0.0.0 gossjcprod-qos01.ea.com
+0.0.0.0 gos.ea.com
 
 # 38,9_Degrees
 # Forest Escape
@@ -1563,8 +1563,8 @@
 # 34.213.158.228
 # 52.24.197.2
 # 52.88.46.75
-#0.0.0.0 prod-pc.wws-gs2.com # Onlinemodi, Statistiken und Funktionen
-#0.0.0.0 a46a2a13688f54b57bb35502a5acbc2c-2082727945.us-west-2.elb.amazonaws.com
+0.0.0.0 prod-pc.wws-gs2.com # Onlinemodi, Statistiken und Funktionen
+0.0.0.0 a46a2a13688f54b57bb35502a5acbc2c-2082727945.us-west-2.elb.amazonaws.com
 
 # Ember
 # s. Steam: General Directory Server
@@ -1604,37 +1604,37 @@
 
 # Activision
 # Call of Duty: Black OPS III
-#0.0.0.0 ops3-pc-auth3.prod.demonware.net
-#0.0.0.0 ops3-pc-lobby.prod.demonware.net
-#0.0.0.0 prod.umbrella.demonware.net
+0.0.0.0 ops3-pc-auth3.prod.demonware.net
+0.0.0.0 ops3-pc-lobby.prod.demonware.net
+0.0.0.0 prod.umbrella.demonware.net
 
 # Call of Duty: WWII
 # Inkl. Vultr.com und choopa.net Anbindung
 # Ip/s blockieren:
 # 10.100.0.83
 # 185.34.107.128
-#0.0.0.0 ww2-pc-auth3.prod.demonware.net
+0.0.0.0 ww2-pc-auth3.prod.demonware.net
 # ww2-qbl
 # 185.34.107.24
-#0.0.0.0 ww2-qbl.prod.demonware.net
+0.0.0.0 ww2-qbl.prod.demonware.net
 # Mehrspielermodus
-#0.0.0.0 ww2-pc-auth3.prod.demonware.net
-#0.0.0.0 prod.umbrella.demonware.net
-#0.0.0.0 ww2-pc-lobby.prod.demonware.net
-#0.0.0.0 ww2-qbl.prod.demonware.net
+0.0.0.0 ww2-pc-auth3.prod.demonware.net
+0.0.0.0 prod.umbrella.demonware.net
+0.0.0.0 ww2-pc-lobby.prod.demonware.net
+0.0.0.0 ww2-qbl.prod.demonware.net
 0.0.0.0 s2-cloudfront.prod.aws.demonware.net
 0.0.0.0 stun.us.demonware.net
 0.0.0.0 pipes-prod-glutton.public.aws.demonware.net
 
 # Singularity™
-#0.0.0.0 singularity-pc-live.auth.mmp3.demonware.net
-#0.0.0.0 singularity-pc-live.lsg.mmp3.demonware.net
+0.0.0.0 singularity-pc-live.auth.mmp3.demonware.net
+0.0.0.0 singularity-pc-live.lsg.mmp3.demonware.net
 
 # Transformers™: Fall of Cybertron™
 # s. Steam: General Directory Server
 # Multiplayer
-#0.0.0.0 wfc2-pc-auth.prod.demonware.net
-#0.0.0.0 wfc2-pc-lobby.prod.demonware.net
+0.0.0.0 wfc2-pc-auth.prod.demonware.net
+0.0.0.0 wfc2-pc-lobby.prod.demonware.net
 
 # Acttil, LLC.
 # ビリオンロード | Billion Road
@@ -1686,13 +1686,13 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 
 # Magical Battle Fiesta
-#0.0.0.0 fly-system.net
-#0.0.0.0 area-zero.net
-#0.0.0.0 www.souwer.net
-#0.0.0.0 www.akibaoo.com
-#0.0.0.0 www.melonbooks.co.jp
-#0.0.0.0 d-stage.com
-#0.0.0.0 www.w-canvas.com
+0.0.0.0 fly-system.net
+0.0.0.0 area-zero.net
+0.0.0.0 www.souwer.net
+0.0.0.0 www.akibaoo.com
+0.0.0.0 www.melonbooks.co.jp
+0.0.0.0 d-stage.com
+0.0.0.0 www.w-canvas.com
 
 # Momodora: Reverie Under the Moonlight
 # s. Steam: General Directory Server
@@ -1704,7 +1704,7 @@
 # s. Steam: General Directory Server
 
 # One Way Heroics
-#0.0.0.0 silsec.sakura.ne.jp
+0.0.0.0 silsec.sakura.ne.jp
 
 # AGM Playism & Vaka Game Magazine
 # Touhou Luna Nights
@@ -1777,7 +1777,7 @@
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-#0.0.0.0 api2.bod.aldagames.com
+0.0.0.0 api2.bod.aldagames.com
 0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com
 
 # Killing Room
@@ -1943,7 +1943,7 @@
 
 # Apogee Software
 # Rise of the Triad 2013
-#0.0.0.0 dl.dropbox.com
+0.0.0.0 dl.dropbox.com
 0.0.0.0 dl.dropboxusercontent.com
 
 # Arc System Works Co.,Ltd.
@@ -2072,7 +2072,7 @@
 0.0.0.0 gameguide3.aspyr.com
 0.0.0.0 eauth.aspyr.com
 0.0.0.0 gg3-assets-stage.aspyr.com
-#0.0.0.0 hello.myfonts.net
+0.0.0.0 hello.myfonts.net
 0.0.0.0 support.aspyr.com
 
 # Lightmatter
@@ -2088,7 +2088,7 @@
 # 35.241.52.229
 # 2a00:1450:4013:c07::65
 0.0.0.0 gameguide3.aspyr.com
-#0.0.0.0 s3-us-west-2.amazonaws.com
+0.0.0.0 s3-us-west-2.amazonaws.com
 0.0.0.0 production-prolog.s3.amazonaws.com
 0.0.0.0 hello.myfonts.net
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -2124,8 +2124,8 @@
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com
 0.0.0.0 vss-ns-us.eastus.cloudapp.azure.com
-#0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com # 54.213.68.146, 34.216.190.239, 52.43.12.129
-#0.0.0.0 bc60.playfabapi.com # Analytics mit Onlinezwang - Zum Spielen benötigt
+0.0.0.0 master-mainserver-1943019976.us-west-2.elb.amazonaws.com # 54.213.68.146, 34.216.190.239, 52.43.12.129
+0.0.0.0 bc60.playfabapi.com # Analytics mit Onlinezwang - Zum Spielen benötigt
 
 # Assemble Entertainment
 # Leisure Suit Larry - Wet Dreams Don't Dry
@@ -2166,7 +2166,7 @@
 
 # Auroch Digital
 # Chainsaw Warrior: Lords of the Night
-#0.0.0.0 static.squarespace.com # Static und Static1 dienen auf einigen Seiten als CSS Ablage
+0.0.0.0 static.squarespace.com # Static und Static1 dienen auf einigen Seiten als CSS Ablage
 0.0.0.0 www.darkfuture.info
 0.0.0.0 darkfutureblog.disqus.com
 0.0.0.0 aurochdigital.us7.list-manage2.com
@@ -2188,8 +2188,8 @@
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 # Mehrspielerfunktion bei Bedarf abschalten
 # 13.95.138.92
-#0.0.0.0 b451.playfabapi.com # Automatische Kontenverknüfpung
-#0.0.0.0 game.ashofgods.com
+0.0.0.0 b451.playfabapi.com # Automatische Kontenverknüfpung
+0.0.0.0 game.ashofgods.com
 
 # AutoAttack Games
 # Legion TD 2
@@ -2197,7 +2197,7 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 stats.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-#0.0.0.0 9092.playfabapi.com # Leaderboard, Cloudscript, Währung, Sprache, gebannt ja/nein, letzter Login, Herkunft z.b. Steam, SteamID, Nutzername, Displayname ingame, Geodaten Längen & Breitengrade
+0.0.0.0 9092.playfabapi.com # Leaderboard, Cloudscript, Währung, Sprache, gebannt ja/nein, letzter Login, Herkunft z.b. Steam, SteamID, Nutzername, Displayname ingame, Geodaten Längen & Breitengrade
 
 # Automaton
 # Deceit
@@ -2210,7 +2210,7 @@
 
 # Autotelic Games LLC
 # Castle Clicker : Building Tycoon
-#0.0.0.0 s3.amazonaws.com # Infos zu Erfolgen, als auch Angaben zwischen Werbepausen? Scheinen Androidrückstände zu sein...
+0.0.0.0 s3.amazonaws.com # Infos zu Erfolgen, als auch Angaben zwischen Werbepausen? Scheinen Androidrückstände zu sein...
 0.0.0.0 flox.cc # Tokenübergabe und andere kodierte Angaben für... ?
 0.0.0.0 airdownload2.adobe.com # Tracker für Betriebssystem/Architektur, Spracheinstellungen
 
@@ -2220,7 +2220,7 @@
 # Ip/s blockieren:
 # 104.16.1.61
 # 37.120.154.235
-#0.0.0.0 genzero-social.avalanchestudios.com # Wie der Name schon sagt, "soziale" Onlinekomponente, bei Bedarf de/aktivieren
+0.0.0.0 genzero-social.avalanchestudios.com # Wie der Name schon sagt, "soziale" Onlinekomponente, bei Bedarf de/aktivieren
 0.0.0.0 tracking2.avalanchestudios.com
 
 # The Hunter: Primal
@@ -2240,7 +2240,7 @@
 # Raft
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-#0.0.0.0 analytics.cloud.unity3d.com
+0.0.0.0 analytics.cloud.unity3d.com
 
 # Back to basics Gaming
 # Ampersand
@@ -2255,10 +2255,10 @@
 # Germ Wars
 # s. Steam: General Directory Server
 0.0.0.0 www.backtobasicsgaming.com
-#0.0.0.0 static.parastorage.com # Javascripts z.b. auch bei Deviantart benutzt
+0.0.0.0 static.parastorage.com # Javascripts z.b. auch bei Deviantart benutzt
 0.0.0.0 frog.wix.com
 0.0.0.0 sslstatic.wix.com
-#0.0.0.0 static.wixstatic.com # Headergrafiken u.A. auch bei Daedalic Entertainment
+0.0.0.0 static.wixstatic.com # Headergrafiken u.A. auch bei Daedalic Entertainment
 0.0.0.0 www.powr.io
 
 # Badim
@@ -2314,7 +2314,7 @@
 # s. Easy Anti-Cheat
 # 34.250.82.77
 0.0.0.0 geenapptrack.com
-#0.0.0.0 bc-qk.channel.or.jp # Fanarts, Mehrspieler, Werbung
+0.0.0.0 bc-qk.channel.or.jp # Fanarts, Mehrspieler, Werbung
 
 # CODE VEIN
 # s. Rubrik Kopierschutz / AntiCheat
@@ -2324,10 +2324,10 @@
 
 # Für Multiplayer der DarkSouls Spiele die FromSoftware Adressen de/aktivieren
 # DARK SOULS™: REMASTERED
-#0.0.0.0 fhd-steam-prod.fromsoftware-game.net
+0.0.0.0 fhd-steam-prod.fromsoftware-game.net
 
 # Dark Souls II
-#0.0.0.0 frpg2-steam64-ope-login.fromsoftware-game.net
+0.0.0.0 frpg2-steam64-ope-login.fromsoftware-game.net
 # 54.149.135.90
 
 # Dark Souls III
@@ -2353,7 +2353,7 @@
 0.0.0.0 ams15s22-in-f163.1e100.net
 
 # Dragon Ball Xenoverse II
-#0.0.0.0 steam.dbxv.jp
+0.0.0.0 steam.dbxv.jp
 
 # JUMP FORCE
 # s. Easy Anti-Cheat
@@ -2391,7 +2391,7 @@
 # 35.197.46.144
 # 104.198.11.253
 # 104.198.104.48
-#0.0.0.0 steam.ntbss.channel.or.jp # Loginserver, Eventliste, Spielversion, Playrecords, Lobby, Rewards
+0.0.0.0 steam.ntbss.channel.or.jp # Loginserver, Eventliste, Spielversion, Playrecords, Lobby, Rewards
 
 # New Gundam Breaker
 # s. Rubrik Kopierschutz / AntiCheat
@@ -2462,7 +2462,7 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # 50.87.248.11
-#0.0.0.0 basedontheplay.com # Ingamenews
+0.0.0.0 basedontheplay.com # Ingamenews
 
 # Battenberg Software
 # On a Roll 3D
@@ -2504,7 +2504,7 @@
 # 13.224.194.22
 # 143.204.97.25
 0.0.0.0 gamelogs.live.bhvrdbd.com
-#0.0.0.0 steam.live.bhvrdbd.com
+0.0.0.0 steam.live.bhvrdbd.com
 0.0.0.0 rtm.live.dbd.bhvronline.com
 # Server
 # 52.95.195.92
@@ -2514,14 +2514,14 @@
 # 52.95.88.202
 # 52.119.184.60
 # 52.94.56.186
-#0.0.0.0 gamelift.us-east-1.amazonaws.com
-#0.0.0.0 gamelift.ap-northeast-2.amazonaws.com
-#0.0.0.0 gamelift.ap-northeast-1.amazonaws.com
-#0.0.0.0 gamelift.ap-southeast-2.amazonaws.com
-#0.0.0.0 gamelift.eu-central-1.amazonaws.com
-#0.0.0.0 gamelift.ap-south-1.amazonaws.com
-#0.0.0.0 gamelift.ap-southeast-1.amazonaws.com
-#0.0.0.0 gamelift.eu-west-2.amazonaws.com
+0.0.0.0 gamelift.us-east-1.amazonaws.com
+0.0.0.0 gamelift.ap-northeast-2.amazonaws.com
+0.0.0.0 gamelift.ap-northeast-1.amazonaws.com
+0.0.0.0 gamelift.ap-southeast-2.amazonaws.com
+0.0.0.0 gamelift.eu-central-1.amazonaws.com
+0.0.0.0 gamelift.ap-south-1.amazonaws.com
+0.0.0.0 gamelift.ap-southeast-1.amazonaws.com
+0.0.0.0 gamelift.eu-west-2.amazonaws.com
 # Weitere kontaktierte IPv4 Adressen / Easy Anti-Cheat
 # 52.211.61.165
 # 54.171.232.32
@@ -2533,7 +2533,7 @@
 # Serveranbindung und News
 # 99.84.216.6
 # 99.84.254.92
-#0.0.0.0 latest.live.dbd.bhvronline.com # Serververbindung, Banstatus, Inventar, Shop etc
+0.0.0.0 latest.live.dbd.bhvronline.com # Serververbindung, Banstatus, Inventar, Shop etc
 
 # Beijing New Era Network Technology Co., Ltd.
 # 红石遗迹 - Red Obsidian Remnant
@@ -2551,18 +2551,18 @@
 # 13.32.217.163
 # 52.84.92.240
 # 52.222.156.41
-#0.0.0.0 services.bethesda.net # Wird für Mehrspieler benötigt, zudem integrierter Datensammler
-#0.0.0.0 dprgzy9nea5ev.cloudfront.net # 143.204.178.215, 52.222.149.18
-#0.0.0.0 prod-iadstm01-gateway1-cf.zionprod.systems
-#0.0.0.0 prod-sydstm01-gateway2-cf.zionprod.systems
-#0.0.0.0 us-east-1-prod-iadstm01-httpping.zionprod.systems
-#0.0.0.0 us-west-2-prod-pdxstm01-httpping.zionprod.systems
-#0.0.0.0 ap-southeast-2-prod-sydstm01-httpping.zionprod.systems
-#0.0.0.0 fra-stm.zionprod.systems
-#0.0.0.0 fra-ping-stm.doom.amok.systems # 159.100.230.47
-#0.0.0.0 dfw-stm.zionprod.systems
-#0.0.0.0 dfw-ping-stm.doom.amok.systems # 198.20.198.47
-#0.0.0.0 ddfw-ping-stm.doom.amok.systems # 198.20.198.47
+0.0.0.0 services.bethesda.net # Wird für Mehrspieler benötigt, zudem integrierter Datensammler
+0.0.0.0 dprgzy9nea5ev.cloudfront.net # 143.204.178.215, 52.222.149.18
+0.0.0.0 prod-iadstm01-gateway1-cf.zionprod.systems
+0.0.0.0 prod-sydstm01-gateway2-cf.zionprod.systems
+0.0.0.0 us-east-1-prod-iadstm01-httpping.zionprod.systems
+0.0.0.0 us-west-2-prod-pdxstm01-httpping.zionprod.systems
+0.0.0.0 ap-southeast-2-prod-sydstm01-httpping.zionprod.systems
+0.0.0.0 fra-stm.zionprod.systems
+0.0.0.0 fra-ping-stm.doom.amok.systems # 159.100.230.47
+0.0.0.0 dfw-stm.zionprod.systems
+0.0.0.0 dfw-ping-stm.doom.amok.systems # 198.20.198.47
+0.0.0.0 ddfw-ping-stm.doom.amok.systems # 198.20.198.47
 # 13.55.230.143
 # 104.16.123.46
 # 104.16.124.46
@@ -2597,32 +2597,32 @@
 # 52.49.218.253
 # Zum Abschalten der Onlinefunktionen & Anmeldung die Raute entfernen - Review beachten
 0.0.0.0 e6125.playfabapi.com # Playfab Analytics und Onlinezwang
-#0.0.0.0 api.bethesda.net # Telemetrie, Anmeldung
+0.0.0.0 api.bethesda.net # Telemetrie, Anmeldung
 0.0.0.0 runtime-config.platform.ghost.idtech.services
 0.0.0.0 boosters.e6125.platform.ghost.idtech.services
 0.0.0.0 static.platform.ghost.idtech.services
 # Onlineserver
-#0.0.0.0 pfmsqosprod.westus.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.southcentralus.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.centralus.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.northcentralus.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.eastus.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.eastus2.cloudapp.azure.com
-#0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net
-#0.0.0.0 pfmsqosprod.northeurope.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.southeastasia.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.eastasia.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.japanwest.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.japaneast.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.australiasoutheast.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.westus.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.southcentralus.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.centralus.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.northcentralus.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.eastus.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.eastus2.cloudapp.azure.com
+0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net
+0.0.0.0 pfmsqosprod.northeurope.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.southeastasia.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.eastasia.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.japanwest.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.japaneast.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.australiasoutheast.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com
 
 # Fallout IV & Skyrim: Special Edition
 # mods.* wird für bethesda.net Accountanmeldung benötigt
-#0.0.0.0 mods.bethesda.net
-#0.0.0.0 mods.services.bethesda.net
-#0.0.0.0 services.bethesda.net # Bethesda Collector
+0.0.0.0 mods.bethesda.net
+0.0.0.0 mods.services.bethesda.net
+0.0.0.0 services.bethesda.net # Bethesda Collector
 
 # FalloutVR
 # 13.32.42.72
@@ -2633,7 +2633,7 @@
 # 13.224.191.216
 # 54.230.186.237
 # 99.86.159.216
-#0.0.0.0 services.bethesda.net # Bethesda Collector
+0.0.0.0 services.bethesda.net # Bethesda Collector
 
 # Fallout 76
 # 74.201.103.214
@@ -2646,24 +2646,24 @@
 # 34.200.140.229
 # 13.33.18.242
 0.0.0.0 prod-notification-websocket.bethesda.net
-#0.0.0.0 api.bethesda.net
-#0.0.0.0 titlestorage.bethesda.net # Konfigurationsdateien
+0.0.0.0 api.bethesda.net
+0.0.0.0 titlestorage.bethesda.net # Konfigurationsdateien
 0.0.0.0 crgateway.p76prod.systems # CrashReporter.exe - Automatischer Crashlogupload
-#0.0.0.0 assets.ctfassets.net
+0.0.0.0 assets.ctfassets.net
 # Spielserver
-#0.0.0.0 us-east-2-prod-prodpc01-glb-bps-loginqueue.p76prod.systems
-#0.0.0.0 us-east-2-prod-prodpc01-glb-bps-gateway.p76prod.systems
-#0.0.0.0 us-east-2-prod-prodpc01-glb-bps-bigateway.p76prod.systems
-#0.0.0.0 us-east-2-prod-prodpc01-glb-bps-pushy.p76prod.systems
-#0.0.0.0 us-east-1-prod-prodpc01-reg-bps-gatewayreg.p76prod.systems
-#0.0.0.0 eu-central-1-prod-prodpc01-reg-httpping.p76prod.systems
-#0.0.0.0 eu-west-1-prod-prodpc01-reg-httpping.p76prod.systems
-#0.0.0.0 ap-southeast-2-prod-prodpc01-reg-httpping.p76prod.systems
-#0.0.0.0 ap-southeast-2-prod-prodpc01-reg-bps-gatewayreg.p76prod.systems
-#0.0.0.0 eu-central-1-prod-prodpc01-reg-bps-gatewayreg.p76prod.systems
-#0.0.0.0 eu-west-1-prod-prodpc01-reg-bps-gatewayreg.p76prod.systems
-#0.0.0.0 us-east-1-prod-prodpc01-reg-httpping.p76prod.systems
-#0.0.0.0 us-east-1-prod-prodpc01-reg-bps-gatewayreg.p76prod.systems
+0.0.0.0 us-east-2-prod-prodpc01-glb-bps-loginqueue.p76prod.systems
+0.0.0.0 us-east-2-prod-prodpc01-glb-bps-gateway.p76prod.systems
+0.0.0.0 us-east-2-prod-prodpc01-glb-bps-bigateway.p76prod.systems
+0.0.0.0 us-east-2-prod-prodpc01-glb-bps-pushy.p76prod.systems
+0.0.0.0 us-east-1-prod-prodpc01-reg-bps-gatewayreg.p76prod.systems
+0.0.0.0 eu-central-1-prod-prodpc01-reg-httpping.p76prod.systems
+0.0.0.0 eu-west-1-prod-prodpc01-reg-httpping.p76prod.systems
+0.0.0.0 ap-southeast-2-prod-prodpc01-reg-httpping.p76prod.systems
+0.0.0.0 ap-southeast-2-prod-prodpc01-reg-bps-gatewayreg.p76prod.systems
+0.0.0.0 eu-central-1-prod-prodpc01-reg-bps-gatewayreg.p76prod.systems
+0.0.0.0 eu-west-1-prod-prodpc01-reg-bps-gatewayreg.p76prod.systems
+0.0.0.0 us-east-1-prod-prodpc01-reg-httpping.p76prod.systems
+0.0.0.0 us-east-1-prod-prodpc01-reg-bps-gatewayreg.p76prod.systems
 # Voicechat-System | Bei Bedarf de/aktivieren
 # 64.207.141.79
 0.0.0.0 fowp.www.vivox.com
@@ -2685,18 +2685,18 @@
 # 13.224.196.31
 # 54.192.151.105
 # 54.192.151.14
-#0.0.0.0 api.bethesda.net # Siehe Review
+0.0.0.0 api.bethesda.net # Siehe Review
 
 # Quake Champions
-#0.0.0.0 services.bethesda.net # Bethesda Collector
-#0.0.0.0 obt-shared-eds.qcapi.net
-#0.0.0.0 bethesda.net
-#0.0.0.0 obtpublicstorage.azureedge.net
-#0.0.0.0 obt2-us-auth.qcapi.net
-#0.0.0.0 obt2-us-uh.qcapi.net
-#0.0.0.0 obt2-us-user.qcapi.net
-#0.0.0.0 obt2-us-presence.qcapi.net
-#0.0.0.0 obt2-us-abstract.qcapi.net
+0.0.0.0 services.bethesda.net # Bethesda Collector
+0.0.0.0 obt-shared-eds.qcapi.net
+0.0.0.0 bethesda.net
+0.0.0.0 obtpublicstorage.azureedge.net
+0.0.0.0 obt2-us-auth.qcapi.net
+0.0.0.0 obt2-us-uh.qcapi.net
+0.0.0.0 obt2-us-user.qcapi.net
+0.0.0.0 obt2-us-presence.qcapi.net
+0.0.0.0 obt2-us-abstract.qcapi.net
 0.0.0.0 obt2-us-diagnostic-worker.qcapi.net
 
 # Rage
@@ -2706,23 +2706,23 @@
 # 13.350.253.49
 # 52.25.222.169
 # 165.231.161.13
-#0.0.0.0 api.bethesda.net
-#0.0.0.0 social.rage2.future-tec.systems
-#0.0.0.0 titlestorage.bethesda.net
-#0.0.0.0 bethesda.net
-#0.0.0.0 images.ctfassets.net
+0.0.0.0 api.bethesda.net
+0.0.0.0 social.rage2.future-tec.systems
+0.0.0.0 titlestorage.bethesda.net
+0.0.0.0 bethesda.net
+0.0.0.0 images.ctfassets.net
 
 # The Elder Scrolls V: Skyrim VR
 # 13.32.42.72
 # 13.33.246.156
 # https://services.bethesda.net/log/v3/collect_logdata?signature_hash=xxxx
 # Der Dienst ist ebenfalls in Bethesdaprodukten mit erzwungenem Modworkshop zu finden
-#0.0.0.0 services.bethesda.net # Erfasst Zeitstempel mitsamt SpielsessionID, Accountyp, UUID, ProduktID, Produktversion, IP, genutzte Plattform z.b. Steam
+0.0.0.0 services.bethesda.net # Erfasst Zeitstempel mitsamt SpielsessionID, Accountyp, UUID, ProduktID, Produktversion, IP, genutzte Plattform z.b. Steam
 
 # The Evil Within 2
 # 143.204.101.84
 # 35.241.26.53
-#0.0.0.0 api.bethesda.net # Bethesda.net
+0.0.0.0 api.bethesda.net # Bethesda.net
 
 # Wolfenstein: Youngblood
 # 13.32.123.213
@@ -2736,9 +2736,9 @@
 # 34.200.42.162
 # s. Rubrik Kopierschutz / AntiCheat
 # Für Einzelspieler und Privatsphäre alles blockieren
-#0.0.0.0 api.bethesda.net
-#0.0.0.0 titlestorage.bethesda.net
-#0.0.0.0 bethesda.net
+0.0.0.0 api.bethesda.net
+0.0.0.0 titlestorage.bethesda.net
+0.0.0.0 bethesda.net
 0.0.0.0 prod-webso-l5ml87r2zmdi-481780765.us-east-1.elb.amazonaws.com
 
 # Biart Company LLC
@@ -2827,9 +2827,9 @@
 # 92.38.183.13
 # 146.185.221.6
 # 92.38.154.56
-#0.0.0.0 ns.exitgames.com
-#0.0.0.0 gcash013.exitgames.com
-#0.0.0.0 vss-ns2019-eu.westeurope.cloudapp.azure.com
+0.0.0.0 ns.exitgames.com
+0.0.0.0 gcash013.exitgames.com
+0.0.0.0 vss-ns2019-eu.westeurope.cloudapp.azure.com
 
 # BJGAMEIND
 # Neoballs
@@ -2878,8 +2878,8 @@
 # 104.239.145.241
 # 2001:4800:7818:104:be76:4eff:fe04:6c7c
 # 104.22.42.233
-#0.0.0.0 live.tos.blankmediagames.com
-#0.0.0.0 www.blankmediagames.com
+0.0.0.0 live.tos.blankmediagames.com
+0.0.0.0 www.blankmediagames.com
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
@@ -2911,7 +2911,7 @@
 # 69.28.151.178
 # 69.28.153.82
 # 207.173.177.11
-#0.0.0.0 vl31.fr3.ord.llnw.net
+0.0.0.0 vl31.fr3.ord.llnw.net
 
 # Blaiz Entertainment
 # Fluffy
@@ -2924,10 +2924,10 @@
 # 178.79.244.138
 # 37.244.28.104
 # Zusätzliche alle Launcher Verbindungen
-#0.0.0.0 eu.actual.battle.net
+0.0.0.0 eu.actual.battle.net
 0.0.0.0 nydus.battle.net
-#0.0.0.0 eu.launcher.battle.net
-#0.0.0.0 EU.depot.battle.net
+0.0.0.0 eu.launcher.battle.net
+0.0.0.0 EU.depot.battle.net
 
 # Overwatch
 # 37.244.28.103
@@ -2937,17 +2937,17 @@
 # 37.244.21.52
 # 185.60.115.232
 # Zusätzliche alle Launcher Verbindungen
-#0.0.0.0 eu.actual.battle.net
-#0.0.0.0 eu.battle.net
-#0.0.0.0 us-stun.voice.battle.net
-#0.0.0.0 eu-bnp.voice.battle.net
+0.0.0.0 eu.actual.battle.net
+0.0.0.0 eu.battle.net
+0.0.0.0 us-stun.voice.battle.net
+0.0.0.0 eu-bnp.voice.battle.net
 0.0.0.0 internalcheck.corp.blizzard.net
 
 # Bluehole, Inc.
 # Player Unknown's Battleground
-#0.0.0.0 prod-live-front.playbattlegrounds.com
-#0.0.0.0 front.battlegroundsgame.com
-#0.0.0.0 j9t5h48n24.execute-api.us-west-2.amazonaws.com
+0.0.0.0 prod-live-front.playbattlegrounds.com
+0.0.0.0 front.battlegroundsgame.com
+0.0.0.0 j9t5h48n24.execute-api.us-west-2.amazonaws.com
 
 # Blue Isle Studios
 # Citadel: Forged with Fire
@@ -2981,11 +2981,11 @@
 # 217.147.95.136
 # 213.192.54.136
 # 213.192.54.136
-#0.0.0.0 dev.arma3.com
-#0.0.0.0 www.bohemia.net
-#0.0.0.0 www.bistudio.com
-#0.0.0.0 data.bistudio.com
-#0.0.0.0 account.bistudio.com
+0.0.0.0 dev.arma3.com
+0.0.0.0 www.bohemia.net
+0.0.0.0 www.bistudio.com
+0.0.0.0 data.bistudio.com
+0.0.0.0 account.bistudio.com
 # Weitere Ips werden im Launcher kontaktiert
 # Ip/s blockieren:
 # 31.214.160.226
@@ -2993,8 +2993,8 @@
 # 37.10.124.242
 # s. Steam: General Directory Server
 # 145.239.8.133
-#0.0.0.0 arma31.battleye.com
-#0.0.0.0 ns3081506.ip-145-239-8.eu
+0.0.0.0 arma31.battleye.com
+0.0.0.0 ns3081506.ip-145-239-8.eu
 
 # Arma Tactics
 0.0.0.0 collect5588rmtct.deltadna.net
@@ -3049,7 +3049,7 @@
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 assets2.unity3d.com
 # 185.136.234.3
-#0.0.0.0 server-test.fromthedepthsgame.com
+0.0.0.0 server-test.fromthedepthsgame.com
 
 # BRHP
 # Stop Online - Battle of Words
@@ -3060,8 +3060,8 @@
 # GoG ist für Crossplay?
 0.0.0.0 wftogame.com
 0.0.0.0 stats.unity3d.com # sendet eindeutige ID, Windowsversion inklusiv x64/x32 build, Sprache, Spielid
-#0.0.0.0 users.gog.com
-#0.0.0.0 auth.gog.com
+0.0.0.0 users.gog.com
+0.0.0.0 auth.gog.com
 
 # Bryan Tabor
 # Bird Game
@@ -3110,9 +3110,9 @@
 # Crashlands
 # s. Steam: General Directory Server
 0.0.0.0 id.bscotch.net
-#0.0.0.0 bit.ly
+0.0.0.0 bit.ly
 0.0.0.0 www.crashlands.net
-#0.0.0.0 s4.bcbits.com # Ablage CSS Formatierung einiger Seiten
+0.0.0.0 s4.bcbits.com # Ablage CSS Formatierung einiger Seiten
 
 # cada
 # Bootombaa
@@ -3135,7 +3135,7 @@
 # Resident Evil: Operation Raccoon City
 # 104.83.120.32
 # 80.239.237.18
-#0.0.0.0 download.gfwl.xboxlive.com
+0.0.0.0 download.gfwl.xboxlive.com
 # s. Steam: General Directory Server
 
 # バイオハザード RE:2 | RESIDENT EVIL 2 / BIOHAZARD RE:2
@@ -3181,7 +3181,7 @@
 # Optional mit Twitchanbindung
 0.0.0.0 irc.chat.twitch.tv # Chat
 0.0.0.0 twitchapps.com # OAuth
-#0.0.0.0 infernium.wikia.com # Wikia
+0.0.0.0 infernium.wikia.com # Wikia
 
 # Cats Who Play
 # The Cat! Porfirio's Adventure
@@ -3210,28 +3210,28 @@
 
 # The Witcher Adventure Game
 # GoG Adressen können bei Bedarf abgeschaltet werden
-#0.0.0.0 auth.gog.com
-#0.0.0.0 users.gog.com
+0.0.0.0 auth.gog.com
+0.0.0.0 users.gog.com
 0.0.0.0 presence.gog.com
-#0.0.0.0 multiplayer.gog.com
+0.0.0.0 multiplayer.gog.com
 # s. Steam: General Directory Server
-#0.0.0.0 cdprojektred.com
-#0.0.0.0 static.cdprojektred.com
-#0.0.0.0 www.canexplode.com
-#0.0.0.0 thewitcher.com
-#0.0.0.0 buy.thewitcher.com
+0.0.0.0 cdprojektred.com
+0.0.0.0 static.cdprojektred.com
+0.0.0.0 www.canexplode.com
+0.0.0.0 thewitcher.com
+0.0.0.0 buy.thewitcher.com
 0.0.0.0 rs.gwallet.com
 
 # Thronebreaker: The Witcher Tales
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-#0.0.0.0 gwent-achievements.gog.com
+0.0.0.0 gwent-achievements.gog.com
 0.0.0.0 collect14010thrnb.deltadna.net
 0.0.0.0 presence.gog.com
 0.0.0.0 notifications-pusher.gog.com
-#0.0.0.0 remote-config.gog.com # Für GoG Galaxy-Client 2.0 benötigt
-#0.0.0.0 auth.gog.com
-#0.0.0.0 users.gog.com
+0.0.0.0 remote-config.gog.com # Für GoG Galaxy-Client 2.0 benötigt
+0.0.0.0 auth.gog.com
+0.0.0.0 users.gog.com
 
 # Charles University und Czech Academy of Sciences
 # Attentat 1942
@@ -3241,11 +3241,11 @@
 # Take Thy Throne
 0.0.0.0 charyb.com # Ingamenews
 # s. Steam: General Directory Server
-#0.0.0.0 api.steampowered.com # Stats
+0.0.0.0 api.steampowered.com # Stats
 0.0.0.0 widgets.gamejolt.com
 0.0.0.0 indiegamestand.com
 0.0.0.0 www.charyb.com
-#0.0.0.0 www.youtube.com
+0.0.0.0 www.youtube.com
 
 # Chasing Carrots
 # Pressure Overdrive
@@ -3274,7 +3274,7 @@
 
 # Choice Provisions
 # Tharsis
-#0.0.0.0 totallychoice.com # einfacher CSV Newsfeed
+0.0.0.0 totallychoice.com # einfacher CSV Newsfeed
 
 # Chronobit Studios
 # Lunaform
@@ -3284,9 +3284,9 @@
 # Chucklefish
 # Stardew Valley
 0.0.0.0 blog.chucklefish.org
-#0.0.0.0 s.ytimg.com # Youtube
+0.0.0.0 s.ytimg.com # Youtube
 0.0.0.0 www.stardewvalley.net
-#0.0.0.0 www.humblebundle.com
+0.0.0.0 www.humblebundle.com
 0.0.0.0 www.playstarbound.com
 0.0.0.0 starbound.disqus.com
 
@@ -3315,7 +3315,7 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 stats.unity3d.com
-#0.0.0.0 ns.exitgames.com
+0.0.0.0 ns.exitgames.com
 0.0.0.0 cleversan.com
 
 # Claudio Norori und Antonio Vargas
@@ -3343,13 +3343,13 @@
 # Cloudcade, Inc.
 # Shop Heroes
 0.0.0.0 status-sh.cloudcade.com
-#0.0.0.0 shopheroes-1.cloudcade.com
+0.0.0.0 shopheroes-1.cloudcade.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 forum.shopheroesgame.com
 
 # CoaguCo Industries
 # The Dope Game
-#0.0.0.0 coaguco.com # Stats
+0.0.0.0 coaguco.com # Stats
 
 # Codemasters Software Company Limited
 # F1® 2019
@@ -3361,13 +3361,13 @@
 # 94.75.196.116
 # 94.75.196.235
 # s. Rubrik Kopierschutz / AntiCheat
-#0.0.0.0 prod.egonet.codemasters.com
-#0.0.0.0 f1s.codemasters.com
+0.0.0.0 prod.egonet.codemasters.com
+0.0.0.0 f1s.codemasters.com
 0.0.0.0 f1-stats.codemasters.com
 
 # Grid
 # 94.75.196.235
-#0.0.0.0 prod.egonet.codemasters.com
+0.0.0.0 prod.egonet.codemasters.com
 
 # Grid II
 # Onlinezwang | Bei Bedarf Egonet aktivieren
@@ -3382,9 +3382,9 @@
 # Codename Entertainment Inc.
 # Crusaders of The Lost Idols | Update 27.08.2018
 0.0.0.0 airdownload2.adobe.com # Betriebssystem, Sprache, x32/64
-#0.0.0.0 idlemaster.djartsgames.ca # Versionscheck, Steamuserauth, Steamname, NetzwerkID, NutzerID
-#0.0.0.0 idle.djartsgames.ca # Grafiken, SWF
-#0.0.0.0 idleps18.djartsgames.ca # UserID, Changelog, Zeitstempel, Plattform, NetzwerkID, News, Gold pro Sekunde, Truhenloot
+0.0.0.0 idlemaster.djartsgames.ca # Versionscheck, Steamuserauth, Steamname, NetzwerkID, NutzerID
+0.0.0.0 idle.djartsgames.ca # Grafiken, SWF
+0.0.0.0 idleps18.djartsgames.ca # UserID, Changelog, Zeitstempel, Plattform, NetzwerkID, News, Gold pro Sekunde, Truhenloot
 
 # Idle Champions of the Forgotten Realms
 # s. Steam: General Directory Server
@@ -3392,10 +3392,10 @@
 # 34.201.1.45
 # 54.90.89.93
 # 34.200.227.102
-#0.0.0.0 master.idlechampions.com # Serverliste
-#0.0.0.0 ps1.idlechampions.com # S1
-#0.0.0.0 ps2.idlechampions.com # S2
-#0.0.0.0 help.idlechampions.com
+0.0.0.0 master.idlechampions.com # Serverliste
+0.0.0.0 ps1.idlechampions.com # S1
+0.0.0.0 ps2.idlechampions.com # S2
+0.0.0.0 help.idlechampions.com
 
 # Code Horizon
 # Gold Rush: The Game
@@ -3417,7 +3417,7 @@
 # 172.217.25.110
 # 40.114.242.241
 0.0.0.0 api.stathat.com
-#0.0.0.0 services.ghostship.dk # Onlinemodus - Bei Bedarf löschen oder mit einer Raute deaktivieren
+0.0.0.0 services.ghostship.dk # Onlinemodus - Bei Bedarf löschen oder mit einer Raute deaktivieren
 
 # Satisfactory
 # Ip/s blockieren:
@@ -3535,15 +3535,15 @@
 
 # Cornered Rat Software
 # World War II Online
-#0.0.0.0 secure.wwiionline.com
+0.0.0.0 secure.wwiionline.com
 
 # Crackshell
 # Heroes of Hammerwatch
-#0.0.0.0 auth.gog.com
-#0.0.0.0 users.gog.com
+0.0.0.0 auth.gog.com
+0.0.0.0 users.gog.com
 0.0.0.0 notifications-pusher.gog.com
 0.0.0.0 notifications-pusher-server-4.gog.com
-#0.0.0.0 multiplayer.gog.com
+0.0.0.0 multiplayer.gog.com
 
 # Craneballs
 # Planet Nomads
@@ -3600,7 +3600,7 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com # Analytics
 0.0.0.0 quiet-escarpment-63845.herokuapp.com # Serverzeit, Bestenlisten, Counter für benutzte Waffen
-#0.0.0.0 irc.twitch.tv # Twitchanbindung sofern angegeben
+0.0.0.0 irc.twitch.tv # Twitchanbindung sofern angegeben
 
 # Crimson Duck Studios
 # Torch Cave I, II & Sleengster
@@ -3619,20 +3619,20 @@
 # hunt.exe
 # s. Easy Anti-Cheat
 # GameLauncher.exe
-#0.0.0.0 hup.www.vivox.com
-#0.0.0.0 capi1-lv-lw-wc.huntshowdown.com # bleibt während der Spielesession aktiv
-#0.0.0.0 proxy.hup.vivox.com
+0.0.0.0 hup.www.vivox.com
+0.0.0.0 capi1-lv-lw-wc.huntshowdown.com # bleibt während der Spielesession aktiv
+0.0.0.0 proxy.hup.vivox.com
 # 70.42.62.134
 # Externe Links aus dem Hauptmenü heraus
-#0.0.0.0 www.youtube.com # Videos
-#0.0.0.0 steamcommunity.com # Statistiken
+0.0.0.0 www.youtube.com # Videos
+0.0.0.0 steamcommunity.com # Statistiken
 
 # Crytivo
 # The Universim
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # Patchnotes über den Ingamelink im Web zu finden
-#0.0.0.0 theuniversim.com
+0.0.0.0 theuniversim.com
 
 # Curious Panda Games
 # Rhythm Destruction
@@ -3693,7 +3693,7 @@
 # Onigiri
 # 54.199.201.139
 # 52.198.49.195
-#0.0.0.0 ec2-52-198-49-195.ap-northeast-1.compute.amazonaws.com # Server Endpunkt
+0.0.0.0 ec2-52-198-49-195.ap-northeast-1.compute.amazonaws.com # Server Endpunkt
 
 # Cyber Rhino Studios
 # Gryphon Knight Epic
@@ -3715,7 +3715,7 @@
 
 # Barotrauma
 # 104.27.146.140
-#0.0.0.0 www.barotraumagame.com # Ingamenews
+0.0.0.0 www.barotraumagame.com # Ingamenews
 
 # Bounty Train
 # s. Steam: General Directory Server
@@ -3821,7 +3821,7 @@
 0.0.0.0 waws-prod-am2-027.cloudapp.net
 
 # Witch It
-#0.0.0.0 www.witchit.com # Versionscheck und Eventinfos
+0.0.0.0 www.witchit.com # Versionscheck und Eventinfos
 
 # Dagestan Technology
 # Ip/s blockieren:
@@ -3846,7 +3846,7 @@
 # Lucid Dream
 # 13.32.177.20
 # 13.32.177.155
-#0.0.0.0 o.ss2.us
+0.0.0.0 o.ss2.us
 # Ip/s blockieren:
 # 52.85.246.229
 0.0.0.0 dji22ijeurkhd.cloudfront.net
@@ -3926,7 +3926,7 @@
 0.0.0.0 telemetry.deeparc.net
 # Onlinefunktionen - Automatische Anmeldung, Nutzerprofil, Erfolge, Mehrspieler bei Bedarf de/aktivieren
 # 34.95.126.216
-#0.0.0.0 api.iron-harvest.com
+0.0.0.0 api.iron-harvest.com
 # Zeug
 # 207.154.210.110
 0.0.0.0 kamos.kingart-games.com
@@ -3940,9 +3940,9 @@
 # 54.80.105.1
 # 3.224.138.95
 # Wird zu Spielstart, Installation, Besitzanspruch benötigt
-#0.0.0.0 eulatracking-public-service-prod.ak.epicgames.com # kid, alg, app, sub, dvid, clid, exchange_code, iai, clsvc, iat, jti, exp u.a.
-#0.0.0.0 account-public-service-prod03.ol.epicgames.com
-#0.0.0.0 ecommerceintegration-public-service-ecomprod02.ol.epicgames.com
+0.0.0.0 eulatracking-public-service-prod.ak.epicgames.com # kid, alg, app, sub, dvid, clid, exchange_code, iai, clsvc, iat, jti, exp u.a.
+0.0.0.0 account-public-service-prod03.ol.epicgames.com
+0.0.0.0 ecommerceintegration-public-service-ecomprod02.ol.epicgames.com
 # Abschaltbar
 0.0.0.0 egp-idsoc-proxy-prod.ol.epicgames.com
 0.0.0.0 egp-idsoc-proxy-prod-2006500474.us-east-1.elb.amazonaws.com
@@ -3972,8 +3972,8 @@
 0.0.0.0 sr3.hydra.agoragames.com
 
 # Trainz: A new era
-#0.0.0.0 itrainz.auran.com
-#0.0.0.0 api.n3vgames.com
+0.0.0.0 itrainz.auran.com
+0.0.0.0 api.n3vgames.com
 0.0.0.0 www.auran.com # quasi Dauerverbindung
 0.0.0.0 images.n3vgames.com # Bilder der "featured" Auswahl
 0.0.0.0 dlcdownload.trainzportal.com # Ingame Asset Download
@@ -4055,19 +4055,19 @@
 # s. Steam: General Directory Server
 0.0.0.0 nat-detection.gog.com
 0.0.0.0 notifications-pusher-aws.gog.com
-#0.0.0.0 auth.gog.com
-#0.0.0.0 users.gog.com
-#0.0.0.0 multiplayer.gog.com
+0.0.0.0 auth.gog.com
+0.0.0.0 users.gog.com
+0.0.0.0 multiplayer.gog.com
 
 # Serious Sam Fusion 2017
 0.0.0.0 ingame.serioussam.com
 0.0.0.0 g83f81g8j8.execute-api.us-west-2.amazonaws.com
 
 # Shadow Warrior II
-#0.0.0.0 multiplayer.gog.com # MP Server
+0.0.0.0 multiplayer.gog.com # MP Server
 0.0.0.0 notifications-pusher.gog.com
-#0.0.0.0 users.gog.com
-#0.0.0.0 auth.gog.com
+0.0.0.0 users.gog.com
+0.0.0.0 auth.gog.com
 
 # Stories Untold
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -4176,14 +4176,14 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 dinopoloclub.com
-#0.0.0.0 api.dinopoloclub.com # Tägliche Aufgaben/Bestenlisten
+0.0.0.0 api.dinopoloclub.com # Tägliche Aufgaben/Bestenlisten
 
 # Disney Interactive
 # Disney Epic Mickey II
 # s. Steam: General Directory Server
 
 # Tron: Evolution
-#0.0.0.0 download.gfwl.xboxlive.com
+0.0.0.0 download.gfwl.xboxlive.com
 
 # DNZY Games
 # Zombie Wars: Invasion
@@ -4299,7 +4299,7 @@
 # Eastsidegamestudios | jetzt Double Coconut | Update 28.08.2018
 # High Profits
 0.0.0.0 mentor.eastsidegamestudio.com
-#0.0.0.0 5f03.playfabapi.com # Generische ID, PlayfabID, Statistiken, Währung, detaillierte Ingamestatistiken
+0.0.0.0 5f03.playfabapi.com # Generische ID, PlayfabID, Statistiken, Währung, detaillierte Ingamestatistiken
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -4329,47 +4329,47 @@
 
 # Electronic Arts
 # ActivationUI.exe
-#0.0.0.0 proxy.novafusion.ea.com
+0.0.0.0 proxy.novafusion.ea.com
 
 # Anthem
-#0.0.0.0 accounts.ea.com
-#0.0.0.0 anthemprod2app-03.ea.com
-#0.0.0.0 anthemprod2app-04.ea.com
-#0.0.0.0 anthemprod2app-05.ea.com
-#0.0.0.0 qoscoordinator.gameservices.ea.com
-#0.0.0.0 spring18.gosredirector.ea.com
-#0.0.0.0 proxy.novafusion.ea.com
-#0.0.0.0 use2-ant04-live01-auth-pub.biowareonline.net
-#0.0.0.0 use2-ant04-live01-bigs-unlock-pub.biowareonline.net
-#0.0.0.0 use2-ant04-live01-bigs-inventory-pub.biowareonline.net
-#0.0.0.0 use2-ant04-live01-bigs-activity-pub.biowareonline.net
-#0.0.0.0 use2-ant04-live01-bigs-character-pub.biowareonline.net
-#0.0.0.0 use2-ant04-live01-bigs-mtx-pub.biowareonline.net
-#0.0.0.0 use2-ant04-live01-bigs-playercard-pub.biowareonline.net
-#0.0.0.0 use2-ant04-live01-event-broadcast-pub.biowareonline.net
-#0.0.0.0 use2-ant04-live01-bigs-loadout-pub.biowareonline.net
-#0.0.0.0 use2-ant04-live01-bigs-localization-pub.biowareonline.net
-#0.0.0.0 use2-ant04-live01-bigs-gameconfig-pub.biowareonline.net
-#0.0.0.0 use2-ant04-live01-bigs-expedition-pub.biowareonline.net
+0.0.0.0 accounts.ea.com
+0.0.0.0 anthemprod2app-03.ea.com
+0.0.0.0 anthemprod2app-04.ea.com
+0.0.0.0 anthemprod2app-05.ea.com
+0.0.0.0 qoscoordinator.gameservices.ea.com
+0.0.0.0 spring18.gosredirector.ea.com
+0.0.0.0 proxy.novafusion.ea.com
+0.0.0.0 use2-ant04-live01-auth-pub.biowareonline.net
+0.0.0.0 use2-ant04-live01-bigs-unlock-pub.biowareonline.net
+0.0.0.0 use2-ant04-live01-bigs-inventory-pub.biowareonline.net
+0.0.0.0 use2-ant04-live01-bigs-activity-pub.biowareonline.net
+0.0.0.0 use2-ant04-live01-bigs-character-pub.biowareonline.net
+0.0.0.0 use2-ant04-live01-bigs-mtx-pub.biowareonline.net
+0.0.0.0 use2-ant04-live01-bigs-playercard-pub.biowareonline.net
+0.0.0.0 use2-ant04-live01-event-broadcast-pub.biowareonline.net
+0.0.0.0 use2-ant04-live01-bigs-loadout-pub.biowareonline.net
+0.0.0.0 use2-ant04-live01-bigs-localization-pub.biowareonline.net
+0.0.0.0 use2-ant04-live01-bigs-gameconfig-pub.biowareonline.net
+0.0.0.0 use2-ant04-live01-bigs-expedition-pub.biowareonline.net
 # Ip/s blockieren:
 # 54.144.219.36
 # 52.71.139.74
 0.0.0.0 bos-telem-ingest-app-prod.biowareonline.net
 
 # Crysis I
-#0.0.0.0 www.ea.com
-#0.0.0.0 proxy.novafusion.ea.com # Aktivierungsserver
+0.0.0.0 www.ea.com
+0.0.0.0 proxy.novafusion.ea.com # Aktivierungsserver
 
 # Crysis II
-#0.0.0.0 proxy.novafusion.ea.com # Aktivierungsserver
-#0.0.0.0 lb.crysis2.ea.com
+0.0.0.0 proxy.novafusion.ea.com # Aktivierungsserver
+0.0.0.0 lb.crysis2.ea.com
 
 # Dragon Age™: Origins
 # 159.153.64.139
 # 159.153.106.159
-#0.0.0.0 dragonage-pc.fesl.ea.com
+0.0.0.0 dragonage-pc.fesl.ea.com
 0.0.0.0 biostore.bioware.com
-#0.0.0.0 proxy.novafusion.ea.com
+0.0.0.0 proxy.novafusion.ea.com
 0.0.0.0 go.bioware.com
 
 # Dragon Age™ II
@@ -4377,61 +4377,61 @@
 # 159.153.235.32
 # 159.153.112.64
 # 159.153.64.175
-#0.0.0.0 eadpgs-blapp002.ea.com
-#0.0.0.0 gosredirector.ea.com
-#0.0.0.0 proxy.novafusion.ea.com
+0.0.0.0 eadpgs-blapp002.ea.com
+0.0.0.0 gosredirector.ea.com
+0.0.0.0 proxy.novafusion.ea.com
 
 # DragonAge: Inquisition
 # Online/Servercheck & zusätzlich alle Origin Client Verbindungen
 # Dauerverbindung Streamingstatistiken zu Youtube
-#0.0.0.0 gosprodfeapp0318.ea.com
-#0.0.0.0 spring14.gosredirector.ea.com
-#0.0.0.0 prd.orbit.bos.ea.com
-#0.0.0.0 qos-prod-bio-dub-common-common.gos.ea.com
-#0.0.0.0 qos-prod-m3d-nrt-common-common.gos.ea.com
-#0.0.0.0 qos-prod-m3d-brz-common-common.gos.ea.com
-#0.0.0.0 qos-prod-bio-syd-common-common.gos.ea.com
-#0.0.0.0 qos-prod-bio-sjc-common-common.gos.ea.com
-#0.0.0.0 qos-prod-bio-iad-common-common.gos.ea.com
-#0.0.0.0 emapi.prm.data.ea.com # Statistiken/Anmeldung z.b. auch in Battlefront
+0.0.0.0 gosprodfeapp0318.ea.com
+0.0.0.0 spring14.gosredirector.ea.com
+0.0.0.0 prd.orbit.bos.ea.com
+0.0.0.0 qos-prod-bio-dub-common-common.gos.ea.com
+0.0.0.0 qos-prod-m3d-nrt-common-common.gos.ea.com
+0.0.0.0 qos-prod-m3d-brz-common-common.gos.ea.com
+0.0.0.0 qos-prod-bio-syd-common-common.gos.ea.com
+0.0.0.0 qos-prod-bio-sjc-common-common.gos.ea.com
+0.0.0.0 qos-prod-bio-iad-common-common.gos.ea.com
+0.0.0.0 emapi.prm.data.ea.com # Statistiken/Anmeldung z.b. auch in Battlefront
 
 # Mass Effect: Andromeda
 # Zusätzlich alle Origin Client Verbindungen
-#0.0.0.0 winter15.gosredirector.ea.com
-#0.0.0.0 me4prodfeapp0002.ea.com
-#0.0.0.0 me4prodfeapp0014.ea.com
-#0.0.0.0 qos-prod-bio-dub-common-common.gos.ea.com
-#0.0.0.0 qos-prod-bio-sjc-common-common.gos.ea.com
-#0.0.0.0 qos-prod-bio-syd-common-common.gos.ea.com
-#0.0.0.0 mea-public.biowareonline.net # Multiplayer
-#0.0.0.0 qos-prod-m3d-brz-common-common.gos.ea.com
-#0.0.0.0 gosca.ea.com
+0.0.0.0 winter15.gosredirector.ea.com
+0.0.0.0 me4prodfeapp0002.ea.com
+0.0.0.0 me4prodfeapp0014.ea.com
+0.0.0.0 qos-prod-bio-dub-common-common.gos.ea.com
+0.0.0.0 qos-prod-bio-sjc-common-common.gos.ea.com
+0.0.0.0 qos-prod-bio-syd-common-common.gos.ea.com
+0.0.0.0 mea-public.biowareonline.net # Multiplayer
+0.0.0.0 qos-prod-m3d-brz-common-common.gos.ea.com
+0.0.0.0 gosca.ea.com
 
 # Medal of Honor: Airborne
 # 159.153.64.140
 # 23.51.123.27
 # 93.184.220.29
-#0.0.0.0 mohair-pc.fesl.ea.com
+0.0.0.0 mohair-pc.fesl.ea.com
 
 # Sims 4
 # Zusätzlich alle Origin Client Verbindungen
 # 159.153.74.8
 # 159.153.79.9
-#0.0.0.0 www.thesims.com
-#0.0.0.0 adsrv-sims4.ea.com
-#0.0.0.0 gosca.ea.com
+0.0.0.0 www.thesims.com
+0.0.0.0 adsrv-sims4.ea.com
+0.0.0.0 gosca.ea.com
 
 # StarWars™: Battlefront™
 # Zusätzlich alle Origin Client Verbindungen
-#0.0.0.0 proxy.novafusion.ea.com
-#0.0.0.0 emapi.prm.data.ea.com
-#0.0.0.0 716931-gosprapp1651.ea.com # Server
+0.0.0.0 proxy.novafusion.ea.com
+0.0.0.0 emapi.prm.data.ea.com
+0.0.0.0 716931-gosprapp1651.ea.com # Server
 0.0.0.0 swbf1-terminator.ops.dice.se
-#0.0.0.0 qos-prod-bio-dub-common-common.gos.ea.com
-#0.0.0.0 qos-prod-bio-sjc-common-common.gos.ea.com
-#0.0.0.0 qos-prod-m3d-nrt-common-common.gos.ea.com
-#0.0.0.0 qos-prod-m3d-brz-common-common.gos.ea.com
-#0.0.0.0 winter15.gosredirector.ea.com
+0.0.0.0 qos-prod-bio-dub-common-common.gos.ea.com
+0.0.0.0 qos-prod-bio-sjc-common-common.gos.ea.com
+0.0.0.0 qos-prod-m3d-nrt-common-common.gos.ea.com
+0.0.0.0 qos-prod-m3d-brz-common-common.gos.ea.com
+0.0.0.0 winter15.gosredirector.ea.com
 
 # STAR WARS Jedi: Fallen Order™
 # Einträge noch nicht vollständig
@@ -4443,13 +4443,13 @@
 # 159.153.112.63
 # 159.153.79.136
 # 159.153.64.175
-#0.0.0.0 proxy.novafusion.ea.com
+0.0.0.0 proxy.novafusion.ea.com
 0.0.0.0 eadpgsl0039.ea.com
-#0.0.0.0 gosredirector.ea.com
+0.0.0.0 gosredirector.ea.com
 0.0.0.0 gossjcprod-qos01.ea.com
 0.0.0.0 gosgvaprod-qos01.ea.com
 0.0.0.0 gosprod-qos01.bio-dub.ea.com
-#0.0.0.0 eadpgs-blapp001.ea.com
+0.0.0.0 eadpgs-blapp001.ea.com
 
 # Empty Clip Studios
 # Symphony
@@ -4470,12 +4470,12 @@
 # Miscreated
 # EasyAntiCheat Anbindung
 # Gameserver
-#0.0.0.0 hosted-by.i3d.net # Gameserver
+0.0.0.0 hosted-by.i3d.net # Gameserver
 
 # Epic Games
 # Unreal Tournament III: Black Edition
-#0.0.0.0 u3.epicgames.com
-#0.0.0.0 ut3pc.sake.gamespy.com
+0.0.0.0 u3.epicgames.com
+0.0.0.0 ut3pc.sake.gamespy.com
 0.0.0.0 ut3pc.auth.pubsvs.gamespy.com
 
 # Unreal Engine
@@ -4529,7 +4529,7 @@
 # Man O' War: Corsair - Warhammer Naval Battles
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-#0.0.0.0 data.manowarcorsair.com # Patchnotes.csv
+0.0.0.0 data.manowarcorsair.com # Patchnotes.csv
 
 # Victory At Sea
 # s. Steam: General Directory Server
@@ -4565,8 +4565,8 @@
 # Rhythm World - Master Project
 # 101.200.56.49
 # 220.194.87.190
-#0.0.0.0 exdstudio.net
-#0.0.0.0 www.exdstudio.net
+0.0.0.0 exdstudio.net
+0.0.0.0 www.exdstudio.net
 
 # Faber Interactive
 # Lethe - Episode One
@@ -4598,7 +4598,7 @@
 # 52.218.240.170
 # 52.218.225.91
 0.0.0.0 CMS-258328131.us-east-1.elb.amazonaws.com
-#0.0.0.0 s3-us-west-2.amazonaws.com
+0.0.0.0 s3-us-west-2.amazonaws.com
 0.0.0.0 s3-us-west-2-w.amazonaws.com
 0.0.0.0 sunlesssetup.storynexus.com
 0.0.0.0 data.sunlesssetup.storynexus.com.s3.amazonaws.com
@@ -4630,10 +4630,10 @@
 
 # Fatshark AB
 # Warhammer: End Times - Vermintide
-#0.0.0.0 auth-prod-ext.fatshark.deltamanagement.se
-#0.0.0.0 data-prod-ext.fatshark.deltamanagement.se
-#0.0.0.0 em-prod-ext.fatshark.deltamanagement.se
-#0.0.0.0 item-prod-ext.fatshark.deltamanagement.se
+0.0.0.0 auth-prod-ext.fatshark.deltamanagement.se
+0.0.0.0 data-prod-ext.fatshark.deltamanagement.se
+0.0.0.0 em-prod-ext.fatshark.deltamanagement.se
+0.0.0.0 item-prod-ext.fatshark.deltamanagement.se
 0.0.0.0 ftp.fatshark.se
 0.0.0.0 helpdesk.fatshark.se
 0.0.0.0 patch.fatsharkgames.com
@@ -4655,7 +4655,7 @@
 # 64.233.162.194
 0.0.0.0 sv.symcd.com # Zertifikat
 0.0.0.0 forms.gle
-#0.0.0.0 5107.playfabapi.com
+0.0.0.0 5107.playfabapi.com
 0.0.0.0 5fs-crashify.s3-accelerate.amazonaws.com # Crashlogs
 # s. Steam: General Directory Server
 
@@ -4682,12 +4682,12 @@
 
 # FireFly Studios
 # Stronghold Crusader II
-#0.0.0.0 login.strongholdkingdoms.com # Anmeldung
+0.0.0.0 login.strongholdkingdoms.com # Anmeldung
 
 # Space Colony
 # s. Steam: General Directory Server
 # 52.3.66.119
-#0.0.0.0 login.strongholdkingdoms.com # API & HTMLausgabe
+0.0.0.0 login.strongholdkingdoms.com # API & HTMLausgabe
 0.0.0.0 d1ztm8591kdhlc.cloudfront.net # Launchergrafiken
 0.0.0.0 dd3d3xat3pnw0.cloudfront.net # Launcher Lokalisierung
 
@@ -4774,8 +4774,8 @@
 0.0.0.0 crash.steampowered.com
 
 # Battlefleet Gothic: Armada
-#0.0.0.0 api.stormancer.com
-#0.0.0.0 bfg1.stormancer.com
+0.0.0.0 api.stormancer.com
+0.0.0.0 bfg1.stormancer.com
 0.0.0.0 bfg2.stormancer.com
 0.0.0.0 etsource.epicgames.com
 
@@ -4788,7 +4788,7 @@
 # 18.203.146.39
 0.0.0.0 bfg1.stormancer.com
 0.0.0.0 bfg2.stormancer.com
-#0.0.0.0 bfg3.stormancer.com # Bestenlisten
+0.0.0.0 bfg3.stormancer.com # Bestenlisten
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 0.0.0.0 cerberus-eu-lb-6707ab7fcc744d90.elb.eu-west-1.amazonaws.com
 0.0.0.0 datarouter.ol.epicgames.com
@@ -4818,7 +4818,7 @@
 # 104.73.230.192
 # 216.58.205.228
 0.0.0.0 checkip.dyndns.org
-#0.0.0.0 api.steampowered.com # GetNumberOfCurrentPlayers
+0.0.0.0 api.steampowered.com # GetNumberOfCurrentPlayers
 0.0.0.0 assets2.unity3d.com
 
 # Farming Simulator 19
@@ -4835,15 +4835,15 @@
 # s. Steam: General Directory Server
 0.0.0.0 www.farming-simulator.com
 0.0.0.0 media.farming-simulator.com
-#0.0.0.0 ssl.gstatic.com
+0.0.0.0 ssl.gstatic.com
 
 # Necromunda: Underhive Wars
 # Zwangsanbindung an Onlineserver auch für Einzelspieler, bei Bedarf de/aktivieren
 # 149.202.85.119
 # 2.21.228.17
 # 2a02:908:4b51:7e60:8a71:b1ff:feab:5cda
-#0.0.0.0 bfg3.stormancer.com
-#0.0.0.0 focus3.stormancer.com
+0.0.0.0 bfg3.stormancer.com
+0.0.0.0 focus3.stormancer.com
 
 # The Surge 2
 # 178.162.211.15
@@ -5067,20 +5067,20 @@
 # Frogames
 # Cosmophony
 0.0.0.0 www.bento-studio.com
-#0.0.0.0 static1.squarespace.com # Static und Static1 dienen auf einigen Seiten als CSS Ablage
+0.0.0.0 static1.squarespace.com # Static und Static1 dienen auf einigen Seiten als CSS Ablage
 
 # Penguins Arena: Sedna's World
 0.0.0.0 farabel.com
 0.0.0.0 www.frogames.com
 0.0.0.0 itch.io # Ablage für Grafiken
 0.0.0.0 img.itch.io
-#0.0.0.0 static.itch.io # CSS
-#0.0.0.0 www.dailymotion.com # Videoplattform
+0.0.0.0 static.itch.io # CSS
+0.0.0.0 www.dailymotion.com # Videoplattform
 
 # Frogmind
 # BADLAND: Game of the Year Edition
-#0.0.0.0 s3.amazonaws.com
-#0.0.0.0 aws.amazon.com
+0.0.0.0 s3.amazonaws.com
+0.0.0.0 aws.amazon.com
 # s. Steam: General Directory Server
 
 # Frogware
@@ -5090,12 +5090,12 @@
 
 # Frontier Developments
 # Elite Dangerous
-#0.0.0.0 api.zaonce.net # Eventlogging, MaschinenID, Anmeldetoken, Betriebssystem, Serverzeit & Check der Clientversion, CollectHardwareSurvey uvm.
-#0.0.0.0 hosting.zaonce.net # Launchernews nach Spracheinstellungen und Statuscheck
-#0.0.0.0 launcher-4586754895.elitedangerous.com # CSS & Javascripts
-#0.0.0.0 frontier-drupal-elitedangerous.s3.amazonaws.com # Grafiken der News
-#0.0.0.0 api.orerve.net # Serverschnittstelle, Upload Hardware bzw DirectX Daten
-#0.0.0.0 hello.myfonts.net
+0.0.0.0 api.zaonce.net # Eventlogging, MaschinenID, Anmeldetoken, Betriebssystem, Serverzeit & Check der Clientversion, CollectHardwareSurvey uvm.
+0.0.0.0 hosting.zaonce.net # Launchernews nach Spracheinstellungen und Statuscheck
+0.0.0.0 launcher-4586754895.elitedangerous.com # CSS & Javascripts
+0.0.0.0 frontier-drupal-elitedangerous.s3.amazonaws.com # Grafiken der News
+0.0.0.0 api.orerve.net # Serverschnittstelle, Upload Hardware bzw DirectX Daten
+0.0.0.0 hello.myfonts.net
 0.0.0.0 stats.g.doubleclick.net # UA-63308436-1
 
 # Jurassic World Evolution
@@ -5104,12 +5104,12 @@
 0.0.0.0 coeus.zaonce.net
 
 # LostWinds & LostWinds 2: Winter of the Melodias
-#0.0.0.0 api.zaonce.net
+0.0.0.0 api.zaonce.net
 
 # Planet Coaster
-#0.0.0.0 www.frontierstore.net # z.b. auch für Elite Dangerous verwendet
+0.0.0.0 www.frontierstore.net # z.b. auch für Elite Dangerous verwendet
 # s. Rubrik Kopierschutz / AntiCheat
-#0.0.0.0 api.gulpeyrex.com # Spieleranzeige auf der Weltkarte
+0.0.0.0 api.gulpeyrex.com # Spieleranzeige auf der Weltkarte
 0.0.0.0 t.trackedlink.net
 
 # Fruitbat Factory
@@ -5164,7 +5164,7 @@
 
 # Fox Dawn
 # Clicker Guild
-#0.0.0.0 EFDE.playfabapi.com # Speicherstände
+0.0.0.0 EFDE.playfabapi.com # Speicherstände
 
 # Frozen District und PlayWay S.A.
 # House Flipper
@@ -5177,12 +5177,12 @@
 # Redshell wurde am 15 Mai aus dem Titel entfernt
 # s. Rubrik Kopierschutz / AntiCheat
 # Conansandbox
-#0.0.0.0 dl.conanexiles.com # Patchnotes
+0.0.0.0 dl.conanexiles.com # Patchnotes
 # Ingame Hilfe
-#0.0.0.0 www.conanexiles.com
+0.0.0.0 www.conanexiles.com
 0.0.0.0 stats.g.doubleclick.net # UA-73025003-1
 0.0.0.0 script.crazyegg.com # Clickcaptor
-#0.0.0.0 fonts.gstatic.com # Schriften
+0.0.0.0 fonts.gstatic.com # Schriften
 0.0.0.0 gtrk.s3.amazonaws.com
 # Ip/s blockieren:
 
@@ -5194,18 +5194,18 @@
 # Inklusiv AwesomiumProcess.exe und Zugriff auf DxDiag Daten
 # clienthash 8d4ddsfs09d1c47c1ac31306bb28ce95 key 3c1b1eaa68cb7111
 # Nach Bedarf blockieren
-#0.0.0.0 msgs.ageofconan.com # EULA, Patchnotes
-#0.0.0.0 controlhttppatchaddr.secretworld.com # Updates & Config
-#0.0.0.0 patcherbanner.thesecretworld.com # Werbebanner
-#0.0.0.0 update.secretworld.com # Nochmal Updates
-#0.0.0.0 um.live.secretworldlegends.com
-#0.0.0.0 chat.live.secretworldlegends.com
-#0.0.0.0 dm02-nj4.secretworld.com
-#0.0.0.0 gs022-nj4.secretworld.com
-#0.0.0.0 gs034-nj4.secretworld.com
-#0.0.0.0 gs035-nj4.secretworld.com
-#0.0.0.0 gs039-nj4.secretworld.com
-#0.0.0.0 ssl.gstatic.com
+0.0.0.0 msgs.ageofconan.com # EULA, Patchnotes
+0.0.0.0 controlhttppatchaddr.secretworld.com # Updates & Config
+0.0.0.0 patcherbanner.thesecretworld.com # Werbebanner
+0.0.0.0 update.secretworld.com # Nochmal Updates
+0.0.0.0 um.live.secretworldlegends.com
+0.0.0.0 chat.live.secretworldlegends.com
+0.0.0.0 dm02-nj4.secretworld.com
+0.0.0.0 gs022-nj4.secretworld.com
+0.0.0.0 gs034-nj4.secretworld.com
+0.0.0.0 gs035-nj4.secretworld.com
+0.0.0.0 gs039-nj4.secretworld.com
+0.0.0.0 ssl.gstatic.com
 
 # Funomena
 # Luna
@@ -5264,7 +5264,7 @@
 # 172.217.14.78
 # 172.217.11.67
 0.0.0.0 steamdatasuite.com
-#0.0.0.0 gamious.com
+0.0.0.0 gamious.com
 
 # Gearbox Publishing
 # Bulletstorm: Full Clip Edition
@@ -5336,9 +5336,9 @@
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
 # 104.28.19.111
-#0.0.0.0 marketing.dungeon-rushers.com # News, Sprache
-#0.0.0.0 nodeserver.dungeon-rushers.com # Wird für Onlinemodus Freundesliste, Feedback, ID, Mail und mehr gebraucht
-#0.0.0.0 i.imgur.com # Bildablage
+0.0.0.0 marketing.dungeon-rushers.com # News, Sprache
+0.0.0.0 nodeserver.dungeon-rushers.com # Wird für Onlinemodus Freundesliste, Feedback, ID, Mail und mehr gebraucht
+0.0.0.0 i.imgur.com # Bildablage
 
 # Goblinz Studio & Maple Whispering Limited
 # As Far As The Eye
@@ -5466,35 +5466,35 @@
 # 146.0.234.229
 # 159.122.82.219
 # 104.19.185.16
-#0.0.0.0 www.pathofexile.com
-#0.0.0.0 fra.login.pathofexile.com
-#0.0.0.0 fra01.login.pathofexile.com
-#0.0.0.0 fra2.login.pathofexile.com
-#0.0.0.0 fra3.login.pathofexile.com
-#0.0.0.0 patch2.pathofexile.com
-#0.0.0.0 patch3.pathofexile.com
-#0.0.0.0 patch4.pathofexile.com
-#0.0.0.0 us.login.pathofexile.com
-#0.0.0.0 usp01.pathofexile.com
-#0.0.0.0 www.pathofexile.com
+0.0.0.0 www.pathofexile.com
+0.0.0.0 fra.login.pathofexile.com
+0.0.0.0 fra01.login.pathofexile.com
+0.0.0.0 fra2.login.pathofexile.com
+0.0.0.0 fra3.login.pathofexile.com
+0.0.0.0 patch2.pathofexile.com
+0.0.0.0 patch3.pathofexile.com
+0.0.0.0 patch4.pathofexile.com
+0.0.0.0 us.login.pathofexile.com
+0.0.0.0 usp01.pathofexile.com
+0.0.0.0 www.pathofexile.com
 # Gateway Spracheinstellungen
-#0.0.0.0 de.pathofexile.com # Deutsch
-#0.0.0.0 br.pathofexile.com # Portugiesisch
-#0.0.0.0 fr.pathofexile.com # Französisch
-#0.0.0.0 ru.pathofexile.com # Französisch
-#0.0.0.0 th.pathofexile.com # Thai
-#0.0.0.0 es.pathofexile.com # Spanisch
+0.0.0.0 de.pathofexile.com # Deutsch
+0.0.0.0 br.pathofexile.com # Portugiesisch
+0.0.0.0 fr.pathofexile.com # Französisch
+0.0.0.0 ru.pathofexile.com # Französisch
+0.0.0.0 th.pathofexile.com # Thai
+0.0.0.0 es.pathofexile.com # Spanisch
 # Server
 # 34.89.184.203
 # 158.177.236.84
 # Diverses
 # 172.65.204.172
-#0.0.0.0 spectrum-patch-ipv4.pathofexile.com
+0.0.0.0 spectrum-patch-ipv4.pathofexile.com
 0.0.0.0 5c3e588941d14ffb8518633c807228b9.pacloudflare.com
 # News, Links für Mikrotransaktionen
 # Datenuploaad Telemetrie
 # 104.19.186.16
-#0.0.0.0 www.pathofexile.com # /client/record-patching-metrics
+0.0.0.0 www.pathofexile.com # /client/record-patching-metrics
 
 # Grip Digital
 # MOTHERGUNSHIP
@@ -5531,7 +5531,7 @@
 
 # Guerrilla Bandit
 # ZombieRun
-#0.0.0.0 www.java.com
+0.0.0.0 www.java.com
 
 # Gun Media
 # Friday the 13th: The Game
@@ -5541,7 +5541,7 @@
 # 52.208.56.5
 # 52.212.107.188
 # 54.72.196.97
-#0.0.0.0 steam.f13-services.illfonic.com
+0.0.0.0 steam.f13-services.illfonic.com
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
@@ -5686,9 +5686,9 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 # Serverregionen
-#0.0.0.0 tkd-steam-seasia.cloudapp.net # Asien und Oceanien
-#0.0.0.0 tkd-steam-westeu.cloudapp.net # Europa und Russland
-#0.0.0.0 tkd-steam-uscentral.cloudapp.net # Nord und Südamerika
+0.0.0.0 tkd-steam-seasia.cloudapp.net # Asien und Oceanien
+0.0.0.0 tkd-steam-westeu.cloudapp.net # Europa und Russland
+0.0.0.0 tkd-steam-uscentral.cloudapp.net # Nord und Südamerika
 
 # Henteko Doujin
 # 虚夢の乙女 | Maidens of a Hollow Dream
@@ -5720,8 +5720,8 @@
 # Onlinezwang, auch für die Einzelspielerkampange
 # 52.169.31.143
 # 52.169.227.119
-#0.0.0.0 pc-spacewolf.trafficmanager.net
-#0.0.0.0 pc-spacewolfgame.cloudapp.net
+0.0.0.0 pc-spacewolf.trafficmanager.net
+0.0.0.0 pc-spacewolfgame.cloudapp.net
 # 2.19.101.204
 # 23.210.253.115
 # Ip/s blockieren:
@@ -5740,7 +5740,7 @@
 # Hexwar Games
 # 1775: Rebellion
 # 63.142.250.19
-#0.0.0.0 multiplayer.hexwar.com
+0.0.0.0 multiplayer.hexwar.com
 # Ip/s blockieren:
 # 35.241.26.53
 # 35.186.194.186
@@ -5766,13 +5766,13 @@
 # 45.55.32.187
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-#0.0.0.0 thelongdark.com # Ingamenews
+0.0.0.0 thelongdark.com # Ingamenews
 # s. Steam: General Directory Server
 
 # Hobibit
 # Star Boss
 # Crashpad Analytics
-#0.0.0.0 www.gstatic.com
+0.0.0.0 www.gstatic.com
 
 # Hollow Ponds
 # Loot Rascals
@@ -5789,8 +5789,8 @@
 
 # Holospark
 # Earthfall
-#0.0.0.0 mt1p-mim-f5.vivox.com # Voicechat
-#0.0.0.0 mt1p.www.vivox.com # 74.201.103.215
+0.0.0.0 mt1p-mim-f5.vivox.com # Voicechat
+0.0.0.0 mt1p.www.vivox.com # 74.201.103.215
 0.0.0.0 484.playfabapi.com # Login -> Geräteinfo, PlayfabID, Neu angelegt ja/nein, Token, Accountyp und Tracking der Spielerposition/Level/Spielmodus/Schwierigkeitsgrad usw
 0.0.0.0 datarouter.ol.epicgames.com
 0.0.0.0 datarouter-weighted.ol.epicgames.com
@@ -5807,7 +5807,7 @@
 0.0.0.0 cdp.cloud.unity3d.com
 # Onlinezwang, Server, Chat usw
 # 52.38.33.226, 52.25.151.126
-#0.0.0.0 firestone-main.holydaygames.org
+0.0.0.0 firestone-main.holydaygames.org
 
 # Holiday City
 # s. Steam: General Directory Server
@@ -5821,9 +5821,9 @@
 0.0.0.0 cdp.cloud.unity3d.com
 # Bezahlvorgang, Onlinecodes, "Klaut"speicherung
 # 52.38.33.226, 52.25.151.126
-#0.0.0.0 hcr-steam-main.holydaygames.org
-#0.0.0.0 hcr-steam-backup.holydaygames.org
-#0.0.0.0 apps.holydaygames.org
+0.0.0.0 hcr-steam-main.holydaygames.org
+0.0.0.0 hcr-steam-backup.holydaygames.org
+0.0.0.0 apps.holydaygames.org
 
 # Midas Gold Plus
 0.0.0.0 holydaycity.com
@@ -5944,7 +5944,7 @@
 # Ip/s blockieren:
 # 5.79.109.50
 # 5.9.143.88
-#0.0.0.0 api2.evolvationthegame.com # Onlinekonfiguration
+0.0.0.0 api2.evolvationthegame.com # Onlinekonfiguration
 
 # HypeTrain Digital
 # Desolate
@@ -5953,7 +5953,7 @@
 
 # Hyper Hippo Games
 # AdVenture Capitalist
-#0.0.0.0 CA87.playfabapi.com
+0.0.0.0 CA87.playfabapi.com
 
 # AdVenture Communist
 0.0.0.0 6BF5.playfabapi.com # Accountdaten
@@ -6019,7 +6019,7 @@
 
 # Indovers Studio
 # ThinkAhead
-#0.0.0.0 www.gstatic.com
+0.0.0.0 www.gstatic.com
 
 # Infinite Dreams
 # Sky Force Reloaded | Aktualisiert 14.03.2019
@@ -6049,7 +6049,7 @@
 # Crashpad Analytics
 
 # LittleBigSoko
-#0.0.0.0 www.gstatic.com
+0.0.0.0 www.gstatic.com
 
 # Mutants Must Die!
 # s. Steam: General Directory Server
@@ -6070,27 +6070,27 @@
 
 # Io-Interactive A/S
 # HITMAN™
-#0.0.0.0 config.hitman.io # Konfiguration
-#0.0.0.0 auth.hitman.io # Übergreifende Authentifizierung
-#0.0.0.0 pc-service.hitman.io # Authentifizierung
-#0.0.0.0 iohmpcprodstorage.blob.core.windows.net # Saves
-#0.0.0.0 iohmpcprodshard3.blob.core.windows.net # Mastery
+0.0.0.0 config.hitman.io # Konfiguration
+0.0.0.0 auth.hitman.io # Übergreifende Authentifizierung
+0.0.0.0 pc-service.hitman.io # Authentifizierung
+0.0.0.0 iohmpcprodstorage.blob.core.windows.net # Saves
+0.0.0.0 iohmpcprodshard3.blob.core.windows.net # Mastery
 0.0.0.0 metrics.hitman.io # Metrics Server Host
-#0.0.0.0 iohmconfigprodstorage.blob.core.windows.net # Datenschutzrichtlinien
+0.0.0.0 iohmconfigprodstorage.blob.core.windows.net # Datenschutzrichtlinien
 
 # HITMAN™ 2 | Update 22.02.2019
-#0.0.0.0 config.hitman.io # Konfiguration
-#0.0.0.0 pc2-service.hitman.io # Authentifizierung, PSN Account, PSN OnlineID, SteamID, XBoxID
-#0.0.0.0 auth.hitman.io # Übergreifende Authentifizierung
+0.0.0.0 config.hitman.io # Konfiguration
+0.0.0.0 pc2-service.hitman.io # Authentifizierung, PSN Account, PSN OnlineID, SteamID, XBoxID
+0.0.0.0 auth.hitman.io # Übergreifende Authentifizierung
 0.0.0.0 metrics.hitman.io # Analytics mit eindeutiger User/SessionID, Spielversion, Spielername, Spielplattform z.b. Steam, SteamID, falls vorhanden Fehlermeldungen, ProfilID, Wiederverbindungsversuche, Bildschirmname mit Aufenthalt des Spielers z.b. Mainmenü uvm.
-#0.0.0.0 iohmconfigprodstorage.blob.core.windows.net # Privacy Policy "nur in Englisch", Metrics/Analyticseinstellungen "Vertrag akzeptiert ja/nein"
-#0.0.0.0 iohm2pcprodshard9.blob.core.windows.net
-#0.0.0.0 iohm2pcprodstorage.blob.core.windows.net # Cloud
+0.0.0.0 iohmconfigprodstorage.blob.core.windows.net # Privacy Policy "nur in Englisch", Metrics/Analyticseinstellungen "Vertrag akzeptiert ja/nein"
+0.0.0.0 iohm2pcprodshard9.blob.core.windows.net
+0.0.0.0 iohm2pcprodstorage.blob.core.windows.net # Cloud
 # Klick auf Datenschutzrichtlinien im Spiel
 # Falls eine Mail bestätigt wird, wird diese mit Land/Sprache an den IOI Account gekoppelt
 0.0.0.0 dc.services.visualstudio.com
 0.0.0.0 az416426.vo.msecnd.net # Application Insights
-#0.0.0.0 account.ioi.dk # Texte nur in Englisch
+0.0.0.0 account.ioi.dk # Texte nur in Englisch
 
 # IonFX Studios
 # Miasmata
@@ -6170,21 +6170,21 @@
 0.0.0.0 9c595.playfabapi.com # Telemetrie und Onlinezwang
 0.0.0.0 inxile.sp.backtrace.io
 # Mehrspielerserver
-#0.0.0.0 pfmsqosprod.westus.cloudapp.azure.com # WestUs
-#0.0.0.0 xblcxplatqos-scus-9-18-2-0.cloudapp.net # SouthCentralUs
-#0.0.0.0 xblcxplatqos-cus-9-18-2-0.cloudapp.net # CentralUs
-#0.0.0.0 pfmsqosprod.northcentralus.cloudapp.azure.com # NorthCentralUs
-#0.0.0.0 xblcxplatqos-eus-9-18-2-0.cloudapp.net # EastUs
-#0.0.0.0 pfmsqosprod.eastus2.cloudapp.azure.com # EastUs2
-#0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net # BrazilSouth
-#0.0.0.0 xblcxplatqos-neu-9-18-2-0.cloudapp.net # NorthEurope
-#0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com # WestEurope
-#0.0.0.0 xblcxplatqos-seas-9-18-2-0.cloudapp.net # SoutheastAsia
-#0.0.0.0 pfmsqosprod.eastasia.cloudapp.azure.com # EastAsia
-#0.0.0.0 pfmsqosprod.japanwest.cloudapp.azure.com # JapanWest
-#0.0.0.0 xblcxplatqos-jae-9-18-2-0.cloudapp.net # JapanEast
-#0.0.0.0 xblcxplatqos-ause-9-18-2-0.cloudapp.net # AustraliaSoutheast
-#0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com # AustraliaEast
+0.0.0.0 pfmsqosprod.westus.cloudapp.azure.com # WestUs
+0.0.0.0 xblcxplatqos-scus-9-18-2-0.cloudapp.net # SouthCentralUs
+0.0.0.0 xblcxplatqos-cus-9-18-2-0.cloudapp.net # CentralUs
+0.0.0.0 pfmsqosprod.northcentralus.cloudapp.azure.com # NorthCentralUs
+0.0.0.0 xblcxplatqos-eus-9-18-2-0.cloudapp.net # EastUs
+0.0.0.0 pfmsqosprod.eastus2.cloudapp.azure.com # EastUs2
+0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net # BrazilSouth
+0.0.0.0 xblcxplatqos-neu-9-18-2-0.cloudapp.net # NorthEurope
+0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com # WestEurope
+0.0.0.0 xblcxplatqos-seas-9-18-2-0.cloudapp.net # SoutheastAsia
+0.0.0.0 pfmsqosprod.eastasia.cloudapp.azure.com # EastAsia
+0.0.0.0 pfmsqosprod.japanwest.cloudapp.azure.com # JapanWest
+0.0.0.0 xblcxplatqos-jae-9-18-2-0.cloudapp.net # JapanEast
+0.0.0.0 xblcxplatqos-ause-9-18-2-0.cloudapp.net # AustraliaSoutheast
+0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com # AustraliaEast
 
 # Jadon Barnes
 # Aktive UnityCrashHandler64.exe
@@ -6294,10 +6294,10 @@
 # 172.217.16.208
 # 35.184.156.205
 # Chat und noch mehr Telemetrie - optional de/aktivieren
-#0.0.0.0 shopr-live2.ripostegames.com
-#0.0.0.0 shopr-live2-chat.ripostegames.com
+0.0.0.0 shopr-live2.ripostegames.com
+0.0.0.0 shopr-live2-chat.ripostegames.com
 # Server ist Pflicht, Onlinezwang
-#0.0.0.0 shopr-data-1300366939.cos.accelerate.myqcloud.com
+0.0.0.0 shopr-data-1300366939.cos.accelerate.myqcloud.com
 
 # Kakao Games Europe B.V.
 # Blackdesert Online
@@ -6305,11 +6305,11 @@
 # 5.79.111.36
 # 52.78.210.233
 # s. Steam: General Directory Server
-#0.0.0.0 api.blackdesertonline.com
+0.0.0.0 api.blackdesertonline.com
 0.0.0.0 xigncode-solomon-elb-1253180534.ap-northeast-2.elb.amazonaws.com
 0.0.0.0 ipconfig.co.kr
 0.0.0.0 ipchicken.com
-#0.0.0.0 search.naver.com
+0.0.0.0 search.naver.com
 0.0.0.0 whatismyipaddress.com
 0.0.0.0 eblk-olvia10.service.defence-daumgameseu.com
 
@@ -6437,11 +6437,11 @@
 # Medieval Engineers
 0.0.0.0 api.gameanalytics.com # Tracking 1
 0.0.0.0 buffpanel.com # Tracking 2
-#0.0.0.0 mirror.keenswh.com # Ingamenews
+0.0.0.0 mirror.keenswh.com # Ingamenews
 
 # Space Engineers
 0.0.0.0 api.gameanalytics.com # Tracking
-#0.0.0.0 mirror.keenswh.com # Ingamenews
+0.0.0.0 mirror.keenswh.com # Ingamenews
 
 # KHB-Soft
 # Linea, the Game
@@ -6496,10 +6496,10 @@
 0.0.0.0 kleianalyticsfrontend.elasticbeanstalk.com
 0.0.0.0 d21wmy1ql1e52r.cloudfront.net
 # Extern mit Mitwirkung des Nutzers, größtenteils für Formatierung der eigenen Webseiten
-#0.0.0.0 www.kleientertainment.com
+0.0.0.0 www.kleientertainment.com
 0.0.0.0 use.fontawesome.com
-#0.0.0.0 code.jquery.com
-#0.0.0.0 secure.gravatar.com # Gravatar Dienst
+0.0.0.0 code.jquery.com
+0.0.0.0 secure.gravatar.com # Gravatar Dienst
 0.0.0.0 store.kleientertainment.com
 0.0.0.0 shop.klei.com
 
@@ -6522,13 +6522,13 @@
 0.0.0.0 d26ly0au0tyuy.cloudfront.net # Server/Spieleliste
 # 52.205.199.5
 # Items
-#0.0.0.0 items.kleientertainment.com # Nötig für Shopeinkäufe
-#0.0.0.0 items.klei.ca
+0.0.0.0 items.kleientertainment.com # Nötig für Shopeinkäufe
+0.0.0.0 items.klei.ca
 # Für Anmeldung verwendet
 0.0.0.0 geologin.klei.ca
-#0.0.0.0 login.kleientertainment.com
-#0.0.0.0 accounts.kleientertainment.com
-#0.0.0.0 email.accounts.kleimail.com
+0.0.0.0 login.kleientertainment.com
+0.0.0.0 accounts.kleientertainment.com
+0.0.0.0 email.accounts.kleimail.com
 0.0.0.0 eu-central-1.ping.klei.ca
 0.0.0.0 sa-east-1.ping.klei.ca
 0.0.0.0 us-west-2.ping.klei.ca
@@ -6568,9 +6568,9 @@
 # 52.192.238.18
 # 54.65.41.145
 # 157.185.185.184
-#0.0.0.0 game.doaxvv.com
-#0.0.0.0 api01.doaxvv.com
-#0.0.0.0 api.doaxvv.com
+0.0.0.0 game.doaxvv.com
+0.0.0.0 api01.doaxvv.com
+0.0.0.0 api.doaxvv.com
 
 # NOBUNAGA'S AMBITION: Sphere of Influence
 # s. Steam: General Directory Server
@@ -6582,22 +6582,22 @@
 
 # METAL GEAR SURVIVE
 0.0.0.0 ntl.konamionline.com
-#0.0.0.0 mgssd-game.cs.konami.net # Dauerverbindung Onlinezwang/Server
+0.0.0.0 mgssd-game.cs.konami.net # Dauerverbindung Onlinezwang/Server
 
 # Pro Evolutionn Soccer 2019
 # Für Offlinespiel alles abschalten
 # s. Rubrik Kopierschutz / AntiCheat
 # Servercheck
 # 52.208.162.2
-#0.0.0.0 ntl.service.konami.net
-#0.0.0.0 ntleu.service.konami.net
+0.0.0.0 ntl.service.konami.net
+0.0.0.0 ntleu.service.konami.net
 # Spielerdaten, Hard/Softwareupload
 # 54.214.158.254
-#0.0.0.0 pes19-x64-gate.cs.konami.net
+0.0.0.0 pes19-x64-gate.cs.konami.net
 0.0.0.0 ec2-54-214-158-254.us-west-2.compute.amazonaws.com
 # Eula / Datenschutzerklärung
 # 104.125.7.33
-#0.0.0.0 legal.konami.com
+0.0.0.0 legal.konami.com
 # 34.218.118.205
 # 72.247.153.153
 # 35.165.128.235
@@ -6606,7 +6606,7 @@
 # 34.209.179.167
 # 210.148.52.94
 # 210.148.52.95
-#0.0.0.0 pes19-x64-stun.cs.konami.net
+0.0.0.0 pes19-x64-stun.cs.konami.net
 0.0.0.0 pes19-x64-lb-c075a4ea1eb7ff5b.elb.us-west-2.amazonaws.com
 # 35.197.63.107
 # 35.199.30.185
@@ -6622,13 +6622,13 @@
 
 # ZONE OF THE ENDERS THE 2nd RUNNER : M∀RS / アヌビス ゾーン・オブ・エンダーズ : マーズ
 # s. Rubrik Kopierschutz / AntiCheat
-#0.0.0.0 legal.konami.com
+0.0.0.0 legal.konami.com
 
 # Kongregate
 # Office Space: Idle Profits | Update 27.08.2018
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-#0.0.0.0 DF5E.playfabapi.com
+0.0.0.0 DF5E.playfabapi.com
 0.0.0.0 4226.api.swrve.com
 0.0.0.0 logs-01.loggly.com
 0.0.0.0 sync.kongregate.com
@@ -6669,7 +6669,7 @@
 
 # Laser Guided Games, LLC
 # Golem Gates
-#0.0.0.0 cardrts-backend.laserguidedgames.com
+0.0.0.0 cardrts-backend.laserguidedgames.com
 
 # Laush Studio
 # The soldier in the mine | Aktualisiert 27.02.2019
@@ -6893,7 +6893,7 @@
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
-#0.0.0.0 validate.playgenuine.net # DRM
+0.0.0.0 validate.playgenuine.net # DRM
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -6960,7 +6960,7 @@
 
 # The Golf Club 2™
 # 54.235.184.4
-#0.0.0.0 tgcpc.hb-studios.com # Handicap, Servereinstellungen, Rewards, Parkours, Bewertungen, Metadata, Zeitstempel, Purse Bonus, Unlockables, Accountkey, Rundenanzahl, Mehrspieler, Oberflächen uvm.
+0.0.0.0 tgcpc.hb-studios.com # Handicap, Servereinstellungen, Rewards, Parkours, Bewertungen, Metadata, Zeitstempel, Purse Bonus, Unlockables, Accountkey, Rundenanzahl, Mehrspieler, Oberflächen uvm.
 
 # McMagic Productions
 # Novus Inceptio
@@ -7104,34 +7104,34 @@
 # 47.91.24.239
 # 47.252.29.148
 # 8.209.112.253
-#0.0.0.0 oseurodispatch.yuanshen.com
-#0.0.0.0 osasiadispatch.yuanshen.com
-#0.0.0.0 osusadispatch.yuanshen.com
-#0.0.0.0 dispatchosglobal.yuanshen.com # Regionsliste & Subchannel
-#0.0.0.0 genshin.mihoyo.com # Videos
+0.0.0.0 oseurodispatch.yuanshen.com
+0.0.0.0 osasiadispatch.yuanshen.com
+0.0.0.0 osusadispatch.yuanshen.com
+0.0.0.0 dispatchosglobal.yuanshen.com # Regionsliste & Subchannel
+0.0.0.0 genshin.mihoyo.com # Videos
 # Login
 # 47.56.192.192
-#0.0.0.0 hk4e-sdk-os.mihoyo.com
+0.0.0.0 hk4e-sdk-os.mihoyo.com
 # Config & API
 # 47.246.43.203
 # 47.246.43.209
 # 47.246.46.225
-#0.0.0.0 sdk-os-static.mihoyo.com
-#0.0.0.0 sdk-os-static.mihoyo.com.a.lahuashanbx.com
-#0.0.0.0 api-static.mihoyo.com
+0.0.0.0 sdk-os-static.mihoyo.com
+0.0.0.0 sdk-os-static.mihoyo.com.a.lahuashanbx.com
+0.0.0.0 api-static.mihoyo.com
 # Launcher, Ankündigungen, Grafiken
 # 47.246.43.226
 # 47.246.43.224
 # 47.246.43.230
 # 47.246.43.203
 # 47.246.43.223
-#0.0.0.0 webstatic-sea.mihoyo.com
+0.0.0.0 webstatic-sea.mihoyo.com
 # Downloads z.B. Patch, DirectX & Spieldateien
 # 163.171.130.136
 # 157.185.165.19
 # 163.171.140.203
-#0.0.0.0 autopatchhk.yuanshen.com
-#0.0.0.0 autopatchhk.yuanshen.com.wsdvs.com
+0.0.0.0 autopatchhk.yuanshen.com
+0.0.0.0 autopatchhk.yuanshen.com.wsdvs.com
 
 # Mikhail Melnikov
 # Cubic
@@ -7154,19 +7154,19 @@
 # Milestone S.r.l.
 # Generell bei "online.milestone.it" Erfassung/Verarbeitung von Accountdaten, Statistiken, Produktname, Spielfortschritt, Einstellungen, Challenges uvm
 # Gravel
-#0.0.0.0 online.milestone.it # Für Singleplayer nicht benötigt
+0.0.0.0 online.milestone.it # Für Singleplayer nicht benötigt
 0.0.0.0 datarouter.ol.epicgames.com # Tracking der Spielzeit, Zeitstempel, Spielname, ProjektID, IP, Betriebssystem, Versionsnummer usw
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # MotoGP™15
 # Launcher & Spiel
-#0.0.0.0 online.milestone.it # Für Singleplayer nicht benötigt
+0.0.0.0 online.milestone.it # Für Singleplayer nicht benötigt
 # Mit aktivem Klick auf "Updates suchen"...
 0.0.0.0 static.addtoany.com
 
 # MotoGP™17
 # 62.152.111.43
-#0.0.0.0 online.milestone.it # Für Singleplayer nicht benötigt
+0.0.0.0 online.milestone.it # Für Singleplayer nicht benötigt
 
 # Milkstone Studios
 # White Noise 2
@@ -7229,22 +7229,22 @@
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
 # Override: Mech City Brawl
-#0.0.0.0 ws-lb.gamesparks.net
-#0.0.0.0 live-h348189NuwKy.ws.gamesparks.net
+0.0.0.0 ws-lb.gamesparks.net
+0.0.0.0 live-h348189NuwKy.ws.gamesparks.net
 # Server 1-18 IPBereich: 18.246.31.21
 # 18.236.52.131
-#0.0.0.0 gsp-auw001-se03.gamesparks.net
-#0.0.0.0 gsp-auw001-se18.gamesparks.net
+0.0.0.0 gsp-auw001-se03.gamesparks.net
+0.0.0.0 gsp-auw001-se18.gamesparks.net
 
 # Rock of Ages 3: Make & Break
 # 99.86.7.59, 50.87.146.15
 # s. Eintrag Steam: IP Checks
-#0.0.0.0 aceteam.cl
-#0.0.0.0 info.roa3.aceteam.cl
+0.0.0.0 aceteam.cl
+0.0.0.0 info.roa3.aceteam.cl
 
 # Trine 4: The Nightmare Prince
-#0.0.0.0 online01.frozenbyte.com
-#0.0.0.0 t4.online.frozenbyte.com
+0.0.0.0 online01.frozenbyte.com
+0.0.0.0 t4.online.frozenbyte.com
 
 # Molegato
 # Demented Pixie
@@ -7259,7 +7259,7 @@
 
 # Monomi Park
 # Slime Rancher
-#0.0.0.0 forums.monomipark.com
+0.0.0.0 forums.monomipark.com
 
 # Moraes Studio
 # In Game Adventure: Legend of Monsters
@@ -7286,8 +7286,8 @@
 # Dead Cells
 # Tagesquests und Werbung
 # 178.32.123.64
-#0.0.0.0 dead-cells.com
-#0.0.0.0 ip64.ip-178-32-123.eu
+0.0.0.0 dead-cells.com
+0.0.0.0 ip64.ip-178-32-123.eu
 
 # Movie Games S.A. & PlayWay S.A.
 # Lust for Darkness
@@ -7306,8 +7306,8 @@
 
 # Mpact Games, LLC.
 # Hanako: Honor & Blade
-#0.0.0.0 discordapp.com
-#0.0.0.0 discord.gg # Weiterleitung auf Discord-Channels
+0.0.0.0 discordapp.com
+0.0.0.0 discord.gg # Weiterleitung auf Discord-Channels
 0.0.0.0 api.gameanalytics.com
 
 # Mugle Studio
@@ -7330,7 +7330,7 @@
 # Sherlock Holmes: The Devil's Daughter
 # s. Rubrik Kopierschutz / AntiCheat
 0.0.0.0 mc.frogwares.com
-#0.0.0.0 frogwares.com
+0.0.0.0 frogwares.com
 
 # WRC 7 FIA World Rally Championship
 # s. Rubrik Kopierschutz / AntiCheat
@@ -7355,7 +7355,7 @@
 # s. Steam: General Directory Server
 0.0.0.0 l.ndemiccreations.com
 0.0.0.0 s.ndemiccreations.com # Aktivieren für Multiplayer und Statistiken
-#0.0.0.0 www.kickstarter.com
+0.0.0.0 www.kickstarter.com
 0.0.0.0 www.ndemiccreations.com
 
 # NedoStudio
@@ -7382,13 +7382,13 @@
 # Neocore Games
 # Deathtrap
 # Dasselbe wie immer...
-#0.0.0.0 auth.gog.com
-#0.0.0.0 users.gog.com
+0.0.0.0 auth.gog.com
+0.0.0.0 users.gog.com
 0.0.0.0 presence.gog.com
-#0.0.0.0 static.neocoregames.com
-#0.0.0.0 neocoregames.com
+0.0.0.0 static.neocoregames.com
+0.0.0.0 neocoregames.com
 0.0.0.0 devblog.neocoregames.com
-#0.0.0.0 www.neocoregames.com
+0.0.0.0 www.neocoregames.com
 
 # Van Helsing Final Cut & Vorgänger
 # Keine Information auf Anfrage bekommen - Mails wurden ignoriert
@@ -7399,21 +7399,21 @@
 0.0.0.0 js.live.net
 0.0.0.0 widget.intercom.io
 0.0.0.0 api-iam.intercom.io
-#0.0.0.0 neocoregames.com
-#0.0.0.0 auth.gog.com
-#0.0.0.0 users.gog.com
-#0.0.0.0 service.gamesparks.net
-#0.0.0.0 gsp-auw003-se01.gamesparks.net # bis 10
+0.0.0.0 neocoregames.com
+0.0.0.0 auth.gog.com
+0.0.0.0 users.gog.com
+0.0.0.0 service.gamesparks.net
+0.0.0.0 gsp-auw003-se01.gamesparks.net # bis 10
 
 # Warhammer 40,000: Inquisitor - Martyr
 # Für den Titel gilt ein permanenter Onlinezwang
-#0.0.0.0 live-p306503huoga.ws.gamesparks.net # Login/Serverabfrage
+0.0.0.0 live-p306503huoga.ws.gamesparks.net # Login/Serverabfrage
 0.0.0.0 old.neocoregames.com # Bugreports / Mantis
 # Ständige Onlineabfragen und Microtransaktionen
-#0.0.0.0 gsp-auw003-se02.gamesparks.net
-#0.0.0.0 gsp-auw003-se07.gamesparks.net
-#0.0.0.0 gsp-auw003-se09.gamesparks.net
-#0.0.0.0 gsp-auw003-se11.gamesparks.net
+0.0.0.0 gsp-auw003-se02.gamesparks.net
+0.0.0.0 gsp-auw003-se07.gamesparks.net
+0.0.0.0 gsp-auw003-se09.gamesparks.net
+0.0.0.0 gsp-auw003-se11.gamesparks.net
 
 # NEOWIZ
 # Skul: The Hero Slayer
@@ -7443,29 +7443,29 @@
 # 104.18.39.253
 0.0.0.0 ins-stats-prod.newworldinteractive.com
 0.0.0.0 newworldinteractive.com # News und Bilder
-#0.0.0.0 s3.amazonaws.com # Zweck kann nicht nachvollzogen werden
+0.0.0.0 s3.amazonaws.com # Zweck kann nicht nachvollzogen werden
 
 # Insurgency: Sandstorm
 # s. Easy Anti-Cheat
-#0.0.0.0 pcauth.newworldinteractive.com # Anmeldung via Zeitstempel, Token, SteamID und UniqueID
-#0.0.0.0 pc.ss.mm.newworldinteractive.com # Matchtickets, Pool Counts, Spiel abgebrochen seitens des Spielers, PID SteamID, Audience "nwa.ss.pc.beta", Benutztes System
-#0.0.0.0 sandstorm-inventory-api.newworldinteractive.com # SpielerID, Steaminventar
-#0.0.0.0 sandstorm-statistics-player-api.newworldinteractive.com # Spielzeit, ID, SpielerID, UniqueID, Teamstatistiken, Szenario, Waffelstatistiken
+0.0.0.0 pcauth.newworldinteractive.com # Anmeldung via Zeitstempel, Token, SteamID und UniqueID
+0.0.0.0 pc.ss.mm.newworldinteractive.com # Matchtickets, Pool Counts, Spiel abgebrochen seitens des Spielers, PID SteamID, Audience "nwa.ss.pc.beta", Benutztes System
+0.0.0.0 sandstorm-inventory-api.newworldinteractive.com # SpielerID, Steaminventar
+0.0.0.0 sandstorm-statistics-player-api.newworldinteractive.com # Spielzeit, ID, SpielerID, UniqueID, Teamstatistiken, Szenario, Waffelstatistiken
 
 # Nexon America Inc.
 # MapleStory 2
-#0.0.0.0 web.nxfs.nexon.com
+0.0.0.0 web.nxfs.nexon.com
 0.0.0.0 nxl.log.nexon.io
 0.0.0.0 stats.g.doubleclick.net
 # s. Steam: General Directory Server
 0.0.0.0 bs.serving-sys.com
-#0.0.0.0 www.nexon.com
-#0.0.0.0 api.nexon.io
-#0.0.0.0 download2.nexon.net
-#0.0.0.0 s3-us-west-2.amazonaws.com
-#0.0.0.0 ugc.maplestory2.nexon.net
-#0.0.0.0 globalnps.aws.nexon.com
-#0.0.0.0 guard.nexon.net
+0.0.0.0 www.nexon.com
+0.0.0.0 api.nexon.io
+0.0.0.0 download2.nexon.net
+0.0.0.0 s3-us-west-2.amazonaws.com
+0.0.0.0 ugc.maplestory2.nexon.net
+0.0.0.0 globalnps.aws.nexon.com
+0.0.0.0 guard.nexon.net
 
 # Next Studios & 哔哩哔哩
 # Unheard
@@ -7526,16 +7526,16 @@
 
 # Bloons TD Battles
 # s. Steam: General Directory Server
-#0.0.0.0 api.ninjakiwi.com
+0.0.0.0 api.ninjakiwi.com
 0.0.0.0 priority-static-api.nkstatic.com
-#0.0.0.0 static-api.nkstatic.com # Werbung und Mehrspieler
+0.0.0.0 static-api.nkstatic.com # Werbung und Mehrspieler
 0.0.0.0 analytics.ninjakiwi.com
 
 # Bloons TD 5
 # s. Steam: General Directory Server
 0.0.0.0 analytics.ninjakiwi.com
-#0.0.0.0 static-api.nkstatic.com
-#0.0.0.0 api.ninjakiwi.com
+0.0.0.0 static-api.nkstatic.com
+0.0.0.0 api.ninjakiwi.com
 # Verbindung Onlinematches
 0.0.0.0 live.btd5mobile.ninjakiwi.com # Onlinematch
 0.0.0.0 ip-52-23-214-35.souparea.com # Onlinematch
@@ -7547,8 +7547,8 @@
 # 35.186.194.186
 # 35.241.26.53
 0.0.0.0 analytics.ninjakiwi.com
-#0.0.0.0 api.ninjakiwi.com
-#0.0.0.0 static-api.nkstatic.com
+0.0.0.0 api.ninjakiwi.com
+0.0.0.0 static-api.nkstatic.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -7558,8 +7558,8 @@
 # SAS: Zombie Assault 4
 # s. Steam: General Directory Server
 0.0.0.0 analytics.ninjakiwi.com
-#0.0.0.0 static-api.nkstatic.com # Werbung und Mehrspieler
-#0.0.0.0 api.ninjakiwi.com
+0.0.0.0 static-api.nkstatic.com # Werbung und Mehrspieler
+0.0.0.0 api.ninjakiwi.com
 0.0.0.0 priority-static-api.nkstatic.com
 
 # NIS America, Inc.
@@ -7614,7 +7614,7 @@
 # Praey for the Gods
 # Kontaktformular
 0.0.0.0 api.trello.com
-#0.0.0.0 trello.com
+0.0.0.0 trello.com
 
 # Nordic Games
 # Red Faction®: Armageddon™
@@ -7696,8 +7696,8 @@
 # Path of Building
 # 52.51.97.198
 # 151.101.112.133
-#0.0.0.0 raw.githubusercontent.com # Generelle Adresse für Github-Updates
-#0.0.0.0 github.map.fastly.net # Endpoint
+0.0.0.0 raw.githubusercontent.com # Generelle Adresse für Github-Updates
+0.0.0.0 github.map.fastly.net # Endpoint
 
 # OrangeGames
 # Governor of Poker 3
@@ -7706,12 +7706,12 @@
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 engage3515gvrnr.deltadna.net
 0.0.0.0 collect3515gvrnr.deltadna.net
-#0.0.0.0 api-live.gop3.nl
-#0.0.0.0 social-live.gop3.nl
+0.0.0.0 api-live.gop3.nl
+0.0.0.0 social-live.gop3.nl
 # Server
-#0.0.0.0 sf1-live.gop3.nl
-#0.0.0.0 sf2-live.gop3.nl
-#0.0.0.0 sf3-live.gop3.nl
+0.0.0.0 sf1-live.gop3.nl
+0.0.0.0 sf2-live.gop3.nl
+0.0.0.0 sf3-live.gop3.nl
 
 # OtakuMaker SARL
 # Dialing
@@ -7757,9 +7757,9 @@
 # Out of Park Baseball 18
 # Optionale Ingameanalytics vorhanden. Wahrscheinlich die gsp Adresse. Konnte nicht weiter überprüfen
 0.0.0.0 update.ootpdevelopments.com
-#0.0.0.0 live.gamesparks.net
-#0.0.0.0 gsp-auw003-se05.gamesparks.net
-#0.0.0.0 challenge.ootpdevelopments.com
+0.0.0.0 live.gamesparks.net
+0.0.0.0 gsp-auw003-se05.gamesparks.net
+0.0.0.0 challenge.ootpdevelopments.com
 
 # Outerminds Inc.
 # PewDiePie: Legend of the Brofist
@@ -7817,7 +7817,7 @@
 # Zumindest die steamtinyarmy Adresse muß aktiv zum Spielen sein. Evtl. die Dev Adressen auch
 # s. Steam: General Directory Server
 0.0.0.0 api.gameanalytics.com
-#0.0.0.0 steamtinyarmypanoramic.appspot.com
+0.0.0.0 steamtinyarmypanoramic.appspot.com
 0.0.0.0 sdknode-1.devtodev.com
 0.0.0.0 statgw2.devtodev.com
 
@@ -7845,35 +7845,35 @@
 0.0.0.0 static.golemarcana.com.s3.amazonaws.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
-#0.0.0.0 checkip.dyndns.org
+0.0.0.0 checkip.dyndns.org
 0.0.0.0 cognito-identity.us-west-2.amazonaws.com # Neu mit Flashpoint DLC
-#0.0.0.0 s3-us-west-2.amazonaws.com # /battletechgame.saves/SaveRejectListLatest.txt und /battletechgame.marketing/MarketingData.json
+0.0.0.0 s3-us-west-2.amazonaws.com # /battletechgame.saves/SaveRejectListLatest.txt und /battletechgame.marketing/MarketingData.json
 # Login/Register
-#0.0.0.0 api.paradoxplaza.com # Accountschnittstelle
+0.0.0.0 api.paradoxplaza.com # Accountschnittstelle
 # Passwort vergessen Funktion ist Drittanbieterverseucht
-#0.0.0.0 www.paradoxplaza.com # Herstellerseite
+0.0.0.0 www.paradoxplaza.com # Herstellerseite
 0.0.0.0 10965211.collect.igodigital.com
 
 # Cities: Skylines
 0.0.0.0 opstm.paradoxplaza.com # Dauerverbindung des Spiels zu Paradox-Servern. Kann abgeschaltet werden
-#0.0.0.0 services.paradoxplaza.com
-#0.0.0.0 api.paradoxplaza.com # Für Accounterstellung/Login
+0.0.0.0 services.paradoxplaza.com
+0.0.0.0 api.paradoxplaza.com # Für Accounterstellung/Login
 0.0.0.0 api.buffpanel.com # DLC-Checks, Produkttitel, SpielerID, Analyticsversion "unity_0.0.1"
 
 # Crusader Kings II
 # Bei Aufruf der Webseite/n durch den Launcher/Ingamefunktionen
-#0.0.0.0 content.paradoxplaza.com
-#0.0.0.0 www.paradoxplaza.com
+0.0.0.0 content.paradoxplaza.com
+0.0.0.0 www.paradoxplaza.com
 0.0.0.0 s.adroll.com
-#0.0.0.0 forum.paradoxplaza.com
-#0.0.0.0 accounts.paradoxplaza.com
+0.0.0.0 forum.paradoxplaza.com
+0.0.0.0 accounts.paradoxplaza.com
 0.0.0.0 d25yha10orzq01.cloudfront.net
-#0.0.0.0 forumcontent.paradoxplaza.com
+0.0.0.0 forumcontent.paradoxplaza.com
 
 # Crusader Kings III
 # Account, Anmeldung, Nutzungsverträge etc
-#0.0.0.0 api.paradox-interactive.com
-#0.0.0.0 services.paradoxplaza.com
+0.0.0.0 api.paradox-interactive.com
+0.0.0.0 services.paradoxplaza.com
 # Telemetrie und Tracking
 # Ohne Launcher zu starten verhindert die Übertragung des Telemetriedienstes in das Spiel selbst
 0.0.0.0 prod-telemetry.paradox-interactive.com
@@ -7886,18 +7886,18 @@
 # Europa Universalis IV
 # im Launcher aufgerufen
 0.0.0.0 opstm.paradoxplaza.com # Dauerverbindung des Spiels zu Paradox-Servern. Kann abgeschaltet werden
-#0.0.0.0 forumcontent.paradoxplaza.com
-#0.0.0.0 www.europauniversalis4.com
+0.0.0.0 forumcontent.paradoxplaza.com
+0.0.0.0 www.europauniversalis4.com
 
 # Hearts of Iron IV
 # s. Steam: General Directory Server
-#0.0.0.0 services.paradoxplaza.com
-#0.0.0.0 forumcontent.paradoxplaza.com
-#0.0.0.0 api.paradoxplaza.com
-#0.0.0.0 accounts.paradoxplaza.com
+0.0.0.0 services.paradoxplaza.com
+0.0.0.0 forumcontent.paradoxplaza.com
+0.0.0.0 api.paradoxplaza.com
+0.0.0.0 accounts.paradoxplaza.com
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 opstm.paradoxplaza.com
-#0.0.0.0 www.heartsofiron4.com
+0.0.0.0 www.heartsofiron4.com
 0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 p.cquotient.com
 0.0.0.0 x.bidswitch.net
@@ -7921,26 +7921,26 @@
 0.0.0.0 prod-telemetry.paradox-interactive.com # 52.201.93.181
 0.0.0.0 d3.shared.global.fastly.net # 151.101.18.217
 0.0.0.0 prod-default-195445318.us-east-1.elb.amazonaws.com # 34.236.59.62
-#0.0.0.0 services.paradoxplaza.com
-#0.0.0.0 api.paradox-interactive.com # Terms of Use, GDPR Popup
+0.0.0.0 services.paradoxplaza.com
+0.0.0.0 api.paradox-interactive.com # Terms of Use, GDPR Popup
 0.0.0.0 legal.paradoxplaza.com # GDPR Deutsch
 0.0.0.0 image.email.paradoxplaza.com
 0.0.0.0 s3.eu-west-2.amazonaws.com
 # Imperator.exe
 0.0.0.0 opstm.paradoxplaza.com
-#0.0.0.0 api.paradoxplaza.com
+0.0.0.0 api.paradoxplaza.com
 0.0.0.0 prod-default-195445318.us-east-1.elb.amazonaws.com # 34.200.31.194
 0.0.0.0 dis4wkchhyarj.cloudfront.net # 52.85.71.11
 
 # Magicka I
-#0.0.0.0 api.paradoxplaza.com
+0.0.0.0 api.paradoxplaza.com
 # s. Steam: General Directory Server
-#0.0.0.0 s3.amazonaws.com
+0.0.0.0 s3.amazonaws.com
 
 # Magicka II
-#0.0.0.0 api.paradoxplaza.com
+0.0.0.0 api.paradoxplaza.com
 0.0.0.0 opstm.paradoxplaza.com
-#0.0.0.0 services.paradoxplaza.com
+0.0.0.0 services.paradoxplaza.com
 
 # Prison Architect
 # Ip/s blockieren:
@@ -7955,38 +7955,38 @@
 # 216.58.213.14
 # Services und api nach Bedarf blockieren. Werden für Onlinezwang benötigt
 0.0.0.0 opstm.paradoxplaza.com
-#0.0.0.0 api.paradox-interactive.com
+0.0.0.0 api.paradox-interactive.com
 0.0.0.0 capture-trackjs.com
 0.0.0.0 usage.trackjs.com
-#0.0.0.0 services.paradoxplaza.com
+0.0.0.0 services.paradoxplaza.com
 0.0.0.0 prod-telemetry.paradox-interactive.com
 
 # Surviving Mars | Update 10.08.2018
 0.0.0.0 opstm.paradoxplaza.com # Permanente Onlineverbindung, kann blockiert werden
-#0.0.0.0 services.paradoxplaza.com # Accountschnittstelle
+0.0.0.0 services.paradoxplaza.com # Accountschnittstelle
 0.0.0.0 api.buffpanel.com # Seasonpass Check mitsamt SteamID, Playertoken und Rückgabewert
-#0.0.0.0 api.paradox-interactive.com
-#0.0.0.0 forumcontent.paradoxplaza.com # Banner/Grafiken/etc
-#0.0.0.0 legal.paradoxplaza.com # Nutzungsbedingungen WEB
+0.0.0.0 api.paradox-interactive.com
+0.0.0.0 forumcontent.paradoxplaza.com # Banner/Grafiken/etc
+0.0.0.0 legal.paradoxplaza.com # Nutzungsbedingungen WEB
 
 # Tyranny
 0.0.0.0 pdxint.at
-#0.0.0.0 www.tyrannygame.com
-#0.0.0.0 accounts.paradoxplaza.com
-#0.0.0.0 services.paradoxplaza.com
-#0.0.0.0 support.paradoxplaza.com
+0.0.0.0 www.tyrannygame.com
+0.0.0.0 accounts.paradoxplaza.com
+0.0.0.0 services.paradoxplaza.com
+0.0.0.0 support.paradoxplaza.com
 0.0.0.0 paradox.zendesk.com
 0.0.0.0 fast.fonts.net
-#0.0.0.0 res.cloudinary.com
+0.0.0.0 res.cloudinary.com
 0.0.0.0 use.fontawesome.com
-#0.0.0.0 p5.zdassets.com # Stylesheetablage z.b. für Humblebundle
+0.0.0.0 p5.zdassets.com # Stylesheetablage z.b. für Humblebundle
 0.0.0.0 use.fontawesome.com
 0.0.0.0 opstm.paradoxplaza.com
 
 # Warlock 2: The Exiled
 0.0.0.0 opstm.paradoxplaza.com
-#0.0.0.0 api.paradoxplaza.com
-#0.0.0.0 service.paradoxplaza.com
+0.0.0.0 api.paradoxplaza.com
+0.0.0.0 service.paradoxplaza.com
 
 # Parallax Labs
 # Despoiler
@@ -8011,10 +8011,10 @@
 # 146.66.104.236
 # 146.66.104.236
 # 151.101.14.214
-#0.0.0.0 i.imgur.com
-#0.0.0.0 terratechgame.com
-#0.0.0.0 forum.terratechgame.com
-#0.0.0.0 api.twitch.tv
+0.0.0.0 i.imgur.com
+0.0.0.0 terratechgame.com
+0.0.0.0 forum.terratechgame.com
+0.0.0.0 api.twitch.tv
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
@@ -8057,8 +8057,8 @@
 # 184.24.77.162
 # 184.24.77.156
 # s. Eintrag Steam: IP Checks
-#0.0.0.0 authentication.tl3.api.echtra.net
-#0.0.0.0 content.tl3.api.echtra.net
+0.0.0.0 authentication.tl3.api.echtra.net
+0.0.0.0 content.tl3.api.echtra.net
 0.0.0.0 region.api.echtra.net
 # Telemetrie
 0.0.0.0 tlfevents.arcgames.com
@@ -8068,7 +8068,7 @@
 
 # PeriScope Game
 # 恋爱模拟器 Love Simulation
-#0.0.0.0 www.weibo.com
+0.0.0.0 www.weibo.com
 
 # Permadeath
 # Planet Centauri
@@ -8086,8 +8086,8 @@
 # 70.32.91.32
 # s. Steam: General Directory Server
 0.0.0.0 RTSCoordBalancer-325549666.us-east-1.elb.amazonaws.com
-#0.0.0.0 s3.amazonaws.com
-#0.0.0.0 www.8bitarmies.com
+0.0.0.0 s3.amazonaws.com
+0.0.0.0 www.8bitarmies.com
 
 # pheenix93
 # Wooden Floor
@@ -8116,16 +8116,16 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 # Siehe Eintrag Unity3D
-#0.0.0.0 data-optout-service.uca.cloud.unity3d.com
-#0.0.0.0 analytics.cloud.unity3d.com
+0.0.0.0 data-optout-service.uca.cloud.unity3d.com
+0.0.0.0 analytics.cloud.unity3d.com
 
 # PlayFlock
 # Insanity Clicker | Update 04.09.2018
 # s. Steam: General Directory Server
-#0.0.0.0 insanity.playflock.com # Canvas Output und SteamID, Spracheinstellungen, Projektbezeichnung, Auflösung maximum und eingestellte Auflösung
+0.0.0.0 insanity.playflock.com # Canvas Output und SteamID, Spracheinstellungen, Projektbezeichnung, Auflösung maximum und eingestellte Auflösung
 0.0.0.0 airdownload2.adobe.com
-#0.0.0.0 error-default.playflock.com
-#0.0.0.0 web15.playflock.com # Api und Logserver mit Betriebssystem, Start/Ladezeiten, Sprache, SteamID, Zeitstempel
+0.0.0.0 error-default.playflock.com
+0.0.0.0 web15.playflock.com # Api und Logserver mit Betriebssystem, Start/Ladezeiten, Sprache, SteamID, Zeitstempel
 0.0.0.0 web16.playflock.com
 0.0.0.0 dw.playflock.com # SWF Dateien und Bilder
 
@@ -8139,8 +8139,8 @@
 
 # Playsaurus
 # Clicker Heroes I
-#0.0.0.0 ClickerHeroes-SavedGames3-747864888.us-east-1.elb.amazonaws.com
-#0.0.0.0 clickerheroes-payments-xxxxxx.us-east-1.elb.amazonaws.com
+0.0.0.0 ClickerHeroes-SavedGames3-747864888.us-east-1.elb.amazonaws.com
+0.0.0.0 clickerheroes-payments-xxxxxx.us-east-1.elb.amazonaws.com
 0.0.0.0 live-collect-1709264271.us-east-1.elb.amazonaws.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 airdownload2.adobe.com
@@ -8148,7 +8148,7 @@
 
 # Clicker Heroes II
 # s. Steam: General Directory Server
-#0.0.0.0 api.steampowered.com # Währung, Land
+0.0.0.0 api.steampowered.com # Währung, Land
 0.0.0.0 airdownload2.adobe.com
 0.0.0.0 lb1.cloudstonegame.com
 0.0.0.0 crossyroadrageanalytics-157863293.us-east-1.elb.amazonaws.com # Analytics
@@ -8206,13 +8206,13 @@
 # Pocketwatch Games
 # Tooth and Tail
 # Wer den Multiplayer benötigt lässt ersten drei GoG Adressen unangetastet
-#0.0.0.0 auth.gog.com
-#0.0.0.0 users.gog.com
-#0.0.0.0 multiplayer.gog.com # Erklärt sich von selbst
+0.0.0.0 auth.gog.com
+0.0.0.0 users.gog.com
+0.0.0.0 multiplayer.gog.com # Erklärt sich von selbst
 0.0.0.0 pwg-matchbot.herokuapp.com # News
-#0.0.0.0 remote-config.gog.com # Für GoG Galaxy-Client 2.0 benötigt
+0.0.0.0 remote-config.gog.com # Für GoG Galaxy-Client 2.0 benötigt
 0.0.0.0 notifications-pusher.gog.com
-#0.0.0.0 notifications-pusher-server-7.gog.com
+0.0.0.0 notifications-pusher-server-7.gog.com
 
 # PolarityFlow
 # Sky Mercenaries
@@ -8325,11 +8325,11 @@
 
 # Psyonix, Inc.
 # Rocket League®
-#0.0.0.0 psyonix-rl.appspot.com # Metrics und sämtlicher Serververkehr miteinander verzahnt
+0.0.0.0 psyonix-rl.appspot.com # Metrics und sämtlicher Serververkehr miteinander verzahnt
 
 # PT Designs
 # Consequency
-#0.0.0.0 poisontears.de
+0.0.0.0 poisontears.de
 
 # putilin_industries
 # Achievement Hunter: Foxy | Aktualisiert 09.03.2019
@@ -8366,7 +8366,7 @@
 # Blood Feed
 # 52.174.162.167
 # 92.223.82.17
-#0.0.0.0 ns.exitgames.com
+0.0.0.0 ns.exitgames.com
 0.0.0.0 vss-ns-eu.westeurope.cloudapp.azure.com # Serverliste
 
 # Ragdoll Inc
@@ -8406,8 +8406,8 @@
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 test.exomx.com
-#0.0.0.0 game.endlessworldgame.com
-#0.0.0.0 admin.endlessworldgame.com
+0.0.0.0 game.endlessworldgame.com
+0.0.0.0 admin.endlessworldgame.com
 0.0.0.0 api.athlongames.com
 0.0.0.0 ldns.co
 
@@ -8468,16 +8468,16 @@
 # Launcher und Webseite
 0.0.0.0 se3-content.rebellion.co.uk
 0.0.0.0 include.reinvigorate.net
-#0.0.0.0 goo.gl
+0.0.0.0 goo.gl
 
 # Sniper Elite IV
 # s. Rubrik Kopierschutz / AntiCheat
-#0.0.0.0 discordapp.com
-#0.0.0.0 hello.myfonts.net
+0.0.0.0 discordapp.com
+0.0.0.0 hello.myfonts.net
 0.0.0.0 include.reinvigorate.net
 0.0.0.0 js-agent.newrelic.com
-#0.0.0.0 www.rebellion.co.uk
-#0.0.0.0 nephelus-v1.rebellion.co.uk
+0.0.0.0 www.rebellion.co.uk
+0.0.0.0 nephelus-v1.rebellion.co.uk
 0.0.0.0 launcher-content.rebellion.co.uk
 
 # Sniper Elite: Zombie Army
@@ -8493,7 +8493,7 @@
 # Darkest Dungeon®
 # Anonyme Nutzerstatistiken
 0.0.0.0 metric.kleientertainment.com
-#0.0.0.0 darkestdungeon.us7.list-manage.com
+0.0.0.0 darkestdungeon.us7.list-manage.com
 # s. Steam: General Directory Server
 # Via Klick auf deren Mailicon unten rechts im Hauptmenü
 0.0.0.0 stats.g.doubleclick.net
@@ -8518,11 +8518,11 @@
 # Reef Entertainment
 # Terminator: Resistance
 # Steam VR News und Adjacent Partner Events
-#0.0.0.0 api.steampowered.com
+0.0.0.0 api.steampowered.com
 
 # Regime X
 # Internet Simulator
-#0.0.0.0 pp.userapi.com # Avatare
+0.0.0.0 pp.userapi.com # Avatare
 0.0.0.0 datarouter.ol.epicgames.com # Analytics
 0.0.0.0 datarouter-weighted.ol.epicgames.com
 
@@ -8571,10 +8571,10 @@
 # Chess Ultra
 # Tokenübergabe, Steamlogin, Spracheinstellungen, Matches, Turnierdaten
 # Der erste Tracker/Analytics ist unter chessapi.auzurwebsites.net/api/v2/analytics
-#0.0.0.0 chessapi.azurewebsites.net
+0.0.0.0 chessapi.azurewebsites.net
 0.0.0.0 datarouter.ol.epicgames.com # noch einmal Hardware/System Analytics
 0.0.0.0 datarouter-weighted.ol.epicgames.com
-#0.0.0.0 images-eds.xboxlive.com # Grafiken
+0.0.0.0 images-eds.xboxlive.com # Grafiken
 
 # Rising Star Games
 # 88 Heroes
@@ -8642,38 +8642,38 @@
 # 23.0.47.140
 # 52.43.12.129
 0.0.0.0 tv.rockstargames.com
-#0.0.0.0 www.rockstargames.com
+0.0.0.0 www.rockstargames.com
 
 # Grand Theft Auto V
 # Rockstar Launcher
-#0.0.0.0 patches.rockstargames.com # Patchdaten, Downloadversuche, Timeoutdaten
-#0.0.0.0 prod.ros.rockstargames.com # u.A. Cloudspeicher
+0.0.0.0 patches.rockstargames.com # Patchdaten, Downloadversuche, Timeoutdaten
+0.0.0.0 prod.ros.rockstargames.com # u.A. Cloudspeicher
 0.0.0.0 stats.g.doubleclick.net
-#0.0.0.0 fonts.gstatic.com
-#0.0.0.0 auth-prod.ros.rockstargames.com
+0.0.0.0 fonts.gstatic.com
+0.0.0.0 auth-prod.ros.rockstargames.com
 0.0.0.0 a.rsg.sc
 0.0.0.0 prod.telemetry.ros.rockstargames.com
-#0.0.0.0 www.gstatic.com
+0.0.0.0 www.gstatic.com
 # Spiel Offline
-#0.0.0.0 auth-prod.ros.rockstargames.com
-#0.0.0.0 prod.ros.rockstargames.com
-#0.0.0.0 prod.cloud.rockstargames.com
+0.0.0.0 auth-prod.ros.rockstargames.com
+0.0.0.0 prod.ros.rockstargames.com
+0.0.0.0 prod.cloud.rockstargames.com
 0.0.0.0 prod.telemetry.ros.rockstargames.com
 # Spiel Online
-#0.0.0.0 conductor-prod.ros.rockstargames.com
-#0.0.0.0 prod.p01ams.pod.rockstargames.com
+0.0.0.0 conductor-prod.ros.rockstargames.com
+0.0.0.0 prod.p01ams.pod.rockstargames.com
 0.0.0.0 prod.telemetry.ros.rockstargames.com
-#0.0.0.0 prod.realtimevc.ros.rockstargames.com
+0.0.0.0 prod.realtimevc.ros.rockstargames.com
 
 # Red Dead Redemption 2
 # Minimaleinstellung
-#0.0.0.0 prs-rdr2-prod.ros.rockstargames.com
-#0.0.0.0 prod.ros.rockstargames.com # Einstellungen z.b. Newsletter, "Privatsphäre ^^"
-#0.0.0.0 prod.cloud.rockstargames.com
-#0.0.0.0 auth-prod.ros.rockstargames.com
+0.0.0.0 prs-rdr2-prod.ros.rockstargames.com
+0.0.0.0 prod.ros.rockstargames.com # Einstellungen z.b. Newsletter, "Privatsphäre ^^"
+0.0.0.0 prod.cloud.rockstargames.com
+0.0.0.0 auth-prod.ros.rockstargames.com
 # Optional Feed und Clubinhalte
-#0.0.0.0 posse-rdr2-prod.ros.rockstargames.com # IngameClubseite
-#0.0.0.0 feed-rdr2-prod.ros.rockstargames.com
+0.0.0.0 posse-rdr2-prod.ros.rockstargames.com # IngameClubseite
+0.0.0.0 feed-rdr2-prod.ros.rockstargames.com
 # Rest
 0.0.0.0 prod-locator-cloud.rockstargames.com
 0.0.0.0 inbox-rdr2-prod.ros.rockstargames.com
@@ -8702,7 +8702,7 @@
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
 # 52.68.18.133
-#0.0.0.0 rocketpunch.cn
+0.0.0.0 rocketpunch.cn
 
 # RogueCode PTY LTD
 # Vicious Attack Llama Apocalypse
@@ -8729,8 +8729,8 @@
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
-#0.0.0.0 form.asana.com
-#0.0.0.0 stranded-sails.rokapublish.de
+0.0.0.0 form.asana.com
+0.0.0.0 stranded-sails.rokapublish.de
 0.0.0.0 remote-config-proxy-prd.uca.cloud.unity3d.com
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
@@ -8808,17 +8808,17 @@
 # 34.255.202.122
 # 185.162.248.108
 # 52.218.30.156
-#0.0.0.0 s3-website-eu-west-1.amazonaws.com
+0.0.0.0 s3-website-eu-west-1.amazonaws.com
 0.0.0.0 v22017034425746611.bestsrv.de
 0.0.0.0 lscreens.ats.online.scssoft.com
 0.0.0.0 news.ats.online.scssoft.com
-#0.0.0.0 ats.online.scssoft.com # Anmeldung
-#0.0.0.0 www.worldoftrucks.com # Registrierung
+0.0.0.0 ats.online.scssoft.com # Anmeldung
+0.0.0.0 www.worldoftrucks.com # Registrierung
 
 # Euro Truck Simulator II
 0.0.0.0 lscreens.eut2.online.scssoft.com
 0.0.0.0 news.eut2.online.scssoft.com
-#0.0.0.0 www.worldoftrucks.com # Registrierung
+0.0.0.0 www.worldoftrucks.com # Registrierung
 
 # Seaven Studio
 # Ethan: Meteor Hunter
@@ -8869,19 +8869,19 @@
 # 34.252.170.86
 # 52.71.53.175
 # s. Steam: General Directory Server
-#0.0.0.0 coh2-api.reliclink.com # Serveranbindung
-#0.0.0.0 reliclink0-coh2-api-746245276.us-east-1.elb.amazonaws.com
+0.0.0.0 coh2-api.reliclink.com # Serveranbindung
+0.0.0.0 reliclink0-coh2-api-746245276.us-east-1.elb.amazonaws.com
 0.0.0.0 garry.sgaas.net # SEGA Analytics
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
 0.0.0.0 kinesis.us-east-1.amazonaws.com
 0.0.0.0 ingame.companyofheroes.com # Javascript, CSS und Werbung
-#0.0.0.0 promotion-assets.relic.com
+0.0.0.0 promotion-assets.relic.com
 # Automatische Twitchanbindung bei Bedarf abschalten
-#0.0.0.0 api.twitch.tv
+0.0.0.0 api.twitch.tv
 
 # Dungeon of the Endless™
 # s. Steam: General Directory Server
-#0.0.0.0 forums.amplitude-studios.com
+0.0.0.0 forums.amplitude-studios.com
 
 # Endless Space® 2
 0.0.0.0 garry.sgaas.net
@@ -8912,7 +8912,7 @@
 # Launcher+Encyclopedia+MP
 0.0.0.0 launcher.totalwar.com
 0.0.0.0 d1hdmqpnp3kt1h.cloudfront.net
-#0.0.0.0 617474696c61.totalwar.com # MP
+0.0.0.0 617474696c61.totalwar.com # MP
 # Enzeklopädie Einträge
 0.0.0.0 atenc.totalwar.com
 0.0.0.0 creative-assembly.cloudant.com
@@ -8921,9 +8921,9 @@
 
 # Total War: Shogun II
 0.0.0.0 tw-s2-webfront.s3.amazonaws.com
-#0.0.0.0 clans.shogun2.totalwar.com
-#0.0.0.0 www.totalwar.com
-#0.0.0.0 clans.shogun2.totalwar.com
+0.0.0.0 clans.shogun2.totalwar.com
+0.0.0.0 www.totalwar.com
+0.0.0.0 clans.shogun2.totalwar.com
 # Benötigte Webdienste sind weiterhin funktional
 0.0.0.0 js.adsrvr.org
 0.0.0.0 match.adsrvr.org
@@ -8936,7 +8936,7 @@
 0.0.0.0 sync.adap.tv
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 bam.nr-data.net
-#0.0.0.0 s3-eu-west-1.amazonaws.com # CSS Ablage
+0.0.0.0 s3-eu-west-1.amazonaws.com # CSS Ablage
 
 # Total War: Three Kingdoms
 # Launcher.exe
@@ -8954,15 +8954,15 @@
 # 172.217.21.226
 0.0.0.0 static.doubleclick.net # Instream Werbung mit Cookie und eindeutiger ID
 0.0.0.0 pagead46.l.doubleclick.net
-#0.0.0.0 fonts.gstatic.com
+0.0.0.0 fonts.gstatic.com
 # Youtube
 # 172.217.18.174
 # 172.217.18.118
 # 172.217.21.238
-#0.0.0.0 www.youtube.com # mit Logevent
-#0.0.0.0 yt3.ggpht.com
-#0.0.0.0 i.ytimg.com
-#0.0.0.0 i1.ytimg.com
+0.0.0.0 www.youtube.com # mit Logevent
+0.0.0.0 yt3.ggpht.com
+0.0.0.0 i.ytimg.com
+0.0.0.0 i1.ytimg.com
 # s. Rubrik Kopierschutz / AntiCheat
 # Three_Kingdoms.exe
 # Ip/s blockieren:
@@ -8983,8 +8983,8 @@
 # 66.233.166.155
 # 173.194.76.157
 # 173.194.76.156
-#0.0.0.0 academy.totalwar.com
-#0.0.0.0 content.totalwar.com
+0.0.0.0 academy.totalwar.com
+0.0.0.0 content.totalwar.com
 0.0.0.0 unpkg.com
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 secure-ds.serving-sys.com
@@ -9021,7 +9021,7 @@
 0.0.0.0 launcher-analytics.totalwar.com
 # s. Rubrik Kopierschutz / AntiCheat
 # Ingame Warhammer Academy Contentserver optional
-#0.0.0.0 academy.totalwar.com
+0.0.0.0 academy.totalwar.com
 # Sega Support optional
 0.0.0.0 support.sega.co.uk
 
@@ -9034,11 +9034,11 @@
 # Thrones.exe
 0.0.0.0 6148b9c6-14c1-4747-80a0-e0dbcb770b2e.totalwar.com
 # Ingame Nachschlagewerk
-#0.0.0.0 academy.totalwar.com
+0.0.0.0 academy.totalwar.com
 # Unnötiges Zeug
 0.0.0.0 unpkg.com # Globales Content Netzwerk
-#0.0.0.0 s3-eu-west-1.amazonaws.com # Ablage für Stylesheets u.m.
-#0.0.0.0 fonts.gstatic.com # Schriften
+0.0.0.0 s3-eu-west-1.amazonaws.com # Ablage für Stylesheets u.m.
+0.0.0.0 fonts.gstatic.com # Schriften
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 bam.nr-data.net
 # s. Steam: General Directory Server
@@ -9068,13 +9068,13 @@
 # 216.58.208.46
 0.0.0.0 garry.sgaas.net
 0.0.0.0 sgaas-vpc-garry-public-elb-644092612.eu-west-1.elb.amazonaws.com
-#0.0.0.0 dow3-api.reliclink.com
-#0.0.0.0 sso.relic.com
-#0.0.0.0 ingame.dawnofwar.com
-#0.0.0.0 live-build-data.reliclink.com
+0.0.0.0 dow3-api.reliclink.com
+0.0.0.0 sso.relic.com
+0.0.0.0 ingame.dawnofwar.com
+0.0.0.0 live-build-data.reliclink.com
 0.0.0.0 track-api.gamesight.io
 0.0.0.0 kinesis.us-east-1.amazonaws.com
-#0.0.0.0 shared.reliclink.com # CSS Webseite
+0.0.0.0 shared.reliclink.com # CSS Webseite
 
 # Valkyria Chronicles 4
 # s. Rubrik Kopierschutz / AntiCheat
@@ -9171,9 +9171,9 @@
 # Shanghai JingCai Computer Software Development Co., Ltd
 # Metal Waltz: Anime tank girls
 # 54.250.239.190
-#0.0.0.0 steamhkver.metalwaltz.com
-#0.0.0.0 jpdouj.metalwaltz.com
-#0.0.0.0 steammima.metalwaltz.com
+0.0.0.0 steamhkver.metalwaltz.com
+0.0.0.0 jpdouj.metalwaltz.com
+0.0.0.0 steammima.metalwaltz.com
 
 # Shiro Games
 # Northgard
@@ -9262,14 +9262,14 @@
 
 # Slitherine Ltd.
 # Empires Apart
-#0.0.0.0 www.matrixgames.com # Werbung/CSS Formatierung des Launchers
+0.0.0.0 www.matrixgames.com # Werbung/CSS Formatierung des Launchers
 0.0.0.0 datarouter.ol.epicgames.com # Tracker2
 0.0.0.0 datarouter-weighted.ol.epicgames.com
-#0.0.0.0 empiresapart.net # Ingamenews/Grafiken/CSS Formatierung
+0.0.0.0 empiresapart.net # Ingamenews/Grafiken/CSS Formatierung
 
 # Warhammer 40,000: Armageddon
 # Nutzerdaten für Registrierung/Anmeldung werden im Klartext verarbeitet, diverse Tracker
-#0.0.0.0 www.matrixgames.com # Werbung/CSS Formatierung des Launchers
+0.0.0.0 www.matrixgames.com # Werbung/CSS Formatierung des Launchers
 0.0.0.0 www.slitherine.com
 # s. Steam: General Directory Server
 
@@ -9284,11 +9284,11 @@
 # Ip/s blockieren:
 # 172.217.21.174
 # Gladius.exe
-#0.0.0.0 masterserver.proxy-studios.com # Mehrspieler/Server
+0.0.0.0 masterserver.proxy-studios.com # Mehrspieler/Server
 
 # Warhammer 40,000: Sanctus Reach
 # Nutzerdaten für Registrierung/Anmeldung werden im Klartext verarbeitet, diverse Tracker
-#0.0.0.0 www.matrixgames.com # Werbung/CSS Formatierung des Launchers
+0.0.0.0 www.matrixgames.com # Werbung/CSS Formatierung des Launchers
 0.0.0.0 pbem2.slitherine.com # Clientversion, Zeitstempel, Errorcodes usw, Muiltiplayerlogin...
 0.0.0.0 usercontent.slitherine.com # Beschreibungen Usercontent
 0.0.0.0 www.slitherine.com # Metrics
@@ -9324,9 +9324,9 @@
 0.0.0.0 crashlogs.woniu.com # Crashlytics
 
 # PixARK
-#0.0.0.0 pihark-up.woniu.com # Zertifikat
-#0.0.0.0 arkdedicated.com # Meldung Serverstatus, Ingamenews
-#0.0.0.0 pihark-up.woniu.com # Serverliste
+0.0.0.0 pihark-up.woniu.com # Zertifikat
+0.0.0.0 arkdedicated.com # Meldung Serverstatus, Ingamenews
+0.0.0.0 pihark-up.woniu.com # Serverliste
 0.0.0.0 crashlogs.mobilegame.woniu.com
 0.0.0.0 sqm.woniu.com
 
@@ -9425,10 +9425,10 @@
 # s. Steam: General Directory Server
 0.0.0.0 icanhazip.com
 # Mehrspielermodi konnten nicht getestet werden
-#0.0.0.0 ms.spiderlinggames.co.uk
-#0.0.0.0 euwest.ms.spiderlinggames.co.uk
-#0.0.0.0 asia.ms.spiderlinggames.co.uk
-#0.0.0.0 useast.ms.spiderlinggames.co.uk
+0.0.0.0 ms.spiderlinggames.co.uk
+0.0.0.0 euwest.ms.spiderlinggames.co.uk
+0.0.0.0 asia.ms.spiderlinggames.co.uk
+0.0.0.0 useast.ms.spiderlinggames.co.uk
 
 # Spike Chunsoft Co., Ltd.
 # 428 〜封鎖された渋谷で〜
@@ -9467,8 +9467,8 @@
 # Beinhaltet Games for Windows Live
 
 # Deus Ex: Mankind Divided
-#0.0.0.0 dxng.os.eidos.com
-#0.0.0.0 res.cloudinary.com
+0.0.0.0 dxng.os.eidos.com
+0.0.0.0 res.cloudinary.com
 
 # Deus Ex: The Fall
 # s. Steam: General Directory Server
@@ -9479,9 +9479,9 @@
 # Final Fantasy VII
 # Launcher
 0.0.0.0 rome.eu.square-enix.com
-#0.0.0.0 embedlogin-membership.square-enix.com
+0.0.0.0 embedlogin-membership.square-enix.com
 # s. Steam: General Directory Server
-#0.0.0.0 weblet.square-enix.com # Profilseite
+0.0.0.0 weblet.square-enix.com # Profilseite
 0.0.0.0 connect-dev.eidos.co.uk
 0.0.0.0 eu.square-enix.com
 0.0.0.0 bam.nr-data.net
@@ -9499,7 +9499,7 @@
 
 # FINAL FANTASY XV WINDOWS EDITION
 # s. Rubrik Kopierschutz / AntiCheat
-#0.0.0.0 store.srv.finalfantasyxv.com # Multiplayerserver
+0.0.0.0 store.srv.finalfantasyxv.com # Multiplayerserver
 
 # Forgotten Anne
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -9524,10 +9524,10 @@
 # Ip/s blockieren:
 # 52.70.146.197
 0.0.0.0 lbaws.os.eidos.com
-#0.0.0.0 jc4v6.os.eidos.com # E-Mail Registrierung und Onlinemodus
+0.0.0.0 jc4v6.os.eidos.com # E-Mail Registrierung und Onlinemodus
 0.0.0.0 tracking.avalanchestudios.com # Dienst ist permanent im Hintergrund aktiv.
-#0.0.0.0 weblet.square-enix.com # Geojump -> führt zur
-#0.0.0.0 www.jp.square-enix.com # -> EULA
+0.0.0.0 weblet.square-enix.com # Geojump -> führt zur
+0.0.0.0 www.jp.square-enix.com # -> EULA
 
 # Kane and Lynch: Dead Men™
 # 93.184.220.29, 23.53.51.169
@@ -9566,18 +9566,18 @@
 # Unity Analytics scheinen ansich deaktiviert zu sein. Telemetrie ist dennoch aktiv. UnityCrashHandler64.exe aus dem Installationsverzeichnis löschen
 
 # Rise of the Tomb Raider
-#0.0.0.0 tr2.os.eidos.com
+0.0.0.0 tr2.os.eidos.com
 # s. Rubrik Kopierschutz / AntiCheat
 
 # Newsletter
-#0.0.0.0 xmail.square-enix.com
-#0.0.0.0 weblet.square-enix.com
+0.0.0.0 xmail.square-enix.com
+0.0.0.0 weblet.square-enix.com
 
 # NieR:Automata™
 # s. Rubrik Kopierschutz / AntiCheat
 
 # Sleeping Dogs: Definite Edition
-#0.0.0.0 orangelotushd.os.eidos.com
+0.0.0.0 orangelotushd.os.eidos.com
 
 # Shadow of the Tomb Raider
 # s. Rubrik Kopierschutz / AntiCheat
@@ -9596,7 +9596,7 @@
 0.0.0.0 dxbreach.os.eidos.com
 0.0.0.0 dxng.os.eidos.com
 # Mit Klick auf die Datenschutzvereinbarung "Webseite öffnen"
-#0.0.0.0 weblet.square-enix.com
+0.0.0.0 weblet.square-enix.com
 
 # The Turing Test
 0.0.0.0 datarouter.ol.epicgames.com
@@ -9604,7 +9604,7 @@
 0.0.0.0 datarouter-svc-prod06-public-49221551.us-east-1.elb.amazonaws.com
 
 # Thief IV
-#0.0.0.0 t4.os.eidos.com
+0.0.0.0 t4.os.eidos.com
 
 # Square Enix & Forever Entertainment S.A.
 # Fear Effect Sedna
@@ -9625,45 +9625,45 @@
 # ID: "UA-48410904-9", "-3" usw - Gehört zu Starbreeze Studios & Overkillsoftware
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 media.overkillsoftware.com
-#0.0.0.0 www.overkillsoftware.com
-#0.0.0.0 fbi.overkillsoftware.com
-#0.0.0.0 code.jquery.com
+0.0.0.0 www.overkillsoftware.com
+0.0.0.0 fbi.overkillsoftware.com
+0.0.0.0 code.jquery.com
 
 # Stardock Entertainment, Inc.
 # Ashes of the Singularity: Escalation
-#0.0.0.0 swupdate.stardock.com
+0.0.0.0 swupdate.stardock.com
 # s. Steam: General Directory Server
-#0.0.0.0 certificates.godaddy.com
-#0.0.0.0 tachyon-alert.stardock.net
-#0.0.0.0 ashesescalation-api-tachyon.stardock.net
-#0.0.0.0 tachyon-alertservice.herokuapp.com
+0.0.0.0 certificates.godaddy.com
+0.0.0.0 tachyon-alert.stardock.net
+0.0.0.0 ashesescalation-api-tachyon.stardock.net
+0.0.0.0 tachyon-alertservice.herokuapp.com
 
 # Fallen Enchantress: Legendary Heroes
 0.0.0.0 impulsedriven.com # API
-#0.0.0.0 cvp.stardock.net
+0.0.0.0 cvp.stardock.net
 # Links bei aktiver Registrierung
-#0.0.0.0 services.stardock.net
-#0.0.0.0 www.stardock.com
-#0.0.0.0 hubs.stardock.com
+0.0.0.0 services.stardock.net
+0.0.0.0 www.stardock.com
+0.0.0.0 hubs.stardock.com
 
 # Offworld Trading Company
 # Launcher
-#0.0.0.0 swupdate.stardock.com
+0.0.0.0 swupdate.stardock.com
 # s. Steam: General Directory Server
 # Webseiten aus dem Launcher heraus
-#0.0.0.0 www.offworldgame.com
-#0.0.0.0 www.stardockgames.com
-#0.0.0.0 stardock.cachefly.net
-#0.0.0.0 esupport.stardock.com
-#0.0.0.0 sd.stardock.com
+0.0.0.0 www.offworldgame.com
+0.0.0.0 www.stardockgames.com
+0.0.0.0 stardock.cachefly.net
+0.0.0.0 esupport.stardock.com
+0.0.0.0 sd.stardock.com
 # Interne Spielverbindungen
-#0.0.0.0 tachyon-alertservice.herokuapp.com
-#0.0.0.0 tachyon-alert.stardock.net
-#0.0.0.0 offworldtc-api-tachyon.stardock.net # Matchmaking/Leaderboards
+0.0.0.0 tachyon-alertservice.herokuapp.com
+0.0.0.0 tachyon-alert.stardock.net
+0.0.0.0 offworldtc-api-tachyon.stardock.net # Matchmaking/Leaderboards
 
 # Sins of a Solar Empire®: Rebellion
-#0.0.0.0 swupdate.stardock.com
-#0.0.0.0 ico-reb.stardock.com # Multiplayer
+0.0.0.0 swupdate.stardock.com
+0.0.0.0 ico-reb.stardock.com # Multiplayer
 
 # Sorcerer King: Rivals
 # s. Steam: General Directory Server
@@ -9677,19 +9677,19 @@
 # 52.54.218.210
 # 216.58.217.200
 # tachyon.exe
-#0.0.0.0 live-api-tachyon.stardock.net
-#0.0.0.0 starcon-api-tachyon.stardock.net # Aktivierung der Bestenliste über das Hauptmenü
+0.0.0.0 live-api-tachyon.stardock.net
+0.0.0.0 starcon-api-tachyon.stardock.net # Aktivierung der Bestenliste über das Hauptmenü
 0.0.0.0 tachyon-alert.stardock.net
 0.0.0.0 tachyon-alertservice.herokuapp.com
 0.0.0.0 us-east-1-a.route.herokuapp.com
 0.0.0.0 waws-prod-bn1-003.sip.azurewebsites.windows.net
 # tachyon_html.exe für Bestenlisten
-#0.0.0.0 www.stardock.com # 66.79.209.93 # Nochmal Bestenlisten
-#0.0.0.0 www.starcontrol.com # 66.79.209.91 # Und schon wieder Bestenlisten
+0.0.0.0 www.stardock.com # 66.79.209.93 # Nochmal Bestenlisten
+0.0.0.0 www.starcontrol.com # 66.79.209.91 # Und schon wieder Bestenlisten
 
 # The Corporate Machine
 # 107.23.154.158
-#0.0.0.0 bt.stardock.net # Onlinemodus stardock.net
+0.0.0.0 bt.stardock.net # Onlinemodus stardock.net
 
 # The Political Machine 2016
 # Identität wird per Token überprüft - zusätzlich werden Stats abgefragt zu Playtime, Matches usw.
@@ -9698,13 +9698,13 @@
 # StarSystemStudios™
 # The Quest for Achievements
 # s. Steam: General Directory Server
-#0.0.0.0 www.youtube.com
+0.0.0.0 www.youtube.com
 
 # State of Play Games
 # Kami
 0.0.0.0 www.stateofplaygames.com
-#0.0.0.0 static1.squarespace.com # Static und Static1 dienen auf einigen Seiten als CSS Ablage
-#0.0.0.0 use.typekit.net
+0.0.0.0 static1.squarespace.com # Static und Static1 dienen auf einigen Seiten als CSS Ablage
+0.0.0.0 use.typekit.net
 0.0.0.0 www.kamipuzzle.com
 
 # Stolen Couch Games
@@ -9714,12 +9714,12 @@
 
 # Stompy Bot Productions
 # Heavy Gear Assault
-#0.0.0.0 d1c35vk9nap180.cloudfront.net
-#0.0.0.0 proxy.heavygear.com
+0.0.0.0 d1c35vk9nap180.cloudfront.net
+0.0.0.0 proxy.heavygear.com
 
 # Strange Loop Games
 # Eco
-#0.0.0.0 ecoauth.strangeloopgames.com
+0.0.0.0 ecoauth.strangeloopgames.com
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
 
@@ -9759,13 +9759,13 @@
 # 52.216.160.162
 # 52.216.138.210
 # 104.25.136.66
-#0.0.0.0 arkdedicated.com # Ips der offizellen Server und Ingame-News
-#0.0.0.0 sapi.arkdedicated.com # Versionsabgleich, Cookie, IP-Erfassung und Zuweisung in eine "Familie"
-#0.0.0.0 auth.arkdedicated.com # IP-Erfassung, Token
+0.0.0.0 arkdedicated.com # Ips der offizellen Server und Ingame-News
+0.0.0.0 sapi.arkdedicated.com # Versionsabgleich, Cookie, IP-Erfassung und Zuweisung in eine "Familie"
+0.0.0.0 auth.arkdedicated.com # IP-Erfassung, Token
 # BattlEye - beservice.exe auf Port 7782 und 7783
 # 145.239.8.133
-#0.0.0.0 ark1.battleye.com
-#0.0.0.0 ns3081506.ip-145-239-8.eu
+0.0.0.0 ark1.battleye.com
+0.0.0.0 ns3081506.ip-145-239-8.eu
 
 # Suncrash
 # Judgement: Apocalypse Survival Simulation
@@ -9775,7 +9775,7 @@
 
 # SUNFISH Co., Ltd.
 # 東方憑依華　～ Antinomy of Common Flowers.
-#0.0.0.0 tasofro.net
+0.0.0.0 tasofro.net
 
 # Sunside Inc
 # Abducted
@@ -9841,7 +9841,7 @@
 # TaleWorlds Entertainment
 # Mount & Blade: Warband
 # s. Steam: General Directory Server
-#0.0.0.0 warbandmain.taleworlds.com # Serverliste/Multiplayer
+0.0.0.0 warbandmain.taleworlds.com # Serverliste/Multiplayer
 
 # Tamasenco
 # Wild West Saga: Idle Tycoon Clicker
@@ -9863,7 +9863,7 @@
 # Windward
 # IP Erkennung
 # s. Steam: General Directory Server
-#0.0.0.0 server.tasharen.com
+0.0.0.0 server.tasharen.com
 0.0.0.0 ipinfo.io # Benötigt für die Herkunftserkennung im Multiplayer
 0.0.0.0 icanhazip.com # im Einzelspieler-Modus aktiv
 # Folgendes bei aktivem Seitenaufruf "Nützliche Links"
@@ -9906,19 +9906,19 @@
 0.0.0.0 thind-gke-euw.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
 0.0.0.0 thind-gke-ape.prd.data.corp.unity3d.com
-#0.0.0.0 vss-ns2019-eu.westeurope.cloudapp.azure.com
-#0.0.0.0 gcams058.exitgames.com # Europa
-#0.0.0.0 gcash013.exitgames.com # USA Ost
-#0.0.0.0 gcsc100.exitgames.com # USA West
-#0.0.0.0 gctok011.exitgames.com # Japan
-#0.0.0.0 gcmel001.exitgames.com # Australien
-#0.0.0.0 gcsing019.exitgames.com # Asien
-#0.0.0.0 gcsp002.exitgames.com # Südamerika
-#0.0.0.0 6c.65.36a9.ip4.static.sl-reverse.com # Kanada
-#0.0.0.0 gcmos014.exitgames.com # Russland Ost
-#0.0.0.0 gckha001.exitgames.com # Russland West
-#0.0.0.0 6e.58.26a9.ip4.static.sl-reverse.com # Indien
-#0.0.0.0 gcsel002.exitgames.com # Korea
+0.0.0.0 vss-ns2019-eu.westeurope.cloudapp.azure.com
+0.0.0.0 gcams058.exitgames.com # Europa
+0.0.0.0 gcash013.exitgames.com # USA Ost
+0.0.0.0 gcsc100.exitgames.com # USA West
+0.0.0.0 gctok011.exitgames.com # Japan
+0.0.0.0 gcmel001.exitgames.com # Australien
+0.0.0.0 gcsing019.exitgames.com # Asien
+0.0.0.0 gcsp002.exitgames.com # Südamerika
+0.0.0.0 6c.65.36a9.ip4.static.sl-reverse.com # Kanada
+0.0.0.0 gcmos014.exitgames.com # Russland Ost
+0.0.0.0 gckha001.exitgames.com # Russland West
+0.0.0.0 6e.58.26a9.ip4.static.sl-reverse.com # Indien
+0.0.0.0 gcsel002.exitgames.com # Korea
 
 # My time at Portia
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -9938,15 +9938,15 @@
 
 # The Escapists
 # s. Steam: General Directory Server
-#0.0.0.0 www.escapistgame.com # Bestenlisten
+0.0.0.0 www.escapistgame.com # Bestenlisten
 
 # Worms Clan Wars
-#0.0.0.0 game.wormsclanwars.com # Ingame Clanfunktionen
-#0.0.0.0 www.wormsclanwars.com # Statistiken
+0.0.0.0 game.wormsclanwars.com # Ingame Clanfunktionen
+0.0.0.0 www.wormsclanwars.com # Statistiken
 # s. Steam: General Directory Server
 
 # Worms Ultimate Mayhem
-#0.0.0.0 www.team17.com
+0.0.0.0 www.team17.com
 # s. Steam: General Directory Server
 
 # Worms W.M.D.
@@ -9957,7 +9957,7 @@
 
 # Worms World Party Remastered
 # s. Steam: General Directory Server
-#0.0.0.0 eb9q4.team17.com # Spielserver
+0.0.0.0 eb9q4.team17.com # Spielserver
 
 # Team Cherry
 # Hollow Knight
@@ -9966,7 +9966,7 @@
 # Team Flow
 # Run or Die
 # 95.143.172.218
-#0.0.0.0 highscore.runordiegame.com
+0.0.0.0 highscore.runordiegame.com
 
 # TEAM HORAY
 # Dungreed
@@ -9996,7 +9996,7 @@
 # Telltale Games
 # Batman: The Enemy Within - The Telltale Series
 0.0.0.0 services.telltalegames.com # DLC/Online-Checks, Anmeldung usw
-#0.0.0.0 cloud.telltalegames.com # Sprachpakete...
+0.0.0.0 cloud.telltalegames.com # Sprachpakete...
 
 # Batman - The Telltale Series
 # 52.26.156.32
@@ -10128,7 +10128,7 @@
 # 94.130.252.66
 0.0.0.0 tqa_pc-gds.thqonline.net
 # Für Onlinespiel benötigt
-#0.0.0.0 theguild3-thqno.thqonline.net
+0.0.0.0 theguild3-thqno.thqonline.net
 
 # Fade to Silence
 # Usertracking
@@ -10140,7 +10140,7 @@
 
 # Spellforce III
 0.0.0.0 tqa_pc-gds.thqonline.net
-#0.0.0.0 www.thqnordic.com
+0.0.0.0 www.thqnordic.com
 # 94.130.252.65 # Multiplayer
 # s. Steam: General Directory Server
 0.0.0.0 redmine.thqnordic.com # Bugtracker
@@ -10151,11 +10151,11 @@
 # 94.130.252.65
 # 104.199.110.216
 # 116.203.131.59
-#0.0.0.0 www.thqnordic.com # Serververbindung
-#0.0.0.0 gu.services.thqonline.net # Profilfunktionen/Statistiken/Avatare etc
+0.0.0.0 www.thqnordic.com # Serververbindung
+0.0.0.0 gu.services.thqonline.net # Profilfunktionen/Statistiken/Avatare etc
 # Accountregistrierung/Bestätigung
-#0.0.0.0 xlg66.mjt.lu # Trackingpixel und Weiterleitung auf die uaa.services Adresse
-#0.0.0.0 uaa.services.thqonline.net
+0.0.0.0 xlg66.mjt.lu # Trackingpixel und Weiterleitung auf die uaa.services Adresse
+0.0.0.0 uaa.services.thqonline.net
 
 # This is the police
 0.0.0.0 config.uca.cloud.unity3d.com
@@ -10196,9 +10196,9 @@
 # 34.209.6.223
 # 151.101.38.167
 # 104.43.254.102
-#0.0.0.0 id.twitch.tv
-#0.0.0.0 www.twitch.tv
-#0.0.0.0 hellpointcloudstandalone.azurewebsites.net
+0.0.0.0 id.twitch.tv
+0.0.0.0 www.twitch.tv
+0.0.0.0 hellpointcloudstandalone.azurewebsites.net
 
 # Outpost Zero
 0.0.0.0 datarouter.ol.epicgames.com
@@ -10278,7 +10278,7 @@
 
 # Sundered
 0.0.0.0 thunderlotusgames.us9.list-manage1.com
-#0.0.0.0 gallery.mailchimp.com # Grafikenablage diverser Dienste
+0.0.0.0 gallery.mailchimp.com # Grafikenablage diverser Dienste
 0.0.0.0 eepurl.com
 
 # Thunderful Publishing
@@ -10326,7 +10326,7 @@
 # Tola Ay
 # Remnants of Naezith
 # 142.93.175.219
-#0.0.0.0 ron.naezith.com
+0.0.0.0 ron.naezith.com
 
 # Tomas Daugela
 # Bob The Cube
@@ -10359,23 +10359,23 @@
 # Topware Interactive & ACE
 # Two Worlds II / HD
 # s. Steam: General Directory Server
-#0.0.0.0 secure.zuxxez.com
-#0.0.0.0 steamapi.topware.com # Ingameshop
+0.0.0.0 secure.zuxxez.com
+0.0.0.0 steamapi.topware.com # Ingameshop
 # bei Aufruf des Banners im Hauptmenü
 0.0.0.0 www.topwareshop.com
 
 # Two Worlds II HD - Call of Tenebrae
 # s. Steam: General Directory Server
-#0.0.0.0 steamapi.topware.com # Ingameshop
+0.0.0.0 steamapi.topware.com # Ingameshop
 
 # Vendetta - Curse of Raven's Cry
 0.0.0.0 secure.zuxxez.com # Registrierung und schon ohne Interaktion aufgerufen
 
 # Torn Banner Studios
 # Mirage: Arcane Warfare
-#0.0.0.0 368420-backend.tornbanner.net # Server
+0.0.0.0 368420-backend.tornbanner.net # Server
 0.0.0.0 etsource.epicgames.com # Usertracking der tbl-win64-shipping
-#0.0.0.0 goo.gl
+0.0.0.0 goo.gl
 
 # Tower Up Studios
 # Bloody Mice
@@ -10410,9 +10410,9 @@
 0.0.0.0 images.dungeondefenders.com
 0.0.0.0 dungeondefenders.com
 0.0.0.0 tiny.cc
-#0.0.0.0 dd1.duxapi.com
+0.0.0.0 dd1.duxapi.com
 0.0.0.0 duxsites-trendy-assets.s3.amazonaws.com
-#0.0.0.0 ddcloudfs.cloudapp.net
+0.0.0.0 ddcloudfs.cloudapp.net
 
 # Trese Brothers
 # Star Traders: Frontiers
@@ -10424,11 +10424,11 @@
 
 # Trion Worlds
 # Trove
-#0.0.0.0 glyph.dyn.triongames.com # "Update"
+0.0.0.0 glyph.dyn.triongames.com # "Update"
 0.0.0.0 store.trionworlds.com
 0.0.0.0 rss.trionworlds.com # News
 0.0.0.0 ads.triongames.com # Werbung, wie nett ;
-#0.0.0.0 auth.trionworlds.com
+0.0.0.0 auth.trionworlds.com
 # Weitere benutzte "Dienste"
 0.0.0.0 munchkin.marketo.net # Account-basiertes Marketing
 0.0.0.0 js-agent.newrelic.com # Analysefirma
@@ -10462,7 +10462,7 @@
 # 66.150.121.248
 # 96.38.241.68
 0.0.0.0 wl.tripwireinteractive.com
-#0.0.0.0 www.tripwireinteractive.com
+0.0.0.0 www.tripwireinteractive.com
 
 # Road Redemption
 # Neben Unity sind die beiden anderen Adressen für Mehrspieler, Ridernamen und Mailcatcher zuständig. Bei Bedarf freischalten
@@ -10478,17 +10478,17 @@
 # 103.24.121.30
 # 52.10.182.105
 # 52.39.99.35
-#0.0.0.0 mordhau.com # Ingamenews
-#0.0.0.0 uploads.mordhau.com
+0.0.0.0 mordhau.com # Ingamenews
+0.0.0.0 uploads.mordhau.com
 0.0.0.0 bugtracker.mordhau.com
 # Youtube Tracking/Cookies
 # 165.231.161.13
 # 216.58.207.35
 # 172.217.16.132
-#0.0.0.0 www.youtube.com
-#0.0.0.0 fonts.gstatic.com
-#0.0.0.0 i.ytimg.com
-#0.0.0.0 yt3.ggpht.com
+0.0.0.0 www.youtube.com
+0.0.0.0 fonts.gstatic.com
+0.0.0.0 i.ytimg.com
+0.0.0.0 yt3.ggpht.com
 # Ip/s blockieren:
 # 172.217.18.2
 # 172.217.21.194
@@ -10526,17 +10526,17 @@
 # Assassin's Creed® Odyssey
 # Die MSR, Public WS und Mercury werden für Onlinefunktionen wie Fotos und tägliche Quests benötigt, bedeutet aber auch Dauertraffic im Hintergrund
 # s. Steam: General Directory Server
-#0.0.0.0 msr-public-ubiservices.ubi.com
-#0.0.0.0 public-ubiservices.ubi.com # Cloud
-#0.0.0.0 public-ws-ubiservices.ubi.com
-#0.0.0.0 static8.ubi.com
+0.0.0.0 msr-public-ubiservices.ubi.com
+0.0.0.0 public-ubiservices.ubi.com # Cloud
+0.0.0.0 public-ws-ubiservices.ubi.com
+0.0.0.0 static8.ubi.com
 
 # Assassin's Creed® Origins | Steamversion
 # s. Steam: General Directory Server
-#0.0.0.0 msr-public-ubiservices.ubi.com
-#0.0.0.0 mercury.ubi.com
-#0.0.0.0 public-ubiservices.ubi.com
-#0.0.0.0 static8.ubi.com
+0.0.0.0 msr-public-ubiservices.ubi.com
+0.0.0.0 mercury.ubi.com
+0.0.0.0 public-ubiservices.ubi.com
+0.0.0.0 static8.ubi.com
 
 # Far Cry 3
 # Ip/s blockieren:
@@ -10561,7 +10561,7 @@
 # Tom Clancy's Ghost Recon: Breakpoint
 # BattlEye BEService.exe
 # 145.239.8.133
-#0.0.0.0 grb1.battleye.com
+0.0.0.0 grb1.battleye.com
 # GRB_vulkan.exe, GRB.exe
 # 216.98.62.71
 # 216.98.62.72
@@ -10585,9 +10585,9 @@
 # 3.221.245.228
 # 216.98.50.198
 0.0.0.0 e5af8b3f-a867-4ed4-8804-229b50c9bb1f-prod.s3.amazonaws.com
-#0.0.0.0 msr-public.aws-ubiservices.ubi.com
-#0.0.0.0 public-ws-ubiservices.ubi.com
-#0.0.0.0 public-ubiservices.ubi.com
+0.0.0.0 msr-public.aws-ubiservices.ubi.com
+0.0.0.0 public-ws-ubiservices.ubi.com
+0.0.0.0 public-ubiservices.ubi.com
 0.0.0.0 gamelift.ap-northeast-1.amazonaws.com
 0.0.0.0 gamelift.ap-southeast-2.amazonaws.com
 0.0.0.0 gamelift.eu-central-1.amazonaws.com
@@ -10596,8 +10596,8 @@
 0.0.0.0 gamelift.us-east-1.amazonaws.com
 0.0.0.0 gamelift.sa-east-1.amazonaws.com
 0.0.0.0 ap-southeast-2-storm.ubi.com
-#0.0.0.0 useast1-public-im.aws-ubiservices.ubi.com
-#0.0.0.0 useast1-public.aws-ubiservices.ubi.com
+0.0.0.0 useast1-public-im.aws-ubiservices.ubi.com
+0.0.0.0 useast1-public.aws-ubiservices.ubi.com
 0.0.0.0 provisioning-blue.public-prodservices-us-east-1.aws-storm.ubi.com
 0.0.0.0 provisioning-blue.public-prodservices-eu-central-1.aws-storm.ubi.com
 # PVP und KOOP optional | Bei Bedarf de/aktivieren
@@ -10618,7 +10618,7 @@
 # upc.exe
 # 18.233.137.39
 0.0.0.0 ucppropagationservice.ubi.com
-#0.0.0.0 ubisoft-orbit-savegames.s3.amazonaws.com
+0.0.0.0 ubisoft-orbit-savegames.s3.amazonaws.com
 0.0.0.0 sigma.ubi.com
 0.0.0.0 sigma-elb-1893274496.us-east-1.elb.amazonaws.com
 0.0.0.0 news-page-themes-api.a.upc.ubisoft.com
@@ -10626,13 +10626,13 @@
 # Tom Clancy's Ghost Recon® Wildlands
 # s. Easy Anti-Cheat
 # 34.254.87.63 # Amazon
-#0.0.0.0 public-ws-ubiservices.ubi.com
-#0.0.0.0 msr-public-ubiservices.ubi.com
-#0.0.0.0 ubisoft-orbit-savegames.s3.amazonaws.com # Cloud für Speicherstände
+0.0.0.0 public-ws-ubiservices.ubi.com
+0.0.0.0 msr-public-ubiservices.ubi.com
+0.0.0.0 ubisoft-orbit-savegames.s3.amazonaws.com # Cloud für Speicherstände
 0.0.0.0 provisioning-blue.public-prodservices-us-east-1.aws-storm.ubi.com #52.73.177.5
 0.0.0.0 cerberus-eu-lb-776396454.eu-west-1.elb.amazonaws.com #34.240.166.252
 0.0.0.0 lb-prod-mm-traversal.ubisoft.com #216.98.58.9
-#0.0.0.0 lb-rdv-grwl.ubisoft.com #216.98.58.6 # Onlinezugriff Freunde und Profil
+0.0.0.0 lb-rdv-grwl.ubisoft.com #216.98.58.6 # Onlinezugriff Freunde und Profil
 
 # Tom Clancy’s The Division™
 # 104.153.86.71
@@ -10642,9 +10642,9 @@
 # 109.200.215.22
 # 103.194.164.56
 # 188.122.91.215
-#0.0.0.0 tctd-pc.ubisoft.com
-#0.0.0.0 tctd-pc-live.ubisoft.com
-#0.0.0.0 tctd-pc-sierra.ubisoft.com
+0.0.0.0 tctd-pc.ubisoft.com
+0.0.0.0 tctd-pc-live.ubisoft.com
+0.0.0.0 tctd-pc-sierra.ubisoft.com
 
 # UFO Interactive Games
 # Raiden V: Director's Cut | 雷電 V Director's Cut | 雷電V:導演剪輯版
@@ -10701,9 +10701,9 @@
 0.0.0.0 stats.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-#0.0.0.0 gsp-aeu001-se06.gamesparks.net
-#0.0.0.0 gsp-aeu-rt02.gamesparks.net
-#0.0.0.0 live-295012udj75f.ws.gamesparks.net
+0.0.0.0 gsp-aeu001-se06.gamesparks.net
+0.0.0.0 gsp-aeu-rt02.gamesparks.net
+0.0.0.0 live-295012udj75f.ws.gamesparks.net
 
 # Unity Technologies
 # Unity3D Engine
@@ -10722,8 +10722,8 @@
 0.0.0.0 commenting.cloud.unity3d.com # Kommentare
 0.0.0.0 core.cloud.unity3d.com # Core
 0.0.0.0 embedded.cloud.unity3d.com # Core Embedded
-#0.0.0.0 api.unity.com # Genesis API, Identifizierung, Webseitenanmeldung
-#0.0.0.0 id.unity.com # Genesis API URL, Webseitenanmeldung
+0.0.0.0 api.unity.com # Genesis API, Identifizierung, Webseitenanmeldung
+0.0.0.0 id.unity.com # Genesis API URL, Webseitenanmeldung
 0.0.0.0 jump.cloud.unity3d.com # Jump
 0.0.0.0 license.unity3d.com # Lizenzserver
 0.0.0.0 perf.cloud.unity3d.com # Activity-Feed
@@ -10778,7 +10778,7 @@
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 subnautica.unknownworlds.com
-#0.0.0.0 s3-us-west-1.amazonaws.com
+0.0.0.0 s3-us-west-1.amazonaws.com
 0.0.0.0 uwese.herokuapp.com
 
 # Subnautica: Below Zero
@@ -10795,9 +10795,9 @@
 0.0.0.0 us-east-1-a.route.herokuapp.com
 0.0.0.0 subnautica.unknownworlds.com
 0.0.0.0 uwese.herokuapp.com
-#0.0.0.0 s3-us-west-1.amazonaws.com
+0.0.0.0 s3-us-west-1.amazonaws.com
 # 45.56.91.134
-#0.0.0.0 snexpansion.unknownworlds.com # Feedback
+0.0.0.0 snexpansion.unknownworlds.com # Feedback
 
 # Unnyhog
 # UnnyWorld
@@ -10805,7 +10805,7 @@
 # tns-counter.ru, yadro.ru, userapi.com, mixpanel.com, digicert.com, summerhamster.com, ioam.de
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 config.uca.cloud.unity3d.com
-#0.0.0.0 d7ns9pp5uxwfa.cloudfront.net
+0.0.0.0 d7ns9pp5uxwfa.cloudfront.net
 0.0.0.0 eu-west-api.unnyworld.net
 0.0.0.0 eu-west-auth.unnyworld.net
 0.0.0.0 euunny.m.in-app.io
@@ -10823,8 +10823,8 @@
 # upjers GmbH
 # Idle Kingdom Builder
 # s. Steam: General Directory Server
-#0.0.0.0 up-trans-web1.wavecloud.de
-#0.0.0.0 idlekingdombuilder.upjers.com # Savegame, Zeitstempel, sämtliche Ingametexte, erfasste GeräteID, UUID
+0.0.0.0 up-trans-web1.wavecloud.de
+0.0.0.0 idlekingdombuilder.upjers.com # Savegame, Zeitstempel, sämtliche Ingametexte, erfasste GeräteID, UUID
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
 0.0.0.0 cdp.cloud.unity3d.com
@@ -10838,21 +10838,21 @@
 # 23.211.1.74
 0.0.0.0 airdownload2.adobe.com
 # 185.22.222.209
-#0.0.0.0 www.mylittlefarmies.de
+0.0.0.0 www.mylittlefarmies.de
 
 # Uppercut Games Pty Ltd
 # City of Brass
 0.0.0.0 ug-appserver.appspot.com # DailySeed Token? Übermittelter Zeitstempel
 # Streaminganbindung
-#0.0.0.0 mixer.com # Streamingdienst 1
+0.0.0.0 mixer.com # Streamingdienst 1
 0.0.0.0 unpkg.com # Werbung
-#0.0.0.0 api.twitch.tv # Streamingdienst 2
-#0.0.0.0 id.twitch.tv
-#0.0.0.0 passport.twitch.tv
+0.0.0.0 api.twitch.tv # Streamingdienst 2
+0.0.0.0 id.twitch.tv
+0.0.0.0 passport.twitch.tv
 
 # VDeveloper
 # Tiny Mage
-#0.0.0.0 www.gstatic.com # und Websocketverkehr
+0.0.0.0 www.gstatic.com # und Websocketverkehr
 0.0.0.0 api.uca.cloud.unity3d.com
 
 # Vector Unit
@@ -10900,12 +10900,12 @@
 0.0.0.0 airdownload2.adobe.com
 # Über das Spiel aufgerufene Webseiten und Drittanbieter
 0.0.0.0 pmgr-stg.s3.amazonaws.com
-#0.0.0.0 ksr-ugc.imgix.net # dient u.A. anderen Quellen als Grafikablage
-#0.0.0.0 fonts.gstatic.com
+0.0.0.0 ksr-ugc.imgix.net # dient u.A. anderen Quellen als Grafikablage
+0.0.0.0 fonts.gstatic.com
 0.0.0.0 stoic.pledgemanager.com
-#0.0.0.0 s3.amazonaws.com
-#0.0.0.0 discord.gg # Weiterleitung auf Discord-Channels
-#0.0.0.0 discordapp.com
+0.0.0.0 s3.amazonaws.com
+0.0.0.0 discord.gg # Weiterleitung auf Discord-Channels
+0.0.0.0 discordapp.com
 0.0.0.0 store.megacongames.com
 0.0.0.0 shopifyorderlimits.s3.amazonaws.com
 0.0.0.0 v.shopify.com
@@ -11091,8 +11091,8 @@
 0.0.0.0 wbplay-frontend-prod-psn-809827373.us-east-1.elb.amazonaws.com
 0.0.0.0 wbplay-frontend-prod-953146856.us-east-1.elb.amazonaws.com
 # 23.20.70.137
-#0.0.0.0 tokenservice.psn.turbine.com
-#0.0.0.0 cls.turbine.com # Accountverwaltung, Authenticatorservice und Newsletter
+0.0.0.0 tokenservice.psn.turbine.com
+0.0.0.0 cls.turbine.com # Accountverwaltung, Authenticatorservice und Newsletter
 # Ip/s blockieren:
 # 74.125.140.154
 # 216.58.210.46
@@ -11109,11 +11109,11 @@
 # 34.231.144.200
 # 34.196.248.26
 # 34.196.192.98
-#0.0.0.0 malcolm-prod-swarm.wbplay.com
+0.0.0.0 malcolm-prod-swarm.wbplay.com
 # Zertifikate
 # 91.199.212.52
-#0.0.0.0 crt.comodoca.com
-#0.0.0.0 crt.sectigo.com
+0.0.0.0 crt.comodoca.com
+0.0.0.0 crt.sectigo.com
 
 # Mortal Kombat 11
 # s. Rubrik Kopierschutz / AntiCheat
@@ -11123,10 +11123,10 @@
 0.0.0.0 event.wbinsights.com # Fingerprint/Analytics und Heartbeat
 0.0.0.0 int-api.wbagora.com
 0.0.0.0 next-api.wbagora.com
-#0.0.0.0 s3.amazonaws.com # Ort der eigentlichen Eula
+0.0.0.0 s3.amazonaws.com # Ort der eigentlichen Eula
 # Onlinemodus | De/aktivieren nach Bedarf
-#0.0.0.0 mk11-api.wbagora.com # Spieldatenkonfiguration, Anmeldung, Eulaverweis, Werbung, Krypta, Items, Dlc Codes, Shopaufruf, Spielerfortschritt und Standort, Statistiken
-#0.0.0.0 us-east-1-mk11-realtime-1.wbagora.com # Onlinekämpfe
+0.0.0.0 mk11-api.wbagora.com # Spieldatenkonfiguration, Anmeldung, Eulaverweis, Werbung, Krypta, Items, Dlc Codes, Shopaufruf, Spielerfortschritt und Standort, Statistiken
+0.0.0.0 us-east-1-mk11-realtime-1.wbagora.com # Onlinekämpfe
 # Zertifikate
 # 72.21.91.29
 # 188.121.36.239
@@ -11164,8 +11164,8 @@
 # 72.21.91.29
 # 50.63.243.230
 # 52.216.170.229
-#0.0.0.0 s3.amazonaws.com
-#0.0.0.0 s3-1.amazonaws.com
+0.0.0.0 s3.amazonaws.com
+0.0.0.0 s3-1.amazonaws.com
 
 # Middle-earth™: Shadow of War™
 # s. Rubrik Kopierschutz / AntiCheat
@@ -11174,7 +11174,7 @@
 0.0.0.0 hello.myfonts.net
 # ShadowOfWar.exe *64
 # Theoretisch kann für Singleplayer alles blockiert werden
-#0.0.0.0 s3.amazonaws.com
+0.0.0.0 s3.amazonaws.com
 0.0.0.0 kraken-api.wbagora.com # HYDRA Anti-Cheat
 0.0.0.0 prod-event.wbplay.com # Event und Profildaten als Beispiel EMail Anmeldung/Verifizierung
 # 52.4.177.132
@@ -11183,7 +11183,7 @@
 0.0.0.0 px.owneriq.net
 0.0.0.0 stags.bluekai.com
 0.0.0.0 token.rubiconproject.com
-#0.0.0.0 rnmiz43724.i.lithium.com # CSS Dateien
+0.0.0.0 rnmiz43724.i.lithium.com # CSS Dateien
 0.0.0.0 pixel.sitescout.com
 0.0.0.0 sync-tm.everesttech.net
 0.0.0.0 sb.scorecardresearch.com
@@ -11283,17 +11283,17 @@
 # Wired Productions
 # GRIP: Combat Racing
 # 35.209.95.80
-#0.0.0.0 www.cagedelement.com
+0.0.0.0 www.cagedelement.com
 
 # Wizards of the Coast LLC
 # Magic 2014 — Duels of the Planeswalkers
-#0.0.0.0 dotp.onlinegaming.wizards.com
+0.0.0.0 dotp.onlinegaming.wizards.com
 
 # Magic 2015 - Duels of the Planeswalkers
-#0.0.0.0 dotp.onlinegaming.wizards.com
+0.0.0.0 dotp.onlinegaming.wizards.com
 0.0.0.0 1362.api.swrve.com
-#0.0.0.0 magic.wizards.com
-#0.0.0.0 www.magicthegathering.com
+0.0.0.0 magic.wizards.com
+0.0.0.0 www.magicthegathering.com
 0.0.0.0 media.wizards.com
 
 # WOLCEN Studio
@@ -11310,23 +11310,23 @@
 # 54.77.178.16
 # 35.157.25.32
 0.0.0.0 crashreport.wolcengame.com
-#0.0.0.0 live-l353548zTwiJ.ws.gamesparks.net
-#0.0.0.0 gamelift.us-east-1.amazonaws.com
-#0.0.0.0 gamelift.ap-northeast-1.amazonaws.com
-#0.0.0.0 gamelift.eu-west-1.amazonaws.com
-#0.0.0.0 gamelift.eu-west-2.amazonaws.com
-#0.0.0.0 gamelift.eu-central-1.amazonaws.com
-#0.0.0.0 gsp-aeu007-se03.gamesparks.net
-#0.0.0.0 gsp-aeu007-se04.gamesparks.net
-#0.0.0.0 gsp-aeu007-se12.gamesparks.net
-#0.0.0.0 gsp-aeu007-se14.gamesparks.net
-#0.0.0.0 gsp-aeu007-se18.gamesparks.net
-#0.0.0.0 gsp-aeu007-se23.gamesparks.net
-#0.0.0.0 gsp-aeu007-se35.gamesparks.net
-#0.0.0.0 gsp-aeu007-se22.gamesparks.net
-#0.0.0.0 sp-aeu007-se23.gamesparks.net
-#0.0.0.0 gsp-aeu007-se24.gamesparks.net
-#0.0.0.0 ws-lb.gamesparks.net
+0.0.0.0 live-l353548zTwiJ.ws.gamesparks.net
+0.0.0.0 gamelift.us-east-1.amazonaws.com
+0.0.0.0 gamelift.ap-northeast-1.amazonaws.com
+0.0.0.0 gamelift.eu-west-1.amazonaws.com
+0.0.0.0 gamelift.eu-west-2.amazonaws.com
+0.0.0.0 gamelift.eu-central-1.amazonaws.com
+0.0.0.0 gsp-aeu007-se03.gamesparks.net
+0.0.0.0 gsp-aeu007-se04.gamesparks.net
+0.0.0.0 gsp-aeu007-se12.gamesparks.net
+0.0.0.0 gsp-aeu007-se14.gamesparks.net
+0.0.0.0 gsp-aeu007-se18.gamesparks.net
+0.0.0.0 gsp-aeu007-se23.gamesparks.net
+0.0.0.0 gsp-aeu007-se35.gamesparks.net
+0.0.0.0 gsp-aeu007-se22.gamesparks.net
+0.0.0.0 sp-aeu007-se23.gamesparks.net
+0.0.0.0 gsp-aeu007-se24.gamesparks.net
+0.0.0.0 ws-lb.gamesparks.net
 
 # Worm Animation
 # Beat the Game | Aktualisiert 10.03.2019
@@ -11347,7 +11347,7 @@
 
 # Wube Software LTD.
 # Factorio
-#0.0.0.0 auth.factorio.com # Accountschnittstelle
+0.0.0.0 auth.factorio.com # Accountschnittstelle
 
 # WySix
 # Paint Skills
@@ -11420,11 +11420,11 @@
 # 40.90.216.49
 # s. Rubrik Kopierschutz / AntiCheat
 # Grundanforderungen zur Nutzung des Produktes
-#0.0.0.0 title.mgt.xboxlive.com # Endpoints - Das gesamte MSNetzwerk und Partner - Wird benötigt
-#0.0.0.0 sisu.xboxlive.com
-#0.0.0.0 device.auth.xboxlive.com
-#0.0.0.0 login.live.com
-#0.0.0.0 xsts.auth.xboxlive.com.akadns.net
+0.0.0.0 title.mgt.xboxlive.com # Endpoints - Das gesamte MSNetzwerk und Partner - Wird benötigt
+0.0.0.0 sisu.xboxlive.com
+0.0.0.0 device.auth.xboxlive.com
+0.0.0.0 login.live.com
+0.0.0.0 xsts.auth.xboxlive.com.akadns.net
 # Telemetrie / Collector und Endpunkte
 0.0.0.0 playfab.xboxlive.com
 0.0.0.0 onesettings-xbox-rp.com
@@ -11446,14 +11446,14 @@
 0.0.0.0 gssv.xboxlive.com
 # Weitere Funktionen
 0.0.0.0 userpresence.xboxlive.com
-#0.0.0.0 profile.xboxlive.com
-#0.0.0.0 images-eds.xboxlive.com # Profilbild XBox
+0.0.0.0 profile.xboxlive.com
+0.0.0.0 images-eds.xboxlive.com # Profilbild XBox
 0.0.0.0 privacy.xboxlive.com # "Gemutete" Spieler
-#0.0.0.0 sessiondirectory.xboxlive.com
-#0.0.0.0 achievements.xboxlive.com
+0.0.0.0 sessiondirectory.xboxlive.com
+0.0.0.0 achievements.xboxlive.com
 0.0.0.0 gameserverds.xboxlive.com
 0.0.0.0 halifax.maelstrom.gameservices.xboxlive.com
-#0.0.0.0 peoplehub.xboxlive.com
+0.0.0.0 peoplehub.xboxlive.com
 0.0.0.0 notify.xboxlive.com
 0.0.0.0 rta.xboxlive.com
 0.0.0.0 spartaprod.rtep.msgamestudios.com
@@ -11518,29 +11518,29 @@
 # 40.117.224.232
 # 52.184.151.99
 # Grundanforderungen zur Nutzung des Produktes
-#0.0.0.0 title.mgt.xboxlive.com # Endpoints - Das gesamte MSNetzwerk und Partner - Wird benötigt
-#0.0.0.0 sisu.xboxlive.com
-#0.0.0.0 device.auth.xboxlive.com
-#0.0.0.0 login.live.com
-#0.0.0.0 xsts.auth.xboxlive.com.akadns.net
-#0.0.0.0 account.live.com
+0.0.0.0 title.mgt.xboxlive.com # Endpoints - Das gesamte MSNetzwerk und Partner - Wird benötigt
+0.0.0.0 sisu.xboxlive.com
+0.0.0.0 device.auth.xboxlive.com
+0.0.0.0 login.live.com
+0.0.0.0 xsts.auth.xboxlive.com.akadns.net
+0.0.0.0 account.live.com
 # Weitere Funktionen
 0.0.0.0 userpresence.xboxlive.com # Heartbeat
-#0.0.0.0 profile.xboxlive.com # Spielername, ID, HostID, Avatarbild, Spielerpunkte, Gesponsorter Nutzer ja/nein
-#0.0.0.0 sessiondirectory.xboxlive.com # Correlation ID
-#0.0.0.0 achievements.xboxlive.com # Erfolge
-#0.0.0.0 peoplehub.xboxlive.com # Freunde, Vorschläge
-#0.0.0.0 xforge.xboxlive.com
+0.0.0.0 profile.xboxlive.com # Spielername, ID, HostID, Avatarbild, Spielerpunkte, Gesponsorter Nutzer ja/nein
+0.0.0.0 sessiondirectory.xboxlive.com # Correlation ID
+0.0.0.0 achievements.xboxlive.com # Erfolge
+0.0.0.0 peoplehub.xboxlive.com # Freunde, Vorschläge
+0.0.0.0 xforge.xboxlive.com
 0.0.0.0 notify.xboxlive.com
 # Grafiken
-#0.0.0.0 images-eds.xboxlive.com # Profilbild XBox
-#0.0.0.0 dlassets-ssl.xboxlive.com
+0.0.0.0 images-eds.xboxlive.com # Profilbild XBox
+0.0.0.0 dlassets-ssl.xboxlive.com
 0.0.0.0 www.xboxab.com
 # Analytics & Tracking
-#0.0.0.0 userstats.xboxlive.com
+0.0.0.0 userstats.xboxlive.com
 0.0.0.0 prod.xsts.halowaypoint.com
-#0.0.0.0 ee38.playfabapi.com # An Mehrspielermodi gekoppelt
-#0.0.0.0 p-ee38-mainserver-166927264.us-west-2.elb.amazonaws.com
+0.0.0.0 ee38.playfabapi.com # An Mehrspielermodi gekoppelt
+0.0.0.0 p-ee38-mainserver-166927264.us-west-2.elb.amazonaws.com
 0.0.0.0 telemetry.svc.halowaypoint.com
 0.0.0.0 s3-telemetry-eust1.cloudapp.net
 0.0.0.0 s3-telemetry-eust2.cloudapp.net
@@ -11549,45 +11549,45 @@
 0.0.0.0 s3-telemetry-eust5.cloudapp.net
 0.0.0.0 ipv4.login.msa.akadns6.net
 # Mehrspielermodus
-#0.0.0.0 settings.svc.halowaypoint.com # Correlation ID
-#0.0.0.0 gamecms-hacs.svc.halowaypoint.com # Seasonicons, Seasonname, Zeitstempel gekoppelt an den Playfabdienst
-#0.0.0.0 halostats.svc.halowaypoint.com # RankID, NextRankID, TotalXP
-#0.0.0.0 banprocessor.svc.halowaypoint.com # Accountbanndetails
-#0.0.0.0 entitlements.svc.halowaypoint.com
-#0.0.0.0 lobby.svc.halowaypoint.com
-#0.0.0.0 smartmatch.xboxlive.com
-#0.0.0.0 leaderboards.xboxlive.com.akadns.net
+0.0.0.0 settings.svc.halowaypoint.com # Correlation ID
+0.0.0.0 gamecms-hacs.svc.halowaypoint.com # Seasonicons, Seasonname, Zeitstempel gekoppelt an den Playfabdienst
+0.0.0.0 halostats.svc.halowaypoint.com # RankID, NextRankID, TotalXP
+0.0.0.0 banprocessor.svc.halowaypoint.com # Accountbanndetails
+0.0.0.0 entitlements.svc.halowaypoint.com
+0.0.0.0 lobby.svc.halowaypoint.com
+0.0.0.0 smartmatch.xboxlive.com
+0.0.0.0 leaderboards.xboxlive.com.akadns.net
 # Spieleserver
-#0.0.0.0 pfmsqosprod.westus.cloudapp.azure.com # West US
-#0.0.0.0 pfmsqosprod.southcentralus.cloudapp.azure.com # South Central US
-#0.0.0.0 pfmsqosprod.centralus.cloudapp.azure.com # Central US
-#0.0.0.0 pfmsqosprod.northcentralus.cloudapp.azure.com # North Central US
-#0.0.0.0 pfmsqosprod.eastus.cloudapp.azure.com # East US
-#0.0.0.0 pfmsqosprod.eastus2.cloudapp.azure.com # East US 2
-#0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net # Brazil South
-#0.0.0.0 pfmsqosprod.northeurope.cloudapp.azure.com # North Europe
-#0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com # West Europe
-#0.0.0.0 pfmsqosprod.southeastasia.cloudapp.azure.com # Southeast Asia
-#0.0.0.0 pfmsqosprod.eastasia.cloudapp.azure.com # East Asia
-#0.0.0.0 pfmsqosprod.japanwest.cloudapp.azure.com # Japan West
-#0.0.0.0 pfmsqosprod.japaneast.cloudapp.azure.com # Japan East
-#0.0.0.0 pfmsqosprod.australiasoutheast.cloudapp.azure.com # Australia Southeast
-#0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com # Australia East
+0.0.0.0 pfmsqosprod.westus.cloudapp.azure.com # West US
+0.0.0.0 pfmsqosprod.southcentralus.cloudapp.azure.com # South Central US
+0.0.0.0 pfmsqosprod.centralus.cloudapp.azure.com # Central US
+0.0.0.0 pfmsqosprod.northcentralus.cloudapp.azure.com # North Central US
+0.0.0.0 pfmsqosprod.eastus.cloudapp.azure.com # East US
+0.0.0.0 pfmsqosprod.eastus2.cloudapp.azure.com # East US 2
+0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net # Brazil South
+0.0.0.0 pfmsqosprod.northeurope.cloudapp.azure.com # North Europe
+0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com # West Europe
+0.0.0.0 pfmsqosprod.southeastasia.cloudapp.azure.com # Southeast Asia
+0.0.0.0 pfmsqosprod.eastasia.cloudapp.azure.com # East Asia
+0.0.0.0 pfmsqosprod.japanwest.cloudapp.azure.com # Japan West
+0.0.0.0 pfmsqosprod.japaneast.cloudapp.azure.com # Japan East
+0.0.0.0 pfmsqosprod.australiasoutheast.cloudapp.azure.com # Australia Southeast
+0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com # Australia East
 
 # Killer Instinct
 # 52.176.155.74
 # 23.32.116.98
 # 2.17.123.50
-#0.0.0.0 ki-int-wallet.msgamestudios.com # Ultratek Server/ Onlinemodus Schattenlords
-#0.0.0.0 commerce-prod-na.cloudapp.net # Ultratek Server/ Onlinemodus Schattenlords
+0.0.0.0 ki-int-wallet.msgamestudios.com # Ultratek Server/ Onlinemodus Schattenlords
+0.0.0.0 commerce-prod-na.cloudapp.net # Ultratek Server/ Onlinemodus Schattenlords
 0.0.0.0 messaging.lws.msgamestudios.com
-#0.0.0.0 api.steampowered.com
+0.0.0.0 api.steampowered.com
 0.0.0.0 www.ultra-combo.com
-#0.0.0.0 api.twitch.tv
+0.0.0.0 api.twitch.tv
 0.0.0.0 communitysiteswest.azureedge.net
 0.0.0.0 assets.juicer.io
 0.0.0.0 unpkg.com
-#0.0.0.0 code.jquery.com
+0.0.0.0 code.jquery.com
 
 # Ori and the Blind Forest
 # s. Steam: General Directory Server
@@ -11619,46 +11619,46 @@
 # 40.81.44.146
 # 40.90.222.8
 # 52.143.74.14
-#0.0.0.0 device.auth.xboxlive.com
-#0.0.0.0 sisu.xboxlive.com
-#0.0.0.0 login.live.com
-#0.0.0.0 account.live.com
+0.0.0.0 device.auth.xboxlive.com
+0.0.0.0 sisu.xboxlive.com
+0.0.0.0 login.live.com
+0.0.0.0 account.live.com
 # Telemetrie, Profiling und Datenupload
 0.0.0.0 titlestorage.xboxlive.com
 0.0.0.0 telemetry.undeadlabs.live
 0.0.0.0 userpresence.xboxlive.com
-#0.0.0.0 title.mgt.xboxlive.com # Wird für den Mehrspielermodus benötigt
+0.0.0.0 title.mgt.xboxlive.com # Wird für den Mehrspielermodus benötigt
 # Bilder, Formatierung, CSS, Javascripts
 0.0.0.0 dlassets-ssl.xboxlive.com
-#0.0.0.0 images-eds.xboxlive.com
+0.0.0.0 images-eds.xboxlive.com
 # XBOX Profilfunktionen
-#0.0.0.0 achievements.xboxlive.com # Erfolge
-#0.0.0.0 profile.xboxlive.com # Selbsterklärend
+0.0.0.0 achievements.xboxlive.com # Erfolge
+0.0.0.0 profile.xboxlive.com # Selbsterklärend
 0.0.0.0 notify.xboxlive.com
 # Diverses
 0.0.0.0 rta.xboxlive.com
 0.0.0.0 www.bing.com # SERP
 # Mehrspielermodus
-#0.0.0.0 9e781.playfabapi.com # Telemetrie, Verweis auf Serverlisten & Clientlogin
-#0.0.0.0 profile.xboxlive.com # Nutzereinstellungen
-#0.0.0.0 xsts.auth.xboxlive.com # Authorisierung
-#0.0.0.0 privacy.xboxlive.com # Datenschutz ^^
-#0.0.0.0 images-eds.xboxlive.com # Eigenes Profilbild
-#0.0.0.0 peoplehub.xboxlive.com # Freunde finden
+0.0.0.0 9e781.playfabapi.com # Telemetrie, Verweis auf Serverlisten & Clientlogin
+0.0.0.0 profile.xboxlive.com # Nutzereinstellungen
+0.0.0.0 xsts.auth.xboxlive.com # Authorisierung
+0.0.0.0 privacy.xboxlive.com # Datenschutz ^^
+0.0.0.0 images-eds.xboxlive.com # Eigenes Profilbild
+0.0.0.0 peoplehub.xboxlive.com # Freunde finden
 0.0.0.0 telemetry.undeadlabs.live # Telemetrie
 # Server
-#0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net
-#0.0.0.0 pfmsqosprod.eastus.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.eastus2.cloudapp.azure.com
-#0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net
-#0.0.0.0 pfmsqosprod.northeurope.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.southeastasia.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.eastasia.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.japanwest.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.japaneast.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.australiasoutheast.cloudapp.azure.com
-#0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com
+0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net
+0.0.0.0 pfmsqosprod.eastus.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.eastus2.cloudapp.azure.com
+0.0.0.0 xblcxplatqos-brs-9-18-2-0.cloudapp.net
+0.0.0.0 pfmsqosprod.northeurope.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.westeurope.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.southeastasia.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.eastasia.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.japanwest.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.japaneast.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.australiasoutheast.cloudapp.azure.com
+0.0.0.0 pfmsqosprod.australiaeast.cloudapp.azure.com
 
 # Sunset Overdrive
 0.0.0.0 558C.playfabapi.com # Playfabtracking und Bestenlisten
@@ -11775,7 +11775,7 @@
 
 # Zakos Games
 # Shonen Idle Z
-#0.0.0.0 shonenidlez.com
+0.0.0.0 shonenidlez.com
 
 # Zen Studios, Ltd.
 # Operencia: The Stolen Sun
@@ -11838,7 +11838,7 @@
 0.0.0.0 checkip.dyndns.org
 0.0.0.0 config.uca.cloud.unity3d.com
 0.0.0.0 api.uca.cloud.unity3d.com
-#0.0.0.0 dump.onlineskillclub.com
+0.0.0.0 dump.onlineskillclub.com
 
 # ZOV GAME STUDIO
 # To The Light
